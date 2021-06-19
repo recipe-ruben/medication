@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d73164d3-cb18-4bcc-bf83-ffb99118d34e",
+  "id" : "91aeec07-c3aa-4edc-8faf-ebcda79d4b00",
   "meta" : {
-    "lastUpdated" : "2021-06-19T17:18:58.024+00:00"
+    "lastUpdated" : "2021-06-19T17:26:50.010+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "BeVSMedicationSummaryTypes",
       "title" : "Medication Summary types",
       "status" : "active",
-      "date" : "2021-06-19T17:18:58+00:00",
+      "date" : "2021-06-19T17:26:50+00:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -36,8 +36,8 @@
         "text" : "Belgium"
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:807bc89e-27ec-473d-a1c7-ecf70236fe28",
-        "timestamp" : "2021-06-19T17:19:17+00:00",
+        "identifier" : "urn:uuid:4a8a709e-b13a-4c6d-8b06-6aa58e328b17",
+        "timestamp" : "2021-06-19T17:27:12+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
