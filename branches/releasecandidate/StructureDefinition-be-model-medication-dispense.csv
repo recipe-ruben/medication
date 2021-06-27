@@ -34,7 +34,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Each product that was dispensed",".","","","","","","","","","",,,,,"",,,,"BeMedicationDispense.dispensedItem",0,*,"",""
 "BeMedicationDispense.dispensedItem.product","","","",0,1,"","","","CodeableReference {[]} {[]}
 ","The product that was dispensed - coded or not (e.g. for magistral preparations)",".","","","","","","","","","",,,,,"",,,,"BeMedicationDispense.dispensedItem.product",0,1,"",""
-"BeMedicationDispense.dispensedItem.quantityDispensed","","","",0,1,"","","","quantity {[]} {[]}
+"BeMedicationDispense.dispensedItem.quantityDispensed","","","",0,1,"","","","Quantity {[]} {[]}
 ","The amound of product that was dispensed",".","","","","","","","","","",,,,,"",,,,"BeMedicationDispense.dispensedItem.quantityDispensed",0,1,"",""
 "BeMedicationDispense.dispensedItem.dosageInstructions","","","",0,1,"","","","Dosage {[]} {[]}
 ","The instructions for use",".","","","","","","","","","",,,,,"",,,,"BeMedicationDispense.dispensedItem.dosageInstructions",0,1,"",""
