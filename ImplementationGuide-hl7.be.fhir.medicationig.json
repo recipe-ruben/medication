@@ -11,7 +11,7 @@
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-19T17:26:50+00:00",
+  "date": "2021-06-27T13:48:14+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -354,12 +354,7 @@
       {
         "id": "medicationdispense",
         "name": "Medication Dispense",
-        "description": "Medication Dispense"
-      },
-      {
-        "id": "medicationrecord",
-        "name": "Medication Record",
-        "description": "Medication Record / Medication Schema"
+        "description": "Artifacts related to Medication Dispense:   The registration of a Dispensation event, whether in a hospital or community setting. This applies principally to prescribed medications, but may also be used to capture other medications that are dispensed - OTCs, contrast or anesthesia products used in imaging procedures, etc."
       },
       {
         "id": "vocabulary",
@@ -401,23 +396,6 @@
         "name": "Profile - Medication Dispense",
         "description": "Medication Dispense entry - information captured when dispensing medication e.g. in pharmacies and hospitals",
         "groupingId": "medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-model-medication-record"
-        },
-        "fhirVersion": [
-          "4.0.1"
-        ],
-        "name": "Logical Model Medication Record",
-        "description": "Medication Record - summary or detailed information about the usage of medication by a patient",
-        "groupingId": "medicationrecord"
       },
       {
         "extension": [
@@ -493,26 +471,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-cnk-codes"
-        },
-        "description": "Naming System - CNK Product Codes"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationDispense"
           }
         ],
         "reference": {
           "reference": "MedicationDispense/example-dispense-communitypharmacy-1med"
         },
-        "name": "Example MedicationDispense - example-dispense-communitypharmacy-1med",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Medication Dispense Example 3",
+        "description": "Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation",
+        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
       },
       {
         "extension": [
@@ -524,21 +495,43 @@
         "reference": {
           "reference": "MedicationDispense/example-minimal-dispense"
         },
-        "name": "Example MedicationDispense - example-minimal-dispense",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Medication Dispense - minimal example",
+        "description": "An example of a medication dispense with the minimal amount of necessary information",
+        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "MedicationDispense"
           }
         ],
         "reference": {
-          "reference": "ValueSet/be-vs-medication-summary-types"
+          "reference": "MedicationDispense/example-dispense-hospital"
         },
-        "name": "Medication Summary types",
-        "description": "Valueset -  Medication Summary types"
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Hospital Medication Dispense",
+        "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
+        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-cnk-codes"
+        },
+        "description": "Naming System - CNK Product Codes"
       },
       {
         "extension": [
@@ -563,32 +556,6 @@
           "reference": "NamingSystem/be-ns-product-package-type"
         },
         "description": "Naming System - Product Package Types"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MedicationDispense"
-          }
-        ],
-        "reference": {
-          "reference": "MedicationDispense/medication-dispense-hospital"
-        },
-        "name": "Example MedicationDispense - medication-dispense-hospital",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/be-cs-medication-summary-types"
-        },
-        "name": "Medication Summary types",
-        "description": "CodeSystem - Medication Summary types"
       }
     ],
     "page": {
@@ -598,7 +565,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "Medication Home Page",
           "generation": "html"
         },
         {

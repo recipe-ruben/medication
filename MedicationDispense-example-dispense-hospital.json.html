@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.BE.FHIR.MEDICATIONIG\Medication Summary types - JSON Representation - FHIR v4.0.1</title>
+    <title>HL7.BE.FHIR.MEDICATIONIG\Hospital Medication Dispense - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -176,7 +176,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medication Summary types</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hospital Medication Dispense</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -200,13 +200,13 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CodeSystem-be-cs-medication-summary-types.html">Narrative Content</a>
+    <a href="MedicationDispense-example-dispense-hospital.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CodeSystem-be-cs-medication-summary-types.xml.html">XML</a>
+      <a href="MedicationDispense-example-dispense-hospital.xml.html">XML</a>
     </li>
   
 
@@ -226,9 +226,9 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Medication Summary types - JSON Representation</h2>
+<h2 id="root">: Hospital Medication Dispense - JSON Representation</h2>
 
-<p><a href="CodeSystem-be-cs-medication-summary-types.json" no-download="true">Raw json</a> | <a href="CodeSystem-be-cs-medication-summary-types.json" download>Download</a></p>
+<p><a href="MedicationDispense-example-dispense-hospital.json" no-download="true">Raw json</a> | <a href="MedicationDispense-example-dispense-hospital.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -237,51 +237,121 @@
 
   <pre class="json"><code class="language-json">
 {
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "be-cs-medication-summary-types",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;kmehr-ms-5.6&lt;a name=\&quot;be-cs-medication-summary-types-kmehr-ms-5.466\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Belgian Medication Schema v5.6 - 09/2018&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;kmehr-ms-5.5&lt;a name=\&quot;be-cs-medication-summary-types-kmehr-ms-5.465\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Belgian Medication Schema v5.5 - 12-2017&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense">resourceType</a>" : "MedicationDispense",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.id">id</a>" : "example-dispense-hospital",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+    ]
   },
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.2.0",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "BeCSMedicationSummaryTypes",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Medication Summary types",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2021-06-19T17:26:50+00:00",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "HL7 Belgium",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.language">language</a>" : "nl-BE",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;nl-BE\&quot; lang=\&quot;nl-BE\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 1000321345: ?ngen-9?&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://cnk.apb.be/codings/cnk_product_codes 2055218}\&quot;&gt;2055218&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authorizingPrescription&lt;/b&gt;: &lt;span&gt;Prescription&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1 package&lt;/p&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: Sep 21, 2020, 11:00:00 AM&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.identifier">identifier</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://hl7belgium.org"
-        }
-      ]
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://www.nexuzhealth.be/fhir/prescription/ambulatory",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">version</a>" : "1",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "1000321345"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.gfd-dpp.be/fhir/reference/dguid"
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "CodeSystem - Medication Summary types",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "056"
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.status">status</a>" : "completed",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.medication[x]">medicationCodeableConcept</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://cnk.apb.be/codings/cnk_product_codes",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "2055218",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">_display</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "lang",
+                  "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "nl-BE"
+                },
+                {
+                  "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "content",
+                  "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Crestor filmomh. tabl. 100x 10mg"
+                }
+              ],
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }
+          ]
         }
-      ],
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Belgium"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.subject">subject</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "64110219106"
+    }
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.authorizingPrescription">authorizingPrescription</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/prescription-id",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "BEP1TSRY1XGE"
+      },
+      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "Prescription"
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 2,
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.quantity">quantity</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a>" : 1,
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">unit</a>" : "package",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a>" : "http://hl7.org/fhir/Valueset/ucum-units",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "{package}"
+  },
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.whenHandedOver">whenHandedOver</a>" : "2020-09-21T13:00:00+02:00",
+  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.dosageInstruction">dosageInstruction</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "kmehr-ms-5.6",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Belgian Medication Schema v5.6 - 09/2018"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "kmehr-ms-5.5",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Belgian Medication Schema v5.5 - 12-2017"
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.text">text</a>" : "3 x a day",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.text">_text</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "lang",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "nl-BE"
+              },
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "content",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "3 x per dag"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/translation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "lang",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "fr-BE"
+              },
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "content",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "3 x par jour"
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">timing</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">repeat</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.frequency">frequency</a>" : 3,
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.period">period</a>" : 1,
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.periodUnit">periodUnit</a>" : "d"
+        }
+      }
     }
   ]
 }</code></pre>
@@ -312,7 +382,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jun 19, 2021 17:26+0000">2021-06-19</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jun 27, 2021 13:48+0000">2021-06-27</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

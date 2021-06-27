@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-hospital> a fhir:MedicationDispense;
+<https://www.hl7belgium.be/fhir/MedicationDispense/example-dispense-hospital> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "medication-dispense-hospital"];
+  fhir:Resource.id [ fhir:value "example-dispense-hospital"];
   fhir:Resource.meta [
      fhir:Meta.versionId [ fhir:value "1" ];
      fhir:Meta.profile [
@@ -118,7 +118,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-hospital.ttl> a owl:Ontology;
+<https://www.hl7belgium.be/fhir/MedicationDispense/example-dispense-hospital.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

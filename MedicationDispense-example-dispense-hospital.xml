@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MedicationDispense xmlns="http://hl7.org/fhir">
-  <id value="medication-dispense-hospital"/>
+  <id value="example-dispense-hospital"/>
   <meta>
     <versionId value="1"/>
     <profile value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
