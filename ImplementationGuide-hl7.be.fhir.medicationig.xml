@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.be.fhir.medicationig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>
 </div></div>
   </text>
-  <url value="https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig"/>
+  <url value="https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig"/>
   <version value="0.2.0"/>
   <name value="BEMedicationIG"/>
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-28T08:52:20+00:00"/>
+  <date value="2021-06-28T10:50:40+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -138,7 +138,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://www.hl7belgium.be/fhir/history.html"/>
+        <valueString value="https://www.hl7belgium.org/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -279,6 +279,42 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-cnk-codes"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem - CNK product codes"/>
+      <description value="NamingSystem for CNK product codes"/>
+      <groupingId value="vocabulary"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-prescription-ids"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem - Prescription unique IDs"/>
+      <description value="NamingSystem for Prescription unique IDs"/>
+      <groupingId value="vocabulary"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-product-package-type"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem - Medication Package type"/>
+      <description value="NamingSystem for Medication Package types"/>
+      <groupingId value="vocabulary"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
@@ -287,7 +323,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="Medication Dispense Example 1"/>
       <description value="Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
     </resource>
     <resource>
@@ -300,7 +336,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="Medication Dispense Example 2"/>
       <description value="Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
     </resource>
     <resource>
@@ -313,7 +349,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="Medication Dispense Example 3"/>
       <description value="Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
     </resource>
     <resource>
@@ -326,7 +362,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="Medication Dispense - minimal example"/>
       <description value="An example of a medication dispense with the minimal amount of necessary information"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
     </resource>
     <resource>
@@ -339,35 +375,8 @@
       <fhirVersion value="4.0.1"/>
       <name value="Hospital Medication Dispense"/>
       <description value="A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-cnk-codes"/>
-      </reference>
-      <description value="Naming System - CNK Product Codes"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-prescription-ids"/>
-      </reference>
-      <description value="Naming System - Prescription IDs"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-product-package-type"/>
-      </reference>
-      <description value="Naming System - Product Package Types"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

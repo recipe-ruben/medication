@@ -4,13 +4,13 @@
   "meta": {
     "versionId": "1",
     "profile": [
-      "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+      "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"
     ]
   },
   "language": "nl-BE",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: 1000321345: ?ngen-9?</p><p><b>status</b>: completed</p><p><b>medication</b>: <span title=\"Codes: {https://cnk.apb.be/codings/cnk_product_codes 2055218}\">2055218</span></p><p><b>subject</b>: <span></span></p><p><b>authorizingPrescription</b>: <span>Prescription</span></p><p><b>quantity</b>: 1 package</p><p><b>whenHandedOver</b>: Sep 21, 2020, 11:00:00 AM</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"nl-BE\" lang=\"nl-BE\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: dguid: 1000321345</p><p><b>status</b>: completed</p><p><b>medication</b>: <span title=\"Codes: {https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cnk-codes 2055218}\">2055218</span></p><p><b>subject</b>: <span></span></p><p><b>authorizingPrescription</b>: <span>Prescription</span></p><p><b>quantity</b>: 1 package</p><p><b>whenHandedOver</b>: Sep 21, 2020, 11:00:00 AM</p></div>"
   },
   "identifier": [
     {
@@ -19,18 +19,19 @@
           {
             "system": "https://www.nexuzhealth.be/fhir/prescription/ambulatory",
             "version": "1",
-            "code": "1000321345"
+            "code": "dguid"
           }
         ]
       },
-      "system": "https://www.gfd-dpp.be/fhir/reference/dguid"
+      "system": "https://www.gfd-dpp.be/fhir/reference/dguid",
+      "value": "1000321345"
     }
   ],
   "status": "completed",
   "medicationCodeableConcept": {
     "coding": [
       {
-        "system": "https://cnk.apb.be/codings/cnk_product_codes",
+        "system": "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cnk-codes",
         "code": "2055218",
         "_display": {
           "extension": [
@@ -70,7 +71,7 @@
   "quantity": {
     "value": 1,
     "unit": "package",
-    "system": "http://hl7.org/fhir/Valueset/ucum-units",
+    "system": "http://hl7.org/fhir/ValueSet/ucum-units",
     "code": "{package}"
   },
   "whenHandedOver": "2020-09-21T13:00:00+02:00",

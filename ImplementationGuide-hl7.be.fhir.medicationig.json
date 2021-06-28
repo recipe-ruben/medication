@@ -3,15 +3,15 @@
   "id": "hl7.be.fhir.medicationig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
   },
-  "url": "https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
+  "url": "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
   "version": "0.2.0",
   "name": "BEMedicationIG",
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-28T08:52:20+00:00",
+  "date": "2021-06-28T10:50:40+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -214,7 +214,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://www.hl7belgium.be/fhir/history.html"
+            "valueString": "https://www.hl7belgium.org/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -435,6 +435,57 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-cnk-codes"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - CNK product codes",
+        "description": "NamingSystem for CNK product codes",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-prescription-ids"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - Prescription unique IDs",
+        "description": "NamingSystem for Prescription unique IDs",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-product-package-type"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - Medication Package type",
+        "description": "NamingSystem for Medication Package types",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationDispense"
           }
         ],
@@ -446,7 +497,7 @@
         ],
         "name": "Medication Dispense Example 1",
         "description": "Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -464,7 +515,7 @@
         ],
         "name": "Medication Dispense Example 2",
         "description": "Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -482,7 +533,7 @@
         ],
         "name": "Medication Dispense Example 3",
         "description": "Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -500,7 +551,7 @@
         ],
         "name": "Medication Dispense - minimal example",
         "description": "An example of a medication dispense with the minimal amount of necessary information",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -518,44 +569,8 @@
         ],
         "name": "Hospital Medication Dispense",
         "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-cnk-codes"
-        },
-        "description": "Naming System - CNK Product Codes"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-prescription-ids"
-        },
-        "description": "Naming System - Prescription IDs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-product-package-type"
-        },
-        "description": "Naming System - Product Package Types"
       }
     ],
     "page": {
