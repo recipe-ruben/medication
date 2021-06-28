@@ -3,9 +3,9 @@
 
 err = 17, warn = 14, info = 12
 IG Publisher Version: 1.1.76
-Generated Mon Jun 28 10:51:05 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Mon Jun 28 13:16:07 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
 
- Build Errors : 88 / 0 / 0
+ Build Errors : 5 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 3 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
@@ -23,92 +23,9 @@ Generated Mon Jun 28 10:51:05 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
 ERROR: StructureDefinition-be-model-medication-dispense.html: The reference CodeableReference could not be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-hospital.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-hospital.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-hospital.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-hospital.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-dispense-hospital.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-minimal-dispense.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-minimal-dispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-minimal-dispense.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-minimal-dispense.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-minimal-dispense.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-medication-dispense-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-cnk-codes.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-organization.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-organization.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-organization.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-organization.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-organization.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-professional.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-professional.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-professional.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-professional.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-nihdi-professional.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-prescription-ids.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-prescription-ids.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-prescription-ids.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-prescription-ids.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-prescription-ids.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-product-package-type.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-product-package-type.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-product-package-type.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-product-package-type.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-be-ns-product-package-type.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-medicationdispense.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 326, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 337, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 342, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/howto.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/logical-models.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-pattern-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-pattern-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-pattern-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-patterns.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-scenario-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-scenario-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-scenarios.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
-ERROR: /github/workspace/output/usecases-dispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 6: The link 'usecases.html' for "Use Cases" cannot be resolved
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
