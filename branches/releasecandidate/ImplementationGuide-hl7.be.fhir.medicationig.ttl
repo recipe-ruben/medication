@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "HL7 Belgium Medication Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T13:16:00+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T22:28:01+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -579,6 +579,31 @@
          fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
        ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cd-hcparty" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "healthcare party in Belgium." ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/DispenserTypes" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispenser Types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dispenser Types - from hcparty" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

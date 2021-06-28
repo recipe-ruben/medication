@@ -11,7 +11,7 @@
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-28T13:16:00+00:00",
+  "date": "2021-06-28T22:28:01+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -571,6 +571,31 @@
         "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
         "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-hcparty"
+        },
+        "description": "healthcare party in Belgium."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/DispenserTypes"
+        },
+        "name": "Dispenser Types",
+        "description": "Dispenser Types - from hcparty"
       }
     ],
     "page": {
