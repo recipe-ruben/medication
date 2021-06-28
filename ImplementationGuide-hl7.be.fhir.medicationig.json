@@ -11,7 +11,7 @@
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-28T22:34:46+00:00",
+  "date": "2021-06-28T22:38:34+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -499,6 +499,23 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-hcparty"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "CodeSystem - HCParty",
+        "description": "CodeSystem - HCParty",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationDispense"
           }
         ],
@@ -584,18 +601,6 @@
         "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
         "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/cd-hcparty"
-        },
-        "description": "healthcare party in Belgium."
       },
       {
         "extension": [

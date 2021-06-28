@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-28T22:34:46+00:00"/>
+  <date value="2021-06-28T22:38:34+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -323,6 +323,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cd-hcparty"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="CodeSystem - HCParty"/>
+      <description value="CodeSystem - HCParty"/>
+      <groupingId value="vocabulary"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
@@ -385,15 +397,6 @@
       <description value="A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription"/>
       <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/cd-hcparty"/>
-      </reference>
-      <description value="healthcare party in Belgium."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
