@@ -1,11 +1,11 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 1, warn = 16, info = 11
+err = 0, warn = 16, info = 11
 IG Publisher Version: 1.1.76
-Generated Mon Jun 28 22:35:09 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Mon Jun 28 22:39:03 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
 
- Build Errors : 1 / 0 / 0
+ Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
@@ -23,7 +23,6 @@ Generated Mon Jun 28 22:35:09 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
  /github/workspace/input/vocabulary/cd-hcparty : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource CodeSystem/cd-hcparty.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
