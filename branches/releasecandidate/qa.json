@@ -1,12 +1,12 @@
 {
-  "url": "https://www.hl7belgium.be/fhir/ImplementationGuide/hl7-be-fhir-medication",
+  "url": "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7-be-fhir-medication",
   "name": "BEMedicationIG",
   "package-id": "hl7.be.fhir.medicationig",
   "ig-ver": "0.2.0",
-  "date": "Mon, 28 Jun, 2021 08:52:20 +0000",
-  "errs": 33,
+  "date": "Mon, 28 Jun, 2021 10:50:40 +0000",
+  "errs": 17,
   "warnings": 14,
-  "hints": 11,
+  "hints": 12,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

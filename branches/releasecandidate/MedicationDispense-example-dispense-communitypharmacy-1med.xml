@@ -3,7 +3,7 @@
 <MedicationDispense xmlns="http://hl7.org/fhir">
   <id value="example-dispense-communitypharmacy-1med"/>
   <meta>
-    <profile value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+    <profile value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
   </meta>
   <language value="fr-BE"/>
   <text>
