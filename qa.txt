@@ -1,11 +1,11 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 17, warn = 14, info = 12
+err = 6, warn = 14, info = 12
 IG Publisher Version: 1.1.76
-Generated Mon Jun 28 13:16:07 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Mon Jun 28 13:16:17 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
 
- Build Errors : 5 / 0 / 0
+ Build Errors : 1 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 3 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
@@ -14,18 +14,14 @@ Generated Mon Jun 28 13:16:07 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-prescription-ids : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-product-package-type : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense : 0 / 1 / 1
  /github/workspace/input/be-medication : 0 / 1 / 1
  /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1 : 0 / 2 / 3
- /github/workspace/input/models/structuredefinition-be-model-medicationdispense : 10 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-organization : 0 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-professional : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
-ERROR: StructureDefinition-be-model-medication-dispense.html: The reference CodeableReference could not be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 326, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 337, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-model-medication-dispense-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 342, column 78: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -57,6 +53,8 @@ WARNING: NamingSystem/be-ns-product-package-type: NamingSystem.jurisdiction[0]: 
 == /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense.json ==
 WARNING: StructureDefinition/be-medicationdispense: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[85].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense.json ==
+WARNING: StructureDefinition/be-model-medication-dispense: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/be-medication.xml ==
 WARNING: ImplementationGuide/hl7.be.fhir.medicationig: ImplementationGuide.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1.json ==
@@ -64,18 +62,6 @@ WARNING: MedicationDispense/medication-dispense-example-1: MedicationDispense.id
 INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 WARNING: MedicationDispense/medication-dispense-example-1: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
-== /github/workspace/input/models/structuredefinition-be-model-medicationdispense.xml ==
-ERROR: /f:StructureDefinition/f:differential/f:element/f:code: Undefined attribute '@value' on code for type Coding (properties = [Coding.id, Coding.extension, Coding.system, Coding.version, Coding.code, Coding.display, Coding.userSelected])
-ERROR: /f:StructureDefinition/f:differential/f:element/f:type: Element must have some content
-ERROR: https://www.hl7belgium.org/fhir/StructureDefinition/be-model-medication-dispense.BeMedicationDispense.identifier: Duplicate Element id BeMedicationDispense.identifier
-ERROR: https://www.hl7belgium.org/fhir/StructureDefinition/be-model-medication-dispense.BeMedicationDispense.identifier: Duplicate Element id BeMedicationDispense.identifier
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition: sdf-1: 'Element paths must be unique unless the structure is a constraint' Rule 'Element paths must be unique unless the structure is a constraint' Failed
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition: sdf-16: 'All element definitions must have unique ids (snapshot)' 'All element definitions must have unique ids (snapshot)' ( (ids: BeMedicationDispense,BeMedicationDispense.id,BeMedicationDispense.extension,BeMedicationDispense.identifier,BeMedicationDispense.patient,BeMedicationDispense.dispenser,BeMedicationDispense.dispenser.dispenser,BeMedicationDispense.dispenser.organization,BeMedicationDispense.dispenseDate,BeMedicationDispense.prescription,BeMedicationDispense.prescription.isPrescribed,BeMedicationDispense.prescription.prescription,BeMedicationDispense.identifier,BeMedicationDispense.dispensedItem,BeMedicationDispense.dispensedItem.product,BeMedicationDispense.dispensedItem.quantityDispensed,BeMedicationDispense.dispensedItem.dosageInstructions,BeMedicationDispense.dispensedItem.note,BeMedicationDispense.note))
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition: sdf-17: 'All element definitions must have unique ids (diff)' 'All element definitions must have unique ids (diff)' ( (ids: BeMedicationDispense,BeMedicationDispense.identifier,BeMedicationDispense.patient,BeMedicationDispense.dispenser,BeMedicationDispense.dispenser.dispenser,BeMedicationDispense.dispenser.organization,BeMedicationDispense.dispenseDate,BeMedicationDispense.prescription,BeMedicationDispense.prescription.isPrescribed,BeMedicationDispense.prescription.prescription,BeMedicationDispense.identifier,BeMedicationDispense.dispensedItem,BeMedicationDispense.dispensedItem.product,BeMedicationDispense.dispensedItem.quantityDispensed,BeMedicationDispense.dispensedItem.dosageInstructions,BeMedicationDispense.dispensedItem.note,BeMedicationDispense.note))
-WARNING: StructureDefinition/be-model-medication-dispense: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot.element[12]: Duplicate id value 'BeMedicationDispense.identifier'
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.differential.element[10]: Duplicate id value 'BeMedicationDispense.identifier'
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot.element[5]: The element BeMedicationDispense.dispenser has no assigned types, and no content reference
 == /github/workspace/input/vocabulary/be-ns-nihdi-organization.json ==
 WARNING: NamingSystem/be-ns-nihdi-organization: NamingSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/vocabulary/be-ns-nihdi-professional.json ==
