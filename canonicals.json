@@ -1,5 +1,12 @@
 [
   {
+    "id": "cd-hcparty",
+    "type": "CodeSystem",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+    "version": "0.2.0",
+    "name": "HCParty"
+  },
+  {
     "id": "hl7.be.fhir.medicationig",
     "type": "ImplementationGuide",
     "url": "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
@@ -54,5 +61,12 @@
     "url": "https://www.hl7belgium.org/fhir/StructureDefinition/be-model-medication-dispense",
     "version": "0.2.0",
     "name": "BeModelMedicationDispense"
+  },
+  {
+    "id": "DispenserTypes",
+    "type": "ValueSet",
+    "url": "https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes",
+    "version": "0.2.0",
+    "name": "DispenserTypes"
   }
 ]

@@ -1,48 +1,44 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 6, warn = 14, info = 12
+err = 3, warn = 16, info = 11
 IG Publisher Version: 1.1.76
-Generated Mon Jun 28 13:16:17 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Mon Jun 28 22:28:28 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
 
  Build Errors : 1 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
- /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 3 / 0 / 3
+ /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/MedicationDispense-medication-dispense-example-2 : 2 / 2 / 7
+ /github/workspace/fsh-generated/resources/MedicationDispense-medication-dispense-example-2 : 0 / 2 / 6
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-cnk-codes : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-prescription-ids : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-product-package-type : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-DispenserTypes : 0 / 1 / 1
  /github/workspace/input/be-medication : 0 / 1 / 1
  /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1 : 0 / 2 / 3
  /github/workspace/input/vocabulary/be-ns-nihdi-organization : 0 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-professional : 0 / 1 / 1
+ /github/workspace/input/vocabulary/cd-hcparty : 2 / 1 / 1
 </table>
 == n/a ==
-ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource CodeSystem/cd-hcparty.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital.json ==
-ERROR: MedicationDispense/example-dispense-hospital: MedicationDispense: MedicationDispense.performer: minimum required = 1, but only found 0 (from https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense)
 INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.identifier[0].type.coding[0]: Code System URI 'https://www.nexuzhealth.be/fhir/prescription/ambulatory' is unknown so the code cannot be validated
 INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cnk-codes' is unknown so the code cannot be validated
-ERROR: MedicationDispense/example-dispense-hospital: MedicationDispense.quantity: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/ucum-units')
-ERROR: MedicationDispense/example-dispense-hospital: MedicationDispense.quantity: Unknown Code System 'http://hl7.org/fhir/ValueSet/ucum-units'
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense.json ==
 INFORMATION: MedicationDispense/example-minimal-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/MedicationDispense-medication-dispense-example-2.json ==
-ERROR: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0].ofType(Organization).type[0].coding[0]: Unknown Code https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty#pharmacy in https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty for 'https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty#pharmacy'
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0].ofType(Organization).identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: MedicationDispense/medication-dispense-example-2: MedicationDispense.performer[0].actor: Unable to find a match for profile #apotheek-onder-de-toren among choices: https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization, https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner
-INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.performer[0].actor: Details for #apotheek-onder-de-toren matching against Profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/NamingSystem-be-ns-cnk-codes.json ==
 WARNING: NamingSystem/be-ns-cnk-codes: NamingSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
@@ -55,6 +51,8 @@ WARNING: StructureDefinition/be-medicationdispense: StructureDefinition.jurisdic
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[85].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense.json ==
 WARNING: StructureDefinition/be-model-medication-dispense: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
+== /github/workspace/fsh-generated/resources/ValueSet-DispenserTypes.json ==
+WARNING: ValueSet/DispenserTypes: ValueSet.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/be-medication.xml ==
 WARNING: ImplementationGuide/hl7.be.fhir.medicationig: ImplementationGuide.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1.json ==
@@ -66,3 +64,7 @@ INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispens
 WARNING: NamingSystem/be-ns-nihdi-organization: NamingSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/vocabulary/be-ns-nihdi-professional.json ==
 WARNING: NamingSystem/be-ns-nihdi-professional: NamingSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
+== /github/workspace/input/vocabulary/cd-hcparty.json ==
+ERROR: CodeSystem.where(url = 'https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty'): Conformance resource /github/workspace/input/vocabulary/cd-hcparty.json - the canonical URL (https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty)
+WARNING: CodeSystem/cd-hcparty: CodeSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
+ERROR: /github/workspace/input/vocabulary/cd-hcparty: URL Mismatch https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty vs https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty

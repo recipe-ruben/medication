@@ -1,8 +1,88 @@
 {
   "resourceType" : "Bundle",
-  "id" : "fa210c87-dbf2-47cc-8c9e-57e600ceb884",
+  "id" : "2612b20a-deaa-4ccd-9b6f-3cec16995afc",
   "meta" : {
-    "lastUpdated" : "2021-06-28T13:16:00.856+00:00"
+    "lastUpdated" : "2021-06-28T22:28:01.796+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "DispenserTypes",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html\">HCParty v1.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html\"><code>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptpharmacy\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-deptpharmacy\">deptpharmacy</a></td><td>Pharmacy service or department within an organisation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacist\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacist\">perspharmacist</a></td><td>pharmacist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-orgpharmacy\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-orgpharmacy\">orgpharmacy</a></td><td>Independent pharmacy</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacyassistant\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacyassistant\">perspharmacyassistant</a></td><td>pharmacy assistant</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacistclinicalbiologist\">perspharmacistclinicalbiologist</a></td><td>pharmacist-clinical biologist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-persdentist\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-persdentist\">persdentist</a></td><td>dentist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptdentistry\"> </a><a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//CodeSystem-cd-hcparty.html#cd-hcparty-deptdentistry\">deptdentistry</a></td><td>dentistry</td><td/></tr></table></div>"
+      },
+      "url" : "https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes",
+      "version" : "0.2.0",
+      "name" : "DispenserTypes",
+      "title" : "Dispenser Types",
+      "status" : "active",
+      "date" : "2021-06-28T22:28:01+00:00",
+      "publisher" : "HL7 Belgium",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7belgium.org"
+        }]
+      }],
+      "description" : "Dispenser Types - from hcparty",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "056"
+        }],
+        "text" : "Belgium"
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:93a90b1c-1cda-4ef7-af34-e94b16d09850",
+        "timestamp" : "2021-06-28T22:28:22+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty|1.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "deptpharmacy",
+          "display" : "Pharmacy service or department within an organisation"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "perspharmacist",
+          "display" : "pharmacist"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "orgpharmacy",
+          "display" : "Independent pharmacy"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "perspharmacyassistant",
+          "display" : "pharmacy assistant"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "perspharmacistclinicalbiologist",
+          "display" : "pharmacist-clinical biologist"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "persdentist",
+          "display" : "dentist"
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "code" : "deptdentistry",
+          "display" : "dentistry"
+        }]
+      }
+    }
+  }]
 }
