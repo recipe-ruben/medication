@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2612b20a-deaa-4ccd-9b6f-3cec16995afc"/>
+  <id value="ffc06753-4cca-43ca-b14d-d2bd3fc6d00e"/>
   <meta>
-    <lastUpdated value="2021-06-28T22:28:01.796+00:00"/>
+    <lastUpdated value="2021-06-28T22:34:46.299+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -99,7 +99,7 @@
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="active"/>
-        <date value="2021-06-28T22:28:01+00:00"/>
+        <date value="2021-06-28T22:34:46+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -116,8 +116,8 @@
           <text value="Belgium"/>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:93a90b1c-1cda-4ef7-af34-e94b16d09850"/>
-          <timestamp value="2021-06-28T22:28:22+00:00"/>
+          <identifier value="urn:uuid:8e4672f1-76ab-485e-ad6c-1b4f6c332f1b"/>
+          <timestamp value="2021-06-28T22:35:02+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 3, warn = 16, info = 11 -->
+<!-- broken links = 0, errors = 1, warn = 16, info = 11 -->
 <head>
   <title>BEMedicationIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,7 +23,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for BEMedicationIG</h1>
- <p>Generated Mon Jun 28 22:28:28 UTC 2021, FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = <a href="https://www.hl7belgium.org/fhir">https://www.hl7belgium.org/fhir</a> (<a href="https://www.hl7belgium.org/fhir/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
+ <p>Generated Mon Jun 28 22:35:09 UTC 2021, FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = <a href="https://www.hl7belgium.org/fhir">https://www.hl7belgium.org/fhir</a> (<a href="https://www.hl7belgium.org/fhir/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.76</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.be.fhir.medicationig, Canonical = https://www.hl7belgium.org/fhir</td></tr>
@@ -38,7 +38,7 @@
  <br/><br/>The copyrightYear parameter ('2019+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://www.hl7belgium.org/fhir (Problem #1 with package-list.json at https://www.hl7belgium.org/fhir: https://hl7belgium.org/fhir/package-list.json)</td></tr>
- <tr><td>Summary:</td><td> broken links = 0, errors = 3, warn = 16, info = 11</td></tr>
+ <tr><td>Summary:</td><td> broken links = 0, errors = 1, warn = 16, info = 11</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -89,8 +89,8 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_input_vocabulary_be-ns-nihdi-professional"><b>/github/workspace/input/vocabulary/be-ns-nihdi-professional</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_input_vocabulary_cd-hcparty"><b>/github/workspace/input/vocabulary/cd-hcparty</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_input_vocabulary_cd-hcparty"><b>/github/workspace/input/vocabulary/cd-hcparty</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -326,14 +326,8 @@
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>CodeSystem.where(url = 'https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource /github/workspace/input/vocabulary/cd-hcparty.json - the canonical URL (https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty)</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>CodeSystem.jurisdiction[0]</b></td><td><b>warning</b></td><td title="[Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]"><b>[Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/github/workspace/input/vocabulary/cd-hcparty</b></td><td><b>error</b></td><td title=""><b>URL Mismatch https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty vs https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -346,14 +340,6 @@
 </ul>
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
-<hr/>
-<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
-<h2>RESOURCE_CANONICAL_MISMATCH</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="CodeSystem-cd-hcparty.html">/github/workspace/input/vocabulary/cd-hcparty.json</a></td><td><b>Conformance resource /github/workspace/input/vocabulary/cd-hcparty.json - the canonical URL (https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty)</b></td>
-   </tr>
-</table>
 <hr/>
 <a name="SECURITY_STRING_CONTENT_WARNING"> </a>
 <h2>SECURITY_STRING_CONTENT_WARNING</h2>
