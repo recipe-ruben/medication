@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "be-model-medication-dispense"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense\">BeMedicationDispense</a><a name=\"BeMedicationDispense\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Element\">Element</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">An individual record of a medication dispense<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.identifier\" title=\"The business identifier(s) for the medication dispense session, also known as Session GUID (SGUID).\">identifier</a><a name=\"BeMedicationDispense.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The business identifier(s) for the medication dispense session</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.patient\" title=\"The person for which the medication is dispensed.\">patient</a><a name=\"BeMedicationDispense.patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html\">Patient core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The person for which the medication is dispensed.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispenser\" title=\".\">dispenser</a><a name=\"BeMedicationDispense.dispenser\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The dispenser, if known and relevant</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispenser.dispenser\" title=\"Who was responsible for asserting the observed value as &quot;true&quot;. (Reference)\">dispenser</a><a name=\"BeMedicationDispense.dispenser.dispenser\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html\">Practitioner core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to person that performed the recording or reporting</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispenser.organization\" title=\"Who was responsible for asserting the observed value as &quot;true&quot;. (Reference)\">organization</a><a name=\"BeMedicationDispense.dispenser.organization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html\">Organization core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to person that performed the recording or reporting</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispenseDate\" title=\"The date (or date-time) when the dispense ocurred\">dispenseDate</a><a name=\"BeMedicationDispense.dispenseDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\" title=\"dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The date when the dispense ocurred</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.prescription\" title=\".\">prescription</a><a name=\"BeMedicationDispense.prescription\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The information about a prescription related to the dispense</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.prescription.isPrescribed\" title=\".\">isPrescribed</a><a name=\"BeMedicationDispense.prescription.isPrescribed\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Whether this dispense was performed against a prescription</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.prescription.prescription\" title=\".\">prescription</a><a name=\"BeMedicationDispense.prescription.prescription\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">CodeableReference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The prescription identification</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.identifier\" title=\"The business identifier(s) for the medication dispense. The DGUID is the current identifier.\">identifier</a><a name=\"BeMedicationDispense.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The business identifier(s) for the medication dispense</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispensedItem\" title=\".\">dispensedItem</a><a name=\"BeMedicationDispense.dispensedItem\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">CodeableReference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Each product that was dispensed<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispensedItem.product\" title=\".\">product</a><a name=\"BeMedicationDispense.dispensedItem.product\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">CodeableReference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The product that was dispensed - coded or not (e.g. for magistral preparations)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispensedItem.quantityDispensed\" title=\".\">quantityDispensed</a><a name=\"BeMedicationDispense.dispensedItem.quantityDispensed\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Quantity\">Quantity</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The amound of product that was dispensed</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispensedItem.dosageInstructions\" title=\".\">dosageInstructions</a><a name=\"BeMedicationDispense.dispensedItem.dosageInstructions\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Dosage\">Dosage</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The instructions for use</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.dispensedItem.note\" title=\"Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.\">note</a><a name=\"BeMedicationDispense.dispensedItem.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\" title=\"Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Additional information about the dispensed item<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeMedicationDispense.note\" title=\"Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.\">note</a><a name=\"BeMedicationDispense.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\" title=\"Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Additional information about the dispense<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense\">BeModelMedicationDispense</a><a name=\"BeModelMedicationDispense\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Element\">Element</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">An individual record of a medication dispense<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.identifier\" title=\"The business identifier(s) for the medication dispense session, also known as Session GUID (SGUID).\">identifier</a><a name=\"BeModelMedicationDispense.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The business identifier(s) for the medication dispense session</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.patient\" title=\"The person for which the medication is dispensed.\">patient</a><a name=\"BeModelMedicationDispense.patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html\">Patient core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The person for which the medication is dispensed.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispenser\" title=\".\">dispenser</a><a name=\"BeModelMedicationDispense.dispenser\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The dispenser, if known and relevant</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispenser.dispenser\" title=\"Who was responsible for asserting the observed value as &quot;true&quot;. (Reference)\">dispenser</a><a name=\"BeModelMedicationDispense.dispenser.dispenser\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html\">Practitioner core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to person that performed the recording or reporting</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispenser.organization\" title=\"Who was responsible for asserting the observed value as &quot;true&quot;. (Reference)\">organization</a><a name=\"BeModelMedicationDispense.dispenser.organization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html\">Organization core BE profile</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to person that performed the recording or reporting</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispenseDate\" title=\"The date (or date-time) when the dispense ocurred\">dispenseDate</a><a name=\"BeModelMedicationDispense.dispenseDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\" title=\"dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The date when the dispense ocurred</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.prescription\" title=\".\">prescription</a><a name=\"BeModelMedicationDispense.prescription\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The information about a prescription related to the dispense</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.prescription.isPrescribed\" title=\".\">isPrescribed</a><a name=\"BeModelMedicationDispense.prescription.isPrescribed\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Whether this dispense was performed against a prescription</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.prescription.prescription\" title=\".\">prescription</a><a name=\"BeModelMedicationDispense.prescription.prescription\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The prescription identification</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispensedItem\" title=\".\">dispensedItem</a><a name=\"BeModelMedicationDispense.dispensedItem\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Each product that was dispensed<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispensedItem.product\" title=\".\">product</a><a name=\"BeModelMedicationDispense.dispensedItem.product\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The product that was dispensed - coded or not (e.g. for magistral preparations)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispensedItem.quantityDispensed\" title=\".\">quantityDispensed</a><a name=\"BeModelMedicationDispense.dispensedItem.quantityDispensed\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Quantity\">Quantity</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The amound of product that was dispensed</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispensedItem.dosageInstructions\" title=\".\">dosageInstructions</a><a name=\"BeModelMedicationDispense.dispensedItem.dosageInstructions\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Dosage\">Dosage</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">The instructions for use</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.dispensedItem.note\" title=\"Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.\">note</a><a name=\"BeModelMedicationDispense.dispensedItem.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\" title=\"Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Additional information about the dispensed item<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-be-model-medication-dispense-definitions.html#BeModelMedicationDispense.note\" title=\"Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.\">note</a><a name=\"BeModelMedicationDispense.note\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\" title=\"Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Additional information about the dispense<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:StructureDefinition.url [ fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-model-medication-dispense"];
   fhir:StructureDefinition.version [ fhir:value "0.2.0"];
-  fhir:StructureDefinition.name [ fhir:value "BeMedicationDispense"];
+  fhir:StructureDefinition.name [ fhir:value "BeModelMedicationDispense"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-28T13:15:50+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-28T13:54:34+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Belgium"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -45,7 +45,7 @@
   ];
   fhir:StructureDefinition.kind [ fhir:value "logical"];
   fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
-  fhir:StructureDefinition.type [ fhir:value "BeMedicationDispense"];
+  fhir:StructureDefinition.type [ fhir:value "BeModelMedicationDispense"];
   fhir:StructureDefinition.baseDefinition [
      fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
      fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -54,8 +54,8 @@
   fhir:StructureDefinition.snapshot [
      fhir:StructureDefinition.snapshot.element [
        fhir:index 0;
-       fhir:Element.id [ fhir:value "BeMedicationDispense" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense" ];
        fhir:ElementDefinition.short [ fhir:value "An individual record of a medication dispense" ];
        fhir:ElementDefinition.definition [ fhir:value "Base definition for all elements in a resource." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -89,8 +89,8 @@
        ]
      ], [
        fhir:index 1;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.id" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.id" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.id" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.id" ];
        fhir:ElementDefinition.representation [
          fhir:value "xmlAttr";
          fhir:index 0
@@ -122,8 +122,8 @@
        ]
      ], [
        fhir:index 2;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.extension" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.extension" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.extension" ];
        fhir:ElementDefinition.slicing [
          fhir:ElementDefinition.slicing.discriminator [
            fhir:index 0;
@@ -186,14 +186,14 @@
        ]
      ], [
        fhir:index 3;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.identifier" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.identifier" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.identifier" ];
        fhir:ElementDefinition.short [ fhir:value "The business identifier(s) for the medication dispense session" ];
        fhir:ElementDefinition.definition [ fhir:value "The business identifier(s) for the medication dispense session, also known as Session GUID (SGUID)." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.identifier" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.identifier" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -203,14 +203,14 @@
        ]
      ], [
        fhir:index 4;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.patient" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.patient" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.patient" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.patient" ];
        fhir:ElementDefinition.short [ fhir:value "The person for which the medication is dispensed." ];
        fhir:ElementDefinition.definition [ fhir:value "The person for which the medication is dispensed." ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.patient" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.patient" ];
          fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -225,27 +225,31 @@
        ]
      ], [
        fhir:index 5;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser" ];
        fhir:ElementDefinition.short [ fhir:value "The dispenser, if known and relevant" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispenser" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispenser" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
        ]
      ], [
        fhir:index 6;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser.dispenser" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser.dispenser" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser.dispenser" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser.dispenser" ];
        fhir:ElementDefinition.short [ fhir:value "Reference to person that performed the recording or reporting" ];
        fhir:ElementDefinition.definition [ fhir:value "Who was responsible for asserting the observed value as \"true\". (Reference)" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispenser.dispenser" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispenser.dispenser" ];
          fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -260,14 +264,14 @@
        ]
      ], [
        fhir:index 7;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser.organization" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser.organization" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser.organization" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser.organization" ];
        fhir:ElementDefinition.short [ fhir:value "Reference to person that performed the recording or reporting" ];
        fhir:ElementDefinition.definition [ fhir:value "Who was responsible for asserting the observed value as \"true\". (Reference)" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispenser.organization" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispenser.organization" ];
          fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -282,14 +286,14 @@
        ]
      ], [
        fhir:index 8;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenseDate" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenseDate" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenseDate" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenseDate" ];
        fhir:ElementDefinition.short [ fhir:value "The date when the dispense ocurred" ];
        fhir:ElementDefinition.definition [ fhir:value "The date (or date-time) when the dispense ocurred" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispenseDate" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispenseDate" ];
          fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -304,14 +308,14 @@
        ]
      ], [
        fhir:index 9;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription" ];
        fhir:ElementDefinition.short [ fhir:value "The information about a prescription related to the dispense" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.prescription" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.prescription" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -321,14 +325,14 @@
        ]
      ], [
        fhir:index 10;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription.isPrescribed" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription.isPrescribed" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription.isPrescribed" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription.isPrescribed" ];
        fhir:ElementDefinition.short [ fhir:value "Whether this dispense was performed against a prescription" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.prescription.isPrescribed" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.prescription.isPrescribed" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -338,82 +342,65 @@
        ]
      ], [
        fhir:index 11;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription.prescription" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription.prescription" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription.prescription" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription.prescription" ];
        fhir:ElementDefinition.short [ fhir:value "The prescription identification" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.prescription.prescription" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.prescription.prescription" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
        ]
      ], [
        fhir:index 12;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.short [ fhir:value "The business identifier(s) for the medication dispense" ];
-       fhir:ElementDefinition.definition [ fhir:value "The business identifier(s) for the medication dispense. The DGUID is the current identifier." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.identifier" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ]
-     ], [
-       fhir:index 13;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem" ];
        fhir:ElementDefinition.short [ fhir:value "Each product that was dispensed" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispensedItem" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispensedItem" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
        ]
      ], [
-       fhir:index 14;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.product" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.product" ];
+       fhir:index 13;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.product" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.product" ];
        fhir:ElementDefinition.short [ fhir:value "The product that was dispensed - coded or not (e.g. for magistral preparations)" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispensedItem.product" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispensedItem.product" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
        ]
      ], [
-       fhir:index 15;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.quantityDispensed" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.quantityDispensed" ];
+       fhir:index 14;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.quantityDispensed" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.quantityDispensed" ];
        fhir:ElementDefinition.short [ fhir:value "The amound of product that was dispensed" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispensedItem.quantityDispensed" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispensedItem.quantityDispensed" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -422,15 +409,15 @@
          fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
        ]
      ], [
-       fhir:index 16;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.dosageInstructions" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.dosageInstructions" ];
+       fhir:index 15;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.dosageInstructions" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.dosageInstructions" ];
        fhir:ElementDefinition.short [ fhir:value "The instructions for use" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispensedItem.dosageInstructions" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispensedItem.dosageInstructions" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "1" ]
        ];
@@ -439,15 +426,15 @@
          fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
        ]
      ], [
-       fhir:index 17;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.note" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.note" ];
+       fhir:index 16;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.note" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.note" ];
        fhir:ElementDefinition.short [ fhir:value "Additional information about the dispensed item" ];
        fhir:ElementDefinition.definition [ fhir:value "Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.dispensedItem.note" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.dispensedItem.note" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
@@ -461,15 +448,15 @@
          ]
        ]
      ], [
-       fhir:index 18;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.note" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.note" ];
+       fhir:index 17;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.note" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.note" ];
        fhir:ElementDefinition.short [ fhir:value "Additional information about the dispense" ];
        fhir:ElementDefinition.definition [ fhir:value "Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "BeMedicationDispense.note" ];
+         fhir:ElementDefinition.base.path [ fhir:value "BeModelMedicationDispense.note" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
@@ -487,15 +474,15 @@
   fhir:StructureDefinition.differential [
      fhir:StructureDefinition.differential.element [
        fhir:index 0;
-       fhir:Element.id [ fhir:value "BeMedicationDispense" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense" ];
        fhir:ElementDefinition.short [ fhir:value "An individual record of a medication dispense" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ]
      ], [
        fhir:index 1;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.identifier" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.identifier" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.identifier" ];
        fhir:ElementDefinition.short [ fhir:value "The business identifier(s) for the medication dispense session" ];
        fhir:ElementDefinition.definition [ fhir:value "The business identifier(s) for the medication dispense session, also known as Session GUID (SGUID)." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -506,8 +493,8 @@
        ]
      ], [
        fhir:index 2;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.patient" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.patient" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.patient" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.patient" ];
        fhir:ElementDefinition.short [ fhir:value "The person for which the medication is dispensed." ];
        fhir:ElementDefinition.definition [ fhir:value "The person for which the medication is dispensed." ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
@@ -523,16 +510,20 @@
        ]
      ], [
        fhir:index 3;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser" ];
        fhir:ElementDefinition.short [ fhir:value "The dispenser, if known and relevant" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ]
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+       ]
      ], [
        fhir:index 4;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser.dispenser" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser.dispenser" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser.dispenser" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser.dispenser" ];
        fhir:ElementDefinition.short [ fhir:value "Reference to person that performed the recording or reporting" ];
        fhir:ElementDefinition.definition [ fhir:value "Who was responsible for asserting the observed value as \"true\". (Reference)" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
@@ -548,8 +539,8 @@
        ]
      ], [
        fhir:index 5;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenser.organization" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenser.organization" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenser.organization" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenser.organization" ];
        fhir:ElementDefinition.short [ fhir:value "Reference to person that performed the recording or reporting" ];
        fhir:ElementDefinition.definition [ fhir:value "Who was responsible for asserting the observed value as \"true\". (Reference)" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
@@ -565,8 +556,8 @@
        ]
      ], [
        fhir:index 6;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispenseDate" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispenseDate" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispenseDate" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispenseDate" ];
        fhir:ElementDefinition.short [ fhir:value "The date when the dispense ocurred" ];
        fhir:ElementDefinition.definition [ fhir:value "The date (or date-time) when the dispense ocurred" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
@@ -582,8 +573,8 @@
        ]
      ], [
        fhir:index 7;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription" ];
        fhir:ElementDefinition.short [ fhir:value "The information about a prescription related to the dispense" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -594,8 +585,8 @@
        ]
      ], [
        fhir:index 8;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription.isPrescribed" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription.isPrescribed" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription.isPrescribed" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription.isPrescribed" ];
        fhir:ElementDefinition.short [ fhir:value "Whether this dispense was performed against a prescription" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -606,56 +597,44 @@
        ]
      ], [
        fhir:index 9;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.prescription.prescription" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.prescription.prescription" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.prescription.prescription" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.prescription.prescription" ];
        fhir:ElementDefinition.short [ fhir:value "The prescription identification" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
        ]
      ], [
        fhir:index 10;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.identifier" ];
-       fhir:ElementDefinition.short [ fhir:value "The business identifier(s) for the medication dispense" ];
-       fhir:ElementDefinition.definition [ fhir:value "The business identifier(s) for the medication dispense. The DGUID is the current identifier." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem" ];
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem" ];
        fhir:ElementDefinition.short [ fhir:value "Each product that was dispensed" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
        ]
      ], [
-       fhir:index 12;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.product" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.product" ];
+       fhir:index 11;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.product" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.product" ];
        fhir:ElementDefinition.short [ fhir:value "The product that was dispensed - coded or not (e.g. for magistral preparations)" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableReference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
        ]
      ], [
-       fhir:index 13;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.quantityDispensed" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.quantityDispensed" ];
+       fhir:index 12;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.quantityDispensed" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.quantityDispensed" ];
        fhir:ElementDefinition.short [ fhir:value "The amound of product that was dispensed" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -665,9 +644,9 @@
          fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
        ]
      ], [
-       fhir:index 14;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.dosageInstructions" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.dosageInstructions" ];
+       fhir:index 13;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.dosageInstructions" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.dosageInstructions" ];
        fhir:ElementDefinition.short [ fhir:value "The instructions for use" ];
        fhir:ElementDefinition.definition [ fhir:value "." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -677,9 +656,9 @@
          fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
        ]
      ], [
-       fhir:index 15;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.dispensedItem.note" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.dispensedItem.note" ];
+       fhir:index 14;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.dispensedItem.note" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.dispensedItem.note" ];
        fhir:ElementDefinition.short [ fhir:value "Additional information about the dispensed item" ];
        fhir:ElementDefinition.definition [ fhir:value "Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -694,9 +673,9 @@
          ]
        ]
      ], [
-       fhir:index 16;
-       fhir:Element.id [ fhir:value "BeMedicationDispense.note" ];
-       fhir:ElementDefinition.path [ fhir:value "BeMedicationDispense.note" ];
+       fhir:index 15;
+       fhir:Element.id [ fhir:value "BeModelMedicationDispense.note" ];
+       fhir:ElementDefinition.path [ fhir:value "BeModelMedicationDispense.note" ];
        fhir:ElementDefinition.short [ fhir:value "Additional information about the dispense" ];
        fhir:ElementDefinition.definition [ fhir:value "Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
