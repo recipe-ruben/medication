@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-27T13:48:14+00:00"/>
+  <date value="2021-06-28T08:52:20+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -263,7 +263,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="NamingSystem - NIHDI Organization"/>
       <description value="NIHDI identifier for care organizations"/>
-      <groupingId value="terminology"/>
+      <groupingId value="vocabulary"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -275,7 +275,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="NamingSystem - NIHDI Professional"/>
       <description value="NIHDI identifier for care professionals"/>
-      <groupingId value="terminology"/>
+      <groupingId value="vocabulary"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

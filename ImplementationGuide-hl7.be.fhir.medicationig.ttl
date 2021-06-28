@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "HL7 Belgium Medication Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-27T13:48:14+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T08:52:20+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -396,7 +396,7 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Organization" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care organizations" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -414,7 +414,7 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Professional" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care professionals" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
      ], [
        fhir:index 4;
        fhir:Element.extension [

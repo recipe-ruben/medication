@@ -1,9 +1,9 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 34, warn = 14, info = 11
+err = 33, warn = 14, info = 11
 IG Publisher Version: 1.1.76
-Generated Sun Jun 27 13:48:34 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.be/fhir)
+Generated Mon Jun 28 08:52:43 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.be/fhir)
 
  Build Errors : 88 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 4 / 2 / 3
@@ -14,7 +14,7 @@ Generated Sun Jun 27 13:48:34 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-prescription-ids : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-product-package-type : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense : 0 / 1 / 2
- /github/workspace/input/be-medication : 1 / 1 / 1
+ /github/workspace/input/be-medication : 0 / 1 / 1
  /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1 : 2 / 2 / 3
  /github/workspace/input/models/structuredefinition-be-model-medicationdispense : 12 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-organization : 0 / 1 / 1
@@ -1478,7 +1478,6 @@ WARNING: StructureDefinition/be-medicationdispense: StructureDefinition.jurisdic
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[97].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == /github/workspace/input/be-medication.xml ==
 WARNING: ImplementationGuide/hl7.be.fhir.medicationig: ImplementationGuide.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
-ERROR: ImplementationGuide/hl7.be.fhir.medicationig: ImplementationGuide.definition: ig-1: 'If a resource has a groupingId, it must refer to a grouping defined in the Implementation Guide' Rule 'If a resource has a groupingId, it must refer to a grouping defined in the Implementation Guide' Failed
 == /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1.json ==
 ERROR: MedicationDispense/medication-dispense-example-1: MedicationDispense.performer[0]: Slicing cannot be evaluated: Could not match discriminator ([actor]) for slice MedicationDispense.performer:dispensingOrganization in profile https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense - the discriminator [actor] does not have fixed value, binding or existence assertions
 ERROR: MedicationDispense/medication-dispense-example-1: MedicationDispense.performer[0]: Slicing cannot be evaluated: Could not match discriminator ([actor]) for slice MedicationDispense.performer:dispenser in profile https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense - the discriminator [actor] does not have fixed value, binding or existence assertions
