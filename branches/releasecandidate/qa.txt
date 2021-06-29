@@ -1,11 +1,11 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 13, warn = 40, info = 11
+err = 1, warn = 40, info = 11
 IG Publisher Version: 1.1.76
-Generated Tue Jun 29 09:18:40 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Tue Jun 29 13:18:43 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
 
- Build Errors : 17 / 0 / 0
+ Build Errors : 13 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
@@ -18,20 +18,16 @@ Generated Tue Jun 29 09:18:40 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
  /github/workspace/fsh-generated/resources/ValueSet-DispenserTypes : 0 / 1 / 1
  /github/workspace/input/be-medication : 0 / 1 / 1
  /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1 : 0 / 2 / 3
- /github/workspace/input/resources/StructureDefinition-be-organization : 2 / 6 / 1
- /github/workspace/input/resources/StructureDefinition-be-patient : 2 / 10 / 1
- /github/workspace/input/resources/StructureDefinition-be-practitioner : 2 / 6 / 1
- /github/workspace/input/resources/StructureDefinition-be-practitionerrole : 2 / 2 / 1
+ /github/workspace/input/resources/StructureDefinition-be-organization : 0 / 6 / 1
+ /github/workspace/input/resources/StructureDefinition-be-patient : 0 / 10 / 1
+ /github/workspace/input/resources/StructureDefinition-be-practitioner : 0 / 6 / 1
+ /github/workspace/input/resources/StructureDefinition-be-practitionerrole : 0 / 2 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-organization : 0 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-professional : 0 / 1 / 1
  /github/workspace/input/vocabulary/cd-hcparty : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: ?pkp-1?: The reference https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address could not be resolved
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/be-practitionerrole.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/be-organization.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/be-practitioner.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/be-patient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 376, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 460, column 717: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 670, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
@@ -81,16 +77,13 @@ INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispens
 WARNING: MedicationDispense/medication-dispense-example-1: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == /github/workspace/input/resources/StructureDefinition-be-organization.json ==
-ERROR: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization'): Conformance resource /github/workspace/input/resources/StructureDefinition-be-organization.json - the canonical URL (https://www.hl7belgium.org/fhir/StructureDefinition/be-organization) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization)
 WARNING: https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization#Organization.address: The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
 WARNING: StructureDefinition/be-organization: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 WARNING: StructureDefinition/be-organization: StructureDefinition.differential.element.where(path = 'Organization.address'): The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
 WARNING: StructureDefinition/be-organization: StructureDefinition.differential.element[20].type[0].profile[0]: Unable to resolve profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address
 WARNING: StructureDefinition/be-organization: StructureDefinition.snapshot.element[63].type[0].profile[0]: Unable to resolve profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/input/resources/StructureDefinition-be-organization: URL Mismatch https://www.hl7belgium.org/fhir/StructureDefinition/be-organization vs https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
 == /github/workspace/input/resources/StructureDefinition-be-patient.json ==
-ERROR: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient'): Conformance resource /github/workspace/input/resources/StructureDefinition-be-patient.json - the canonical URL (https://www.hl7belgium.org/fhir/StructureDefinition/be-patient) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient)
 WARNING: https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient#Patient.address: The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
 WARNING: StructureDefinition/be-patient: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 WARNING: StructureDefinition/be-patient: StructureDefinition.differential.element.where(path = 'Patient.address'): The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
@@ -101,21 +94,16 @@ WARNING: StructureDefinition/be-patient: StructureDefinition.snapshot.element[53
 WARNING: StructureDefinition/be-patient: StructureDefinition.snapshot.element[54].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-civilstate on element Patient.maritalStatus could not be resolved
 WARNING: StructureDefinition/be-patient: StructureDefinition.snapshot.element[61].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-contactperson on element Patient.contact.relationship could not be resolved
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/input/resources/StructureDefinition-be-patient: URL Mismatch https://www.hl7belgium.org/fhir/StructureDefinition/be-patient vs https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
 == /github/workspace/input/resources/StructureDefinition-be-practitioner.json ==
-ERROR: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner'): Conformance resource /github/workspace/input/resources/StructureDefinition-be-practitioner.json - the canonical URL (https://www.hl7belgium.org/fhir/StructureDefinition/be-practitioner) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner)
 WARNING: https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner#Practitioner.address: The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
 WARNING: StructureDefinition/be-practitioner: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 WARNING: StructureDefinition/be-practitioner: StructureDefinition.differential.element.where(path = 'Practitioner.address'): The type of profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address cannot be checked as the profile is not known
 WARNING: StructureDefinition/be-practitioner: StructureDefinition.differential.element[14].type[0].profile[0]: Unable to resolve profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address
 WARNING: StructureDefinition/be-practitioner: StructureDefinition.snapshot.element[40].type[0].profile[0]: Unable to resolve profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/input/resources/StructureDefinition-be-practitioner: URL Mismatch https://www.hl7belgium.org/fhir/StructureDefinition/be-practitioner vs https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner
 == /github/workspace/input/resources/StructureDefinition-be-practitionerrole.json ==
-ERROR: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole'): Conformance resource /github/workspace/input/resources/StructureDefinition-be-practitionerrole.json - the canonical URL (https://www.hl7belgium.org/fhir/StructureDefinition/be-practitionerrole) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole)
 WARNING: StructureDefinition/be-practitionerrole: StructureDefinition.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/input/resources/StructureDefinition-be-practitionerrole: URL Mismatch https://www.hl7belgium.org/fhir/StructureDefinition/be-practitionerrole vs https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole
 == /github/workspace/input/vocabulary/be-ns-nihdi-organization.json ==
 WARNING: NamingSystem/be-ns-nihdi-organization: NamingSystem.jurisdiction[0]: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/jurisdiction because the value set or code system is not known to the validator]
 == /github/workspace/input/vocabulary/be-ns-nihdi-professional.json ==
