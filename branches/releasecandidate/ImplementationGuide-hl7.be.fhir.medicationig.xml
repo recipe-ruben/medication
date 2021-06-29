@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-29T08:59:02+00:00"/>
+  <date value="2021-06-29T09:18:06+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -31,11 +31,6 @@
   <packageId value="hl7.be.fhir.medicationig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
-  <dependsOn id="fedbecore">
-    <uri value="https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/fed-be-core"/>
-    <packageId value="fed.be.core"/>
-    <version value="dev"/>
-  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -397,6 +392,42 @@
       <description value="A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription"/>
       <exampleCanonical value="https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"/>
       <groupingId value="medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-practitionerrole"/>
+      </reference>
+      <description value="Belgian federal profile for a practitioner role. Initially based on the functional description of the NIHDI."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-organization"/>
+      </reference>
+      <description value="Belgian federal profile for an organization. Initially based on the functional description of the NIHDI."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-practitioner"/>
+      </reference>
+      <description value="Belgian federal profile for a practitioner. Initially based on the functional description of the NIHDI."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-patient"/>
+      </reference>
+      <description value="Belgian federal profile for a patient. Initially based on the functional description of the NIHDI. Special remarks for KMEHR users: following elements in KMEHR are not available in this FHIR resource. If needed, an extension can be defined in a future iteration of these specifications: the &#39;deathlocation&#39; (location is not available but the death of the patient is expressed by either date or Boolean cfr. infra.), the &#39;insurancystatus&#39; (covered in a seperate FHIR resource: Coverage), &#39;insurancymembership&#39; (covered in a seperate FHIR resource: Coverage) and &#39;profession&#39; (covered in a possible future FHIR resource: OccupationalData.)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
