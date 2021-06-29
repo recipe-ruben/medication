@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "HL7 Belgium Medication Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T22:38:34+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T08:59:02+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -630,7 +630,7 @@
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Medication Home Page" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Belgium Medication Implementation Guide Home Page" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 1;
@@ -644,64 +644,11 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "The Belgian Medication Record" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index 0;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenarios.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Medication Record Scenarios" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
-           fhir:ImplementationGuide.definition.page.page [
-             fhir:index 0;
-             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenario-1.html" ];
-             fhir:ImplementationGuide.definition.page.title [ fhir:value "Scenario 1 - concurrent medications" ];
-             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-           ], [
-             fhir:index 1;
-             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenario-2.html" ];
-             fhir:ImplementationGuide.definition.page.title [ fhir:value "Scenario 2 - medication protocols" ];
-             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-           ]
-         ], [
-           fhir:index 1;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-definitions.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Definitions - Medication Record" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ], [
-           fhir:index 2;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-requirements.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Requirements - Medication Record" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ], [
-           fhir:index 3;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-patterns.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Architectural patterns - Medication Record" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
-           fhir:ImplementationGuide.definition.page.page [
-             fhir:index 0;
-             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-1.html" ];
-             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 1 - Consult a patient's medication record" ];
-             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-           ], [
-             fhir:index 1;
-             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-2.html" ];
-             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 2 - update a patient's medication record" ];
-             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-           ], [
-             fhir:index 2;
-             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-3.html" ];
-             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 3 - Compile a medication record" ];
-             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-           ]
-         ]
-       ], [
-         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "logical-models.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Logical Models" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 5;
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
