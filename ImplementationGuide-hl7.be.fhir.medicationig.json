@@ -11,7 +11,7 @@
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-29T09:18:06+00:00",
+  "date": "2021-06-29T13:18:03+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -63,7 +63,7 @@
           },
           {
             "url": "value",
-            "valueString": "CI Build"
+            "valueString": "ReleaseCandidate"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -77,6 +77,58 @@
           {
             "url": "value",
             "valueString": "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -365,6 +417,11 @@
         "id": "vocabulary",
         "name": "Vocabulary",
         "description": "Terminology and Vocabulary"
+      },
+      {
+        "id": "dependencies",
+        "name": "Dependencies",
+        "description": "External dependencies"
       }
     ],
     "resource": [
@@ -502,7 +559,75 @@
         ],
         "name": "CodeSystem - HCParty",
         "description": "CodeSystem - HCParty",
-        "groupingId": "vocabulary"
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-patient"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePatient profile",
+        "description": "eHealth BePatient profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-organization"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BeOrganization profile",
+        "description": "eHealth BeOrganization profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-practitioner"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePractitioner profile",
+        "description": "eHealth BePractitioner profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-practitionerrole"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePractitionerRole profile",
+        "description": "eHealth BePractitionerRole profile",
+        "groupingId": "dependencies"
       },
       {
         "extension": [
@@ -593,54 +718,6 @@
         "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
         "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-practitionerrole"
-        },
-        "description": "Belgian federal profile for a practitioner role. Initially based on the functional description of the NIHDI."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-organization"
-        },
-        "description": "Belgian federal profile for an organization. Initially based on the functional description of the NIHDI."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-practitioner"
-        },
-        "description": "Belgian federal profile for a practitioner. Initially based on the functional description of the NIHDI."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-patient"
-        },
-        "description": "Belgian federal profile for a patient. Initially based on the functional description of the NIHDI. Special remarks for KMEHR users: following elements in KMEHR are not available in this FHIR resource. If needed, an extension can be defined in a future iteration of these specifications: the 'deathlocation' (location is not available but the death of the patient is expressed by either date or Boolean cfr. infra.), the 'insurancystatus' (covered in a seperate FHIR resource: Coverage), 'insurancymembership' (covered in a seperate FHIR resource: Coverage) and 'profession' (covered in a possible future FHIR resource: OccupationalData.)"
       },
       {
         "extension": [
