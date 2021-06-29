@@ -7,6 +7,34 @@
     "name": "HCParty"
   },
   {
+    "id": "be-organization",
+    "type": "StructureDefinition",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization",
+    "version": "0.2.0",
+    "name": "BeOrganization"
+  },
+  {
+    "id": "be-patient",
+    "type": "StructureDefinition",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient",
+    "version": "0.2.0",
+    "name": "BePatient"
+  },
+  {
+    "id": "be-practitioner",
+    "type": "StructureDefinition",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner",
+    "version": "0.2.0",
+    "name": "BePractitioner"
+  },
+  {
+    "id": "be-practitionerrole",
+    "type": "StructureDefinition",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole",
+    "version": "0.2.0",
+    "name": "BePractitionerRole"
+  },
+  {
     "id": "hl7.be.fhir.medicationig",
     "type": "ImplementationGuide",
     "url": "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
