@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-28T22:38:34+00:00"/>
+  <date value="2021-06-29T08:59:02+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -414,7 +414,7 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Medication Home Page"/>
+        <title value="Belgium Medication Implementation Guide Home Page"/>
         <generation value="html"/>
       </page>
       <page>
@@ -426,56 +426,6 @@
         <nameUrl value="usecases-dispense.html"/>
         <title value="Use Cases - Dispense"/>
         <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="medicationrecord.html"/>
-        <title value="The Belgian Medication Record"/>
-        <generation value="markdown"/>
-        <page>
-          <nameUrl value="medicationrecord-scenarios.html"/>
-          <title value="Medication Record Scenarios"/>
-          <generation value="markdown"/>
-          <page>
-            <nameUrl value="medicationrecord-scenario-1.html"/>
-            <title value="Scenario 1 - concurrent medications"/>
-            <generation value="markdown"/>
-          </page>
-          <page>
-            <nameUrl value="medicationrecord-scenario-2.html"/>
-            <title value="Scenario 2 - medication protocols"/>
-            <generation value="markdown"/>
-          </page>
-        </page>
-        <page>
-          <nameUrl value="medicationrecord-definitions.html"/>
-          <title value="Definitions - Medication Record"/>
-          <generation value="markdown"/>
-        </page>
-        <page>
-          <nameUrl value="medicationrecord-requirements.html"/>
-          <title value="Requirements - Medication Record"/>
-          <generation value="markdown"/>
-        </page>
-        <page>
-          <nameUrl value="medicationrecord-patterns.html"/>
-          <title value="Architectural patterns - Medication Record"/>
-          <generation value="markdown"/>
-          <page>
-            <nameUrl value="medicationrecord-pattern-1.html"/>
-            <title value="Pattern 1 - Consult a patient&#39;s medication record"/>
-            <generation value="markdown"/>
-          </page>
-          <page>
-            <nameUrl value="medicationrecord-pattern-2.html"/>
-            <title value="Pattern 2 - update a patient&#39;s medication record"/>
-            <generation value="markdown"/>
-          </page>
-          <page>
-            <nameUrl value="medicationrecord-pattern-3.html"/>
-            <title value="Pattern 3 - Compile a medication record"/>
-            <generation value="markdown"/>
-          </page>
-        </page>
       </page>
       <page>
         <nameUrl value="logical-models.html"/>
