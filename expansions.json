@@ -1,25 +1,25 @@
 {
   "resourceType" : "Bundle",
-  "id" : "df64df5d-9213-4fce-80dd-ae28cfb9f4af",
+  "id" : "2a1e8f99-9991-4669-ad30-4672800097bd",
   "meta" : {
-    "lastUpdated" : "2021-06-29T21:01:28.045+00:00"
+    "lastUpdated" : "2021-07-27T11:47:05.393+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes",
+    "fullUrl" : "https://www.hl7belgium.be/fhir/ValueSet/be-vs-medication-summary-types",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "DispenserTypes",
+      "id" : "be-vs-medication-summary-types",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cd-hcparty.html\">HCParty v0.2.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-cd-hcparty.html\"><code>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptpharmacy\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-deptpharmacy\">deptpharmacy</a></td><td>Pharmacy service or department within an organisation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacist\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacist\">perspharmacist</a></td><td>pharmacist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-orgpharmacy\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-orgpharmacy\">orgpharmacy</a></td><td>Independent pharmacy</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacyassistant\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacyassistant\">perspharmacyassistant</a></td><td>pharmacy assistant</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacistclinicalbiologist\">perspharmacistclinicalbiologist</a></td><td>pharmacist-clinical biologist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-persdentist\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-persdentist\">persdentist</a></td><td>dentist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptdentistry\"> </a><a href=\"CodeSystem-cd-hcparty.html#cd-hcparty-deptdentistry\">deptdentistry</a></td><td>dentistry</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-be-cs-medication-summary-types.html\">Medication Summary types v0.2.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-be-cs-medication-summary-types.html\"><code>https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.hl7belgium.be-fhir-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6\"> </a><a href=\"CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466\">kmehr-ms-5.6</a></td><td>Belgian Medication Schema v5.6 - 09/2018</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.hl7belgium.be-fhir-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5\"> </a><a href=\"CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465\">kmehr-ms-5.5</a></td><td>Belgian Medication Schema v5.5 - 12-2017</td><td/></tr></table></div>"
       },
-      "url" : "https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes",
+      "url" : "https://www.hl7belgium.be/fhir/ValueSet/be-vs-medication-summary-types",
       "version" : "0.2.0",
-      "name" : "DispenserTypes",
-      "title" : "Dispenser Types",
+      "name" : "BeVSMedicationSummaryTypes",
+      "title" : "Medication Summary types",
       "status" : "active",
-      "date" : "2021-06-29T21:01:28+00:00",
+      "date" : "2021-07-27T11:47:05+00:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -27,7 +27,7 @@
           "value" : "http://hl7belgium.org"
         }]
       }],
-      "description" : "Dispenser Types - from hcparty",
+      "description" : "Valueset -  Medication Summary types",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -36,51 +36,26 @@
         "text" : "Belgium"
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9e96b3f6-540d-46c3-9464-5cd655e30264",
-        "timestamp" : "2021-06-29T21:01:48+00:00",
-        "total" : 7,
+        "identifier" : "urn:uuid:baa27714-6981-4f0c-9449-4b4b0c7acd19",
+        "timestamp" : "2021-07-27T11:47:28+00:00",
+        "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty|0.2.0"
+          "valueUri" : "https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types|0.2.0"
         }],
         "contains" : [{
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "deptpharmacy",
-          "display" : "Pharmacy service or department within an organisation"
+          "system" : "https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types",
+          "code" : "kmehr-ms-5.6",
+          "display" : "Belgian Medication Schema v5.6 - 09/2018"
         },
         {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "perspharmacist",
-          "display" : "pharmacist"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "orgpharmacy",
-          "display" : "Independent pharmacy"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "perspharmacyassistant",
-          "display" : "pharmacy assistant"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "perspharmacistclinicalbiologist",
-          "display" : "pharmacist-clinical biologist"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "persdentist",
-          "display" : "dentist"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
-          "code" : "deptdentistry",
-          "display" : "dentistry"
+          "system" : "https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types",
+          "code" : "kmehr-ms-5.5",
+          "display" : "Belgian Medication Schema v5.5 - 12-2017"
         }]
       }
     }

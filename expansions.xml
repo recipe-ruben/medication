@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="df64df5d-9213-4fce-80dd-ae28cfb9f4af"/>
+  <id value="2a1e8f99-9991-4669-ad30-4672800097bd"/>
   <meta>
-    <lastUpdated value="2021-06-29T21:01:28.045+00:00"/>
+    <lastUpdated value="2021-07-27T11:47:05.393+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes"/>
+    <fullUrl value="https://www.hl7belgium.be/fhir/ValueSet/be-vs-medication-summary-types"/>
     <resource>
       <ValueSet>
-        <id value="DispenserTypes"/>
+        <id value="be-vs-medication-summary-types"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
+            <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cd-hcparty.html">HCParty v0.2.0 (CodeSystem)</a>
+              <a href="CodeSystem-be-cs-medication-summary-types.html">Medication Summary types v0.2.0 (CodeSystem)</a>
             </p>
             <p>All codes from system 
-              <a href="CodeSystem-cd-hcparty.html">
-                <code>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty</code>
+              <a href="CodeSystem-be-cs-medication-summary-types.html">
+                <code>https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types</code>
               </a>
             </p>
             <table class="codes">
@@ -37,69 +37,29 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptpharmacy"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-deptpharmacy">deptpharmacy</a>
+                  <a name="https---www.hl7belgium.be-fhir-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6"> </a>
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466">kmehr-ms-5.6</a>
                 </td>
-                <td>Pharmacy service or department within an organisation</td>
+                <td>Belgian Medication Schema v5.6 - 09/2018</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacist"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacist">perspharmacist</a>
+                  <a name="https---www.hl7belgium.be-fhir-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5"> </a>
+                  <a href="CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465">kmehr-ms-5.5</a>
                 </td>
-                <td>pharmacist</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-orgpharmacy"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-orgpharmacy">orgpharmacy</a>
-                </td>
-                <td>Independent pharmacy</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacyassistant"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacyassistant">perspharmacyassistant</a>
-                </td>
-                <td>pharmacy assistant</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacistclinicalbiologist">perspharmacistclinicalbiologist</a>
-                </td>
-                <td>pharmacist-clinical biologist</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-persdentist"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-persdentist">persdentist</a>
-                </td>
-                <td>dentist</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptdentistry"> </a>
-                  <a href="CodeSystem-cd-hcparty.html#cd-hcparty-deptdentistry">deptdentistry</a>
-                </td>
-                <td>dentistry</td>
+                <td>Belgian Medication Schema v5.5 - 12-2017</td>
                 <td/>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes"/>
+        <url value="https://www.hl7belgium.be/fhir/ValueSet/be-vs-medication-summary-types"/>
         <version value="0.2.0"/>
-        <name value="DispenserTypes"/>
-        <title value="Dispenser Types"/>
+        <name value="BeVSMedicationSummaryTypes"/>
+        <title value="Medication Summary types"/>
         <status value="active"/>
-        <date value="2021-06-29T21:01:28+00:00"/>
+        <date value="2021-07-27T11:47:05+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -107,7 +67,7 @@
             <value value="http://hl7belgium.org"/>
           </telecom>
         </contact>
-        <description value="Dispenser Types - from hcparty"/>
+        <description value="Valueset -  Medication Summary types"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -116,51 +76,26 @@
           <text value="Belgium"/>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9e96b3f6-540d-46c3-9464-5cd655e30264"/>
-          <timestamp value="2021-06-29T21:01:48+00:00"/>
-          <total value="7"/>
+          <identifier value="urn:uuid:baa27714-6981-4f0c-9449-4b4b0c7acd19"/>
+          <timestamp value="2021-07-27T11:47:28+00:00"/>
+          <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty|0.2.0"/>
+            <valueUri value="https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types|0.2.0"/>
           </parameter>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="deptpharmacy"/>
-            <display value="Pharmacy service or department within an organisation"/>
+            <system value="https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="kmehr-ms-5.6"/>
+            <display value="Belgian Medication Schema v5.6 - 09/2018"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="perspharmacist"/>
-            <display value="pharmacist"/>
-          </contains>
-          <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="orgpharmacy"/>
-            <display value="Independent pharmacy"/>
-          </contains>
-          <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="perspharmacyassistant"/>
-            <display value="pharmacy assistant"/>
-          </contains>
-          <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="perspharmacistclinicalbiologist"/>
-            <display value="pharmacist-clinical biologist"/>
-          </contains>
-          <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="persdentist"/>
-            <display value="dentist"/>
-          </contains>
-          <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
-            <code value="deptdentistry"/>
-            <display value="dentistry"/>
+            <system value="https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types"/>
+            <code value="kmehr-ms-5.5"/>
+            <display value="Belgian Medication Schema v5.5 - 12-2017"/>
           </contains>
         </expansion>
       </ValueSet>

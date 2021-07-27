@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.hl7belgium.org/fhir/MedicationDispense/medication-dispense-example-1> a fhir:MedicationDispense;
+<https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-example-1> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "medication-dispense-example-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
+       fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
        fhir:index 0;
-       fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
+       fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
      ]
   ];
   fhir:Resource.language [ fhir:value "fr-BE"];
@@ -115,7 +115,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.hl7belgium.org/fhir/MedicationDispense/medication-dispense-example-1.ttl> a owl:Ontology;
+<https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

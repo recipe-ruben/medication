@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig> a fhir:ImplementationGuide;
+<https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "hl7.be.fhir.medicationig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig"];
+  fhir:ImplementationGuide.url [ fhir:value "https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig"];
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "BEMedicationIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 Belgium Medication Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T21:01:28+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-27T11:47:05+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -44,6 +44,16 @@
      fhir:value "4.0.1";
      fhir:index 0
   ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "fedbecore" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/fed-be-core";
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/fed-be-core>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "fed.be.core" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "dev" ]
+  ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
        fhir:index 0;
@@ -66,71 +76,11 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "ReleaseCandidate" ]
+         fhir:Extension.valueString [ fhir:value "CI Build" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
        fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "special-url" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "special-url" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "special-url" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "special-url" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "special-url" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -142,7 +92,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 8;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -154,7 +104,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 9;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -166,7 +116,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 10;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -178,7 +128,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 11;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -190,7 +140,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 12;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -202,7 +152,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 13;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -214,7 +164,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 14;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -226,7 +176,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 15;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -238,7 +188,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 16;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -250,7 +200,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 17;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -258,11 +208,11 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://www.hl7belgium.org/fhir/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://www.hl7belgium.be/fhir/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 18;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -274,7 +224,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 19;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -286,7 +236,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 20;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -298,7 +248,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 21;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -310,7 +260,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 22;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -322,7 +272,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 23;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -334,7 +284,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 24;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -346,7 +296,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 25;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -358,7 +308,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 26;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -370,7 +320,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 27;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -386,17 +336,17 @@
        fhir:index 0;
        fhir:Element.id [ fhir:value "medicationdispense" ];
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Medication Dispense" ];
-       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Artifacts related to Medication Dispense:   The registration of a Dispensation event, whether in a hospital or community setting. This applies principally to prescribed medications, but may also be used to capture other medications that are dispensed - OTCs, contrast or anesthesia products used in imaging procedures, etc." ]
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Medication Dispense" ]
      ], [
        fhir:index 1;
+       fhir:Element.id [ fhir:value "medicationrecord" ];
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Medication Record" ];
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Medication Record / Medication Schema" ]
+     ], [
+       fhir:index 2;
        fhir:Element.id [ fhir:value "vocabulary" ];
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Vocabulary" ];
        fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Terminology and Vocabulary" ]
-     ], [
-       fhir:index 2;
-       fhir:Element.id [ fhir:value "dependencies" ];
-       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Dependencies" ];
-       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "External dependencies" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -406,7 +356,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-model-medication-dispense>;
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-model-medication-dispense>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/be-model-medication-dispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
@@ -424,7 +374,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>;
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/be-medicationdispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
@@ -439,19 +389,19 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/NamingSystem/be-ns-nihdi-organization>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-nihdi-organization" ]
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-model-medication-record>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/be-model-medication-record" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
          fhir:value "4.0.1";
          fhir:index 0
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Organization" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care organizations" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Logical Model Medication Record" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Record - summary or detailed information about the usage of medication by a patient" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationrecord" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -460,16 +410,16 @@
          fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/NamingSystem/be-ns-nihdi-professional>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-nihdi-professional" ]
+         fhir:link <https://www.hl7belgium.be/fhir/NamingSystem/be-ns-nihdi-organization>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-nihdi-organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
          fhir:value "4.0.1";
          fhir:index 0
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Professional" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care professionals" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care organizations" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
@@ -478,151 +428,25 @@
          fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/NamingSystem/be-ns-cnk-codes>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cnk-codes" ]
+         fhir:link <https://www.hl7belgium.be/fhir/NamingSystem/be-ns-nihdi-professional>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-nihdi-professional" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
          fhir:value "4.0.1";
          fhir:index 0
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - CNK product codes" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NamingSystem for CNK product codes" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - NIHDI Professional" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NIHDI identifier for care professionals" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
        fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/NamingSystem/be-ns-prescription-ids>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-prescription-ids" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - Prescription unique IDs" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NamingSystem for Prescription unique IDs" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/NamingSystem/be-ns-product-package-type>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-product-package-type" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NamingSystem - Medication Package type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "NamingSystem for Medication Package types" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "vocabulary" ]
-     ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/CodeSystem/cd-hcparty>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/cd-hcparty" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CodeSystem - HCParty" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CodeSystem - HCParty" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "dependencies" ]
-     ], [
-       fhir:index 8;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/be-patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "eHealth BePatient profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "eHealth BePatient profile" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "dependencies" ]
-     ], [
-       fhir:index 9;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-organization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/be-organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "eHealth BeOrganization profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "eHealth BeOrganization profile" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "dependencies" ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-practitioner>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/be-practitioner" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "eHealth BePractitioner profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "eHealth BePractitioner profile" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "dependencies" ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-practitionerrole>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/be-practitionerrole" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "eHealth BePractitionerRole profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "eHealth BePractitionerRole profile" ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "dependencies" ]
-     ], [
-       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/MedicationDispense/medication-dispense-example-1>;
+         fhir:link <https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-example-1>;
          fhir:Reference.reference [ fhir:value "MedicationDispense/medication-dispense-example-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
@@ -632,19 +456,19 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Dispense Example 1" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
+         fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
        ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
      ], [
-       fhir:index 13;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/MedicationDispense/medication-dispense-example-2>;
+         fhir:link <https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-example-2>;
          fhir:Reference.reference [ fhir:value "MedicationDispense/medication-dispense-example-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.fhirVersion [
@@ -654,10 +478,104 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Dispense Example 2" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
+         fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
        ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/MedicationDispense/example-minimal-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-minimal-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-minimal-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/ValueSet/be-vs-medication-summary-types>;
+         fhir:Reference.reference [ fhir:value "ValueSet/be-vs-medication-summary-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Summary types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset -  Medication Summary types" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/NamingSystem/be-ns-product-package-type>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-product-package-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Product Package Types" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/MedicationDispense/example-dispense-communitypharmacy-1med>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-communitypharmacy-1med" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-dispense-communitypharmacy-1med" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/NamingSystem/be-ns-cnk-codes>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cnk-codes" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CNK Product Codes" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/be-cs-medication-summary-types" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Summary types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CodeSystem - Medication Summary types" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.hl7belgium.be/fhir/NamingSystem/be-ns-prescription-ids>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-prescription-ids" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ]
      ], [
        fhir:index 14;
        fhir:Element.extension [
@@ -666,77 +584,14 @@
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/MedicationDispense/example-dispense-communitypharmacy-1med>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-communitypharmacy-1med" ]
+         fhir:link <https://www.hl7belgium.be/fhir/MedicationDispense/medication-dispense-hospital>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/medication-dispense-hospital" ]
        ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Dispense Example 3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - medication-dispense-hospital" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
-       ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
-     ], [
-       fhir:index 15;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/MedicationDispense/example-minimal-dispense>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-minimal-dispense" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication Dispense - minimal example" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An example of a medication dispense with the minimal amount of necessary information" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
-       ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
-     ], [
-       fhir:index 16;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/MedicationDispense/example-dispense-hospital>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-hospital" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.fhirVersion [
-         fhir:value "4.0.1";
-         fhir:index 0
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Hospital Medication Dispense" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
-       ];
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "medicationdispense" ]
-     ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.hl7belgium.org/fhir/ValueSet/DispenserTypes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/DispenserTypes" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispenser Types" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dispenser Types - from hcparty" ]
+         fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
+       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
@@ -745,7 +600,7 @@
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Belgium Medication Implementation Guide Home Page" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "MyIG Home Page" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 1;
@@ -759,11 +614,64 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "The Belgian Medication Record" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenarios.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Medication Record Scenarios" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
+           fhir:ImplementationGuide.definition.page.page [
+             fhir:index 0;
+             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenario-1.html" ];
+             fhir:ImplementationGuide.definition.page.title [ fhir:value "Scenario 1 - concurrent medications" ];
+             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+           ], [
+             fhir:index 1;
+             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-scenario-2.html" ];
+             fhir:ImplementationGuide.definition.page.title [ fhir:value "Scenario 2 - medication protocols" ];
+             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-definitions.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Definitions - Medication Record" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-requirements.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Requirements - Medication Record" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-patterns.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Architectural patterns - Medication Record" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
+           fhir:ImplementationGuide.definition.page.page [
+             fhir:index 0;
+             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-1.html" ];
+             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 1 - Consult a patient's medication record" ];
+             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+           ], [
+             fhir:index 1;
+             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-2.html" ];
+             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 2 - update a patient's medication record" ];
+             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+           ], [
+             fhir:index 2;
+             fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "medicationrecord-pattern-3.html" ];
+             fhir:ImplementationGuide.definition.page.title [ fhir:value "Pattern 3 - Compile a medication record" ];
+             fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "logical-models.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Logical Models" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 4;
+         fhir:index 5;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
@@ -834,7 +742,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig.ttl> a owl:Ontology;
+<https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
