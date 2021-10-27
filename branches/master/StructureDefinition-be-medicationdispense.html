@@ -26,6 +26,13 @@
 <link href="assets/css/hl7-be.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+<!--
+  Questionnaire:
+-->
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -174,12 +181,12 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
-
+    
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Profile - Medication Dispense</b></li>
-
+          
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -264,7 +271,7 @@
 <tr><td>Defining URL:</td><td>https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense</td></tr>
  <tr><td>Version:</td><td>0.2.0</td></tr>
  <tr><td>Name:</td><td>BeMedicationDispense</td></tr>
- <tr><td>Status:</td><td>Active as of 2021-07-27T11:47:05+00:00</td></tr>
+ <tr><td>Status:</td><td>Active as of 2021-10-27T14:10:56+00:00</td></tr>
  <tr><td>Definition:</td><td><p>Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.</p>
 </td></tr>
  <tr><td>Publisher:</td><td>HL7 Belgium</td></tr>
@@ -331,9 +338,9 @@ Summary
 <p>Mandatory: 3 elements (1 nested mandatory element)<br/> Must-Support: 19 elements<br/> Fixed Value: 1 element</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient</a></li>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization</a></li>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner</a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html">Patient core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient)</span></a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html">Organization core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization)</span></a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html">Practitioner core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner)</span></a></li>
 
 </ul>
 
@@ -786,9 +793,9 @@ Summary
 <p>Mandatory: 3 elements (1 nested mandatory element)<br/> Must-Support: 19 elements<br/> Fixed Value: 1 element</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient</a></li>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization</a></li>
-<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html">https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner</a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-patient.html">Patient core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient)</span></a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-organization.html">Organization core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization)</span></a></li>
+<li><a href="https://build.fhir.org/ig/ec-ehealth/ehealthplatformstandards//StructureDefinition-be-practitioner.html">Practitioner core BE profile <span style="font-size: 8px">(https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner)</span></a></li>
 
 </ul>
 
@@ -1300,7 +1307,7 @@ The type is the Canonical URL of Resource Definition that is the type this refer
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 11:47+0000">2021-07-27</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 27, 2021 14:10+0000">2021-10-27</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
