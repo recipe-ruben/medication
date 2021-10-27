@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2a1e8f99-9991-4669-ad30-4672800097bd"/>
+  <id value="ec88c50b-47ca-49c6-9108-03615a2e9b3b"/>
   <meta>
-    <lastUpdated value="2021-07-27T11:47:05.393+00:00"/>
+    <lastUpdated value="2021-10-27T14:10:56.806+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,7 +18,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-be-cs-medication-summary-types.html">Medication Summary types v0.2.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-be-cs-medication-summary-types.html">
                 <code>https://www.hl7belgium.be/fhir/CodeSystem/be-cs-medication-summary-types</code>
               </a>
@@ -59,7 +59,7 @@
         <name value="BeVSMedicationSummaryTypes"/>
         <title value="Medication Summary types"/>
         <status value="active"/>
-        <date value="2021-07-27T11:47:05+00:00"/>
+        <date value="2021-10-27T14:10:56+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -76,8 +76,8 @@
           <text value="Belgium"/>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:baa27714-6981-4f0c-9449-4b4b0c7acd19"/>
-          <timestamp value="2021-07-27T11:47:28+00:00"/>
+          <identifier value="urn:uuid:a0952f16-b0e6-441f-9c91-041bcadde668"/>
+          <timestamp value="2021-10-27T14:11:09+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

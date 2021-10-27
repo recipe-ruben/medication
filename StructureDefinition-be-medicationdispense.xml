@@ -49,7 +49,7 @@
   <name value="BeMedicationDispense"/>
   <title value="BeMedicationDispense"/>
   <status value="active"/>
-  <date value="2021-07-27T11:47:05+00:00"/>
+  <date value="2021-10-27T14:10:56+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -3900,7 +3900,7 @@
       <isSummary value="false"/>
       <mapping>
         <identity value="v2"/>
-        <map value="TQ1.6 Timing/Quantity Segment Service Duration.&#xD;Prior to v2.5, ORC.7.3 Common Order Segment / Quantity/Timing / Duration component.  This is a formatted string, first character for the time unit (e.g., D=days), followed by the value.  For example, &#x201C;D14&#x201D; represents &#x201C;14 days supply&#x201D;&#xD;From v2.5 on, TQ1.6 Timing/Quantity Segment / Service Duration.  This is a CQ data type (&lt;Quantity (NM)&gt; ^ &lt;Units (CWE)&gt;), thus for days supply, assuming the unit of measure is &#x201C;days&#x201D;, the numeric value is TQ1.6.1 (&#x2026;|14^&#xD;For backwards compatibility, ORC.7 was permitted through v2.6.  Both forms (field and segment) may be present in v2.5, v2.5.1, and v2.6"/>
+        <map value="TQ1.6 Timing/Quantity Segment Service Duration.&#xD;Prior to v2.5, ORC.7.3 Common Order Segment / Quantity/Timing / Duration component.  This is a formatted string, first character for the time unit (e.g., D=days), followed by the value.  For example, “D14” represents “14 days supply”&#xD;From v2.5 on, TQ1.6 Timing/Quantity Segment / Service Duration.  This is a CQ data type (&lt;Quantity (NM)&gt; ^ &lt;Units (CWE)&gt;), thus for days supply, assuming the unit of measure is “days”, the numeric value is TQ1.6.1 (…|14^&#xD;For backwards compatibility, ORC.7 was permitted through v2.6.  Both forms (field and segment) may be present in v2.5, v2.5.1, and v2.6"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
@@ -4854,7 +4854,7 @@
       <path value="MedicationDispense.dosageInstruction.maxDosePerAdministration"/>
       <short value="Upper limit on medication per administration"/>
       <definition value="Upper limit on medication per administration."/>
-      <comment value="This is intended for use as an adjunct to the dosage when there is an upper cap.  For example, a body surface area related dose with a maximum amount, such as 1.5 mg/m2 (maximum 2 mg) IV over 5 &#x2013; 10 minutes would have doseQuantity of 1.5 mg/m2 and maxDosePerAdministration of 2 mg."/>
+      <comment value="This is intended for use as an adjunct to the dosage when there is an upper cap.  For example, a body surface area related dose with a maximum amount, such as 1.5 mg/m2 (maximum 2 mg) IV over 5 – 10 minutes would have doseQuantity of 1.5 mg/m2 and maxDosePerAdministration of 2 mg."/>
       <requirements value="The maximum total quantity of a therapeutic substance that may be administered to a subject per administration."/>
       <min value="0"/>
       <max value="1"/>
@@ -5242,7 +5242,7 @@
       <path value="MedicationDispense.eventHistory"/>
       <short value="A list of relevant lifecycle events"/>
       <definition value="A summary of the events of interest that have occurred, such as when the dispense was verified."/>
-      <comment value="This might not include provenances for all versions of the request &#x2013; only those deemed &#x201C;relevant&#x201D; or important. This SHALL NOT include the Provenance associated with this current version of the resource. (If that provenance is deemed to be a &#x201C;relevant&#x201D; change, it will need to be added as part of a later update. Until then, it can be queried directly as the Provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.)."/>
+      <comment value="This might not include provenances for all versions of the request – only those deemed “relevant” or important. This SHALL NOT include the Provenance associated with this current version of the resource. (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update. Until then, it can be queried directly as the Provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.)."/>
       <min value="0"/>
       <max value="*"/>
       <base>

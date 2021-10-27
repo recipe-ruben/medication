@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-27T11:47:05+00:00"/>
+  <date value="2021-10-27T14:10:56+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -331,6 +331,26 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/be-cs-medication-summary-types"/>
+      </reference>
+      <name value="Medication Summary types"/>
+      <description value="CodeSystem - Medication Summary types"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
+      </reference>
+      <name value="Example MedicationDispense - example-dispense-communitypharmacy-1med"/>
+      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -353,29 +373,10 @@
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
-        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
+        <reference value="MedicationDispense/medication-dispense-hospital"/>
       </reference>
-      <name value="Example MedicationDispense - example-dispense-communitypharmacy-1med"/>
+      <name value="Example MedicationDispense - medication-dispense-hospital"/>
       <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-cnk-codes"/>
-      </reference>
-      <description value="Naming System - CNK Product Codes"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/be-cs-medication-summary-types"/>
-      </reference>
-      <name value="Medication Summary types"/>
-      <description value="CodeSystem - Medication Summary types"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -388,13 +389,12 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
+        <valueString value="NamingSystem"/>
       </extension>
       <reference>
-        <reference value="MedicationDispense/medication-dispense-hospital"/>
+        <reference value="NamingSystem/be-ns-cnk-codes"/>
       </reference>
-      <name value="Example MedicationDispense - medication-dispense-hospital"/>
-      <exampleCanonical value="https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"/>
+      <description value="Naming System - CNK Product Codes"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
