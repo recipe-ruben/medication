@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.hl7belgium.be/fhir/MedicationDispense/example-minimal-dispense> a fhir:MedicationDispense;
+<https://www.hl7belgium.org/fhir/MedicationDispense/example-minimal-dispense> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-minimal-dispense"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense";
+       fhir:value "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense";
        fhir:index 0;
-       fhir:link <https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense>
+       fhir:link <https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense>
      ]
   ];
   fhir:DomainResource.text [
@@ -48,7 +48,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.hl7belgium.be/fhir/MedicationDispense/example-minimal-dispense.ttl> a owl:Ontology;
+<https://www.hl7belgium.org/fhir/MedicationDispense/example-minimal-dispense.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

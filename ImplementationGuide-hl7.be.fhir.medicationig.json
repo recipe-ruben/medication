@@ -3,15 +3,15 @@
   "id": "hl7.be.fhir.medicationig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>\n</div></div>"
   },
-  "url": "https://www.hl7belgium.be/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
+  "url": "https://www.hl7belgium.org/fhir/ImplementationGuide/hl7.be.fhir.medicationig",
   "version": "0.2.0",
   "name": "BEMedicationIG",
   "title": "HL7 Belgium Medication Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-10-27T14:10:56+00:00",
+  "date": "2021-10-27T14:12:07+00:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -40,14 +40,6 @@
   "fhirVersion": [
     "4.0.1"
   ],
-  "dependsOn": [
-    {
-      "id": "fedbecore",
-      "uri": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/fed-be-core",
-      "packageId": "fed.be.core",
-      "version": "dev"
-    }
-  ],
   "definition": {
     "extension": [
       {
@@ -71,7 +63,72 @@
           },
           {
             "url": "value",
-            "valueString": "CI Build"
+            "valueString": "ReleaseCandidate"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "special-url"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -214,7 +271,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://www.hl7belgium.be/fhir/history.html"
+            "valueString": "https://www.hl7belgium.org/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -354,17 +411,17 @@
       {
         "id": "medicationdispense",
         "name": "Medication Dispense",
-        "description": "Medication Dispense"
-      },
-      {
-        "id": "medicationrecord",
-        "name": "Medication Record",
-        "description": "Medication Record / Medication Schema"
+        "description": "Artifacts related to Medication Dispense:   The registration of a Dispensation event, whether in a hospital or community setting. This applies principally to prescribed medications, but may also be used to capture other medications that are dispensed - OTCs, contrast or anesthesia products used in imaging procedures, etc."
       },
       {
         "id": "vocabulary",
         "name": "Vocabulary",
         "description": "Terminology and Vocabulary"
+      },
+      {
+        "id": "dependencies",
+        "name": "Dependencies",
+        "description": "External dependencies"
       }
     ],
     "resource": [
@@ -406,23 +463,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/be-model-medication-record"
-        },
-        "fhirVersion": [
-          "4.0.1"
-        ],
-        "name": "Logical Model Medication Record",
-        "description": "Medication Record - summary or detailed information about the usage of medication by a patient",
-        "groupingId": "medicationrecord"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "NamingSystem"
           }
         ],
@@ -434,7 +474,7 @@
         ],
         "name": "NamingSystem - NIHDI Organization",
         "description": "NIHDI identifier for care organizations",
-        "groupingId": "terminology"
+        "groupingId": "vocabulary"
       },
       {
         "extension": [
@@ -451,7 +491,143 @@
         ],
         "name": "NamingSystem - NIHDI Professional",
         "description": "NIHDI identifier for care professionals",
-        "groupingId": "terminology"
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-cnk-codes"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - CNK product codes",
+        "description": "NamingSystem for CNK product codes",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-prescription-ids"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - Prescription unique IDs",
+        "description": "NamingSystem for Prescription unique IDs",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-product-package-type"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem - Medication Package type",
+        "description": "NamingSystem for Medication Package types",
+        "groupingId": "vocabulary"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-hcparty"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "CodeSystem - HCParty",
+        "description": "CodeSystem - HCParty",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-patient"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePatient profile",
+        "description": "eHealth BePatient profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-organization"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BeOrganization profile",
+        "description": "eHealth BeOrganization profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-practitioner"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePractitioner profile",
+        "description": "eHealth BePractitioner profile",
+        "groupingId": "dependencies"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-practitionerrole"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "eHealth BePractitionerRole profile",
+        "description": "eHealth BePractitionerRole profile",
+        "groupingId": "dependencies"
       },
       {
         "extension": [
@@ -468,7 +644,7 @@
         ],
         "name": "Medication Dispense Example 1",
         "description": "Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -486,7 +662,25 @@
         ],
         "name": "Medication Dispense Example 2",
         "description": "Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/example-dispense-communitypharmacy-1med"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Medication Dispense Example 3",
+        "description": "Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
         "groupingId": "medicationdispense"
       },
       {
@@ -499,21 +693,13 @@
         "reference": {
           "reference": "MedicationDispense/example-minimal-dispense"
         },
-        "name": "Example MedicationDispense - example-minimal-dispense",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
+        "fhirVersion": [
+          "4.0.1"
         ],
-        "reference": {
-          "reference": "CodeSystem/be-cs-medication-summary-types"
-        },
-        "name": "Medication Summary types",
-        "description": "CodeSystem - Medication Summary types"
+        "name": "Medication Dispense - minimal example",
+        "description": "An example of a medication dispense with the minimal amount of necessary information",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
       },
       {
         "extension": [
@@ -523,10 +709,15 @@
           }
         ],
         "reference": {
-          "reference": "MedicationDispense/example-dispense-communitypharmacy-1med"
+          "reference": "MedicationDispense/example-dispense-hospital"
         },
-        "name": "Example MedicationDispense - example-dispense-communitypharmacy-1med",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Hospital Medication Dispense",
+        "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
+        "exampleCanonical": "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense",
+        "groupingId": "medicationdispense"
       },
       {
         "extension": [
@@ -536,59 +727,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/be-vs-medication-summary-types"
+          "reference": "ValueSet/be-vs-dispenser-types"
         },
-        "name": "Medication Summary types",
-        "description": "Valueset -  Medication Summary types"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-product-package-type"
-        },
-        "description": "Naming System - Product Package Types"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MedicationDispense"
-          }
-        ],
-        "reference": {
-          "reference": "MedicationDispense/medication-dispense-hospital"
-        },
-        "name": "Example MedicationDispense - medication-dispense-hospital",
-        "exampleCanonical": "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-prescription-ids"
-        },
-        "description": "Naming System - Prescription IDs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "NamingSystem"
-          }
-        ],
-        "reference": {
-          "reference": "NamingSystem/be-ns-cnk-codes"
-        },
-        "description": "Naming System - CNK Product Codes"
+        "name": "Dispenser Types",
+        "description": "Dispenser Types - from hcparty"
       }
     ],
     "page": {
@@ -598,7 +740,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "Belgium Medication Implementation Guide Home Page",
           "generation": "html"
         },
         {
@@ -610,62 +752,6 @@
           "nameUrl": "usecases-dispense.html",
           "title": "Use Cases - Dispense",
           "generation": "markdown"
-        },
-        {
-          "nameUrl": "medicationrecord.html",
-          "title": "The Belgian Medication Record",
-          "generation": "markdown",
-          "page": [
-            {
-              "nameUrl": "medicationrecord-scenarios.html",
-              "title": "Medication Record Scenarios",
-              "generation": "markdown",
-              "page": [
-                {
-                  "nameUrl": "medicationrecord-scenario-1.html",
-                  "title": "Scenario 1 - concurrent medications",
-                  "generation": "markdown"
-                },
-                {
-                  "nameUrl": "medicationrecord-scenario-2.html",
-                  "title": "Scenario 2 - medication protocols",
-                  "generation": "markdown"
-                }
-              ]
-            },
-            {
-              "nameUrl": "medicationrecord-definitions.html",
-              "title": "Definitions - Medication Record",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "medicationrecord-requirements.html",
-              "title": "Requirements - Medication Record",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "medicationrecord-patterns.html",
-              "title": "Architectural patterns - Medication Record",
-              "generation": "markdown",
-              "page": [
-                {
-                  "nameUrl": "medicationrecord-pattern-1.html",
-                  "title": "Pattern 1 - Consult a patient's medication record",
-                  "generation": "markdown"
-                },
-                {
-                  "nameUrl": "medicationrecord-pattern-2.html",
-                  "title": "Pattern 2 - update a patient's medication record",
-                  "generation": "markdown"
-                },
-                {
-                  "nameUrl": "medicationrecord-pattern-3.html",
-                  "title": "Pattern 3 - Compile a medication record",
-                  "generation": "markdown"
-                }
-              ]
-            }
-          ]
         },
         {
           "nameUrl": "logical-models.html",
