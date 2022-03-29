@@ -213,13 +213,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Medication Dispense</a>
+         <a href="#1">Structures: Logical Models</a>
       </li>
       <li>
-         <a href="#2">Terminology: Value Sets</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Terminology: Naming Systems</a>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -228,9 +234,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Medication Dispense </h3>
+   <h3>Structures: Logical Models </h3>
    <p>
-    <p>Artifacts related to Medication Dispense:   The registration of a Dispensation event, whether in a hospital or community setting. This applies principally to prescribed medications, but may also be used to capture other medications that are dispensed - OTCs, contrast or anesthesia products used in imaging procedures, etc.</p>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
 </p>
    <p>
       <table class="grid">
@@ -239,70 +245,37 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-be-model-medication-dispense.html"
-                     title="StructureDefinition/be-model-medication-dispense">Logical Model Medication Dispense</a>
+                     title="StructureDefinition/be-model-medication-dispense">StructureDefinition/be-model-medication-dispense</a>
                </td>
                <td>
-<p>Medication Dispense entry - information captured when dispensing medication e.g. in pharmacies and hospitals</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-be-medicationdispense.html"
-                     title="StructureDefinition/be-medicationdispense">Profile - Medication Dispense</a>
-               </td>
-               <td>
-<p>Medication Dispense entry - information captured when dispensing medication e.g. in pharmacies and hospitals</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationDispense-medication-dispense-example-1.html"
-                     title="MedicationDispense/medication-dispense-example-1">Medication Dispense Example 1</a>
-               </td>
-               <td>
-<p>Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationDispense-medication-dispense-example-2.html"
-                     title="MedicationDispense/medication-dispense-example-2">Medication Dispense Example 2</a>
-               </td>
-               <td>
-<p>Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationDispense-example-dispense-communitypharmacy-1med.html"
-                     title="MedicationDispense/example-dispense-communitypharmacy-1med">Medication Dispense Example 3</a>
-               </td>
-               <td>
-<p>Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationDispense-example-minimal-dispense.html"
-                     title="MedicationDispense/example-minimal-dispense">Medication Dispense - minimal example</a>
-               </td>
-               <td>
-<p>An example of a medication dispense with the minimal amount of necessary information</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationDispense-example-dispense-hospital.html"
-                     title="MedicationDispense/example-dispense-hospital">Hospital Medication Dispense</a>
-               </td>
-               <td>
-<p>A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription</p>
+<p>This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense.</p>
 </td>
             </tr>
          </tbody>
       </table>
    </p>
    <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-be-medicationdispense.html"
+                     title="StructureDefinition/be-medicationdispense">BeMedicationDispense</a>
+               </td>
+               <td>
+<p>Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -323,7 +296,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Terminology: Naming Systems </h3>
    <p>
     <p>These define identifier and/or code system identities used by systems conforming to this implementation guide</p>
@@ -362,6 +335,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-medication-dispense-example-2.html"
+                     title="MedicationDispense/medication-dispense-example-2">Example MedicationDispense - medication-dispense-example-2</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-example-dispense-hospital.html"
+                     title="MedicationDispense/example-dispense-hospital">Example MedicationDispense - example-dispense-hospital</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-example-dispense-communitypharmacy-1med.html"
+                     title="MedicationDispense/example-dispense-communitypharmacy-1med">Example MedicationDispense - example-dispense-communitypharmacy-1med</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-example-minimal-dispense.html"
+                     title="MedicationDispense/example-minimal-dispense">Example MedicationDispense - example-minimal-dispense</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
 </div>
 
 </div>
@@ -384,7 +393,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium/eHealth Platform</a>.  Package hl7.fhir.be.medication#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 29, 2022 15:24+0000">2022-03-29</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium/eHealth Platform</a>.  Package hl7.fhir.be.medication#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 29, 2022 15:29+0000">2022-03-29</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
