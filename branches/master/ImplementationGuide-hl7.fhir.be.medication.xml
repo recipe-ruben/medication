@@ -3,41 +3,58 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.be.medication"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BEMedicationIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>ImplementationGuide for HL7 Belgium Medication Work Group</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>
 </div></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication"/>
-  <version value="0.2.0"/>
-  <name value="BEMedicationIG"/>
-  <title value="HL7 Belgium Medication Implementation Guide"/>
-  <status value="draft"/>
-  <experimental value="false"/>
-  <date value="2022-03-29T15:40:06+00:00"/>
-  <publisher value="HL7 Belgium/eHealth Platform"/>
+  <version value="1.0.0"/>
+  <name value="Medication"/>
+  <title value="Medication"/>
+  <status value="active"/>
+  <date value="2020-02-26"/>
+  <publisher value="eHealth Platform"/>
   <contact>
+    <name value="eHealth Platform"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7belgium.org"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
-  <description value="ImplementationGuide for HL7 Belgium Medication Work Group"/>
+  <contact>
+    <name value="Message Structure eHealth"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Medication"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="BE"/>
+      <display value="Belgium"/>
     </coding>
-    <text value="Belgium"/>
   </jurisdiction>
   <packageId value="hl7.fhir.be.medication"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7_fhir_be_core">
+    <uri value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core"/>
+    <packageId value="hl7.fhir.be.core"/>
+    <version value="2.0.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2019+"/>
+        <valueString value="2021+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -45,20 +62,12 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ReleaseCandidate"/>
+        <valueString value="STU1"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-binary"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input\cql"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="excludettl"/>
+        <valueString value="shownav"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -66,10 +75,34 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="show-inherited-invariants"/>
+        <valueString value="apply-contact"/>
       </extension>
       <extension url="value">
-        <valueString value="false"/>
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -133,7 +166,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://www.ehealth.fgov.be/standards/fhir/medication/history.html"/>
+        <valueString value="history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -154,14 +187,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="apply-context"/>
       </extension>
       <extension url="value">
@@ -178,31 +203,7 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="apply-license"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-version"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -234,45 +235,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/medication-dispense-example-2"/>
-      </reference>
-      <name value="Example MedicationDispense - medication-dispense-example-2"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/example-dispense-hospital"/>
-      </reference>
-      <name value="Example MedicationDispense - example-dispense-hospital"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-cnk-codes"/>
-      </reference>
-      <description value="Naming System - CNK Product Codes"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
-      </reference>
-      <name value="Example MedicationDispense - example-dispense-communitypharmacy-1med"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -280,43 +242,7 @@
       </reference>
       <name value="BeMedicationDispense"/>
       <description value="Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/example-minimal-dispense"/>
-      </reference>
-      <name value="Example MedicationDispense - example-minimal-dispense"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-product-package-type"/>
-      </reference>
-      <description value="Naming System - Product Package Types"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="NamingSystem"/>
-      </extension>
-      <reference>
-        <reference value="NamingSystem/be-ns-prescription-ids"/>
-      </reference>
-      <description value="Naming System - Prescription IDs"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-model-medication-dispense"/>
-      </reference>
-      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -327,6 +253,106 @@
       </reference>
       <name value="Dispenser Types"/>
       <description value="Dispenser Types - from hcparty"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medication-dispense"/>
+      </reference>
+      <name value="be-model-medication-dispense"/>
+      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-cnk-codes"/>
+      </reference>
+      <name value="be-ns-cnk-codes"/>
+      <description value="Naming System - CNK Product Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-cti-extended-code"/>
+      </reference>
+      <name value="be-ns-cti-extended-code"/>
+      <description value="Naming System - CTI Extended Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-prescription-ids"/>
+      </reference>
+      <name value="be-ns-prescription-ids"/>
+      <description value="Naming System - Prescription IDs"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ns-product-package-type"/>
+      </reference>
+      <name value="be-ns-product-package-type"/>
+      <description value="Naming System - Prescription IDs"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
+      </reference>
+      <name value="Dispense entry Example - Community Pharmacy dispense, from prescription"/>
+      <description value="Medication Dispense example"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-dispense-hospital"/>
+      </reference>
+      <name value="A dispense from a hospital pharmacy"/>
+      <description value="A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-minimal-dispense"/>
+      </reference>
+      <name value="Dispense Example - Minimal amount of information"/>
+      <description value="Medication Dispense example"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/medication-dispense-example-2"/>
+      </reference>
+      <name value="Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org."/>
+      <description value="Medication Dispense example"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
@@ -334,18 +360,18 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Belgium Medication Implementation Guide Home Page"/>
+        <title value="Home"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="howto.html"/>
-        <title value="How to read this document"/>
+        <title value="Howto"/>
         <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="usecases-dispense.html"/>
-        <title value="Use Cases - Dispense"/>
-        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="logical-models.html"/>
@@ -353,9 +379,59 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
-        <generation value="html"/>
+        <nameUrl value="medicationrecord.html"/>
+        <title value="Medicationrecord"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-definitions.html"/>
+        <title value="Medicationrecord Definitions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-pattern-1.html"/>
+        <title value="Medicationrecord Pattern 1"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-pattern-2.html"/>
+        <title value="Medicationrecord Pattern 2"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-pattern-3.html"/>
+        <title value="Medicationrecord Pattern 3"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-patterns.html"/>
+        <title value="Medicationrecord Patterns"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-requirements.html"/>
+        <title value="Medicationrecord Requirements"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-scenario-1.html"/>
+        <title value="Medicationrecord Scenario 1"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-scenario-2.html"/>
+        <title value="Medicationrecord Scenario 2"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="medicationrecord-scenarios.html"/>
+        <title value="Medicationrecord Scenarios"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="usecases-dispense.html"/>
+        <title value="Usecases Dispense"/>
+        <generation value="markdown"/>
       </page>
     </page>
     <parameter>
