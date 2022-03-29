@@ -11,13 +11,13 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "BeModelMedicationDispense.identifier","","","",0,1,"","","","Identifier {[]} {[]}
 ","The business identifier(s) for the medication dispense session","The business identifier(s) for the medication dispense session, also known as Session GUID (SGUID).","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.identifier",0,1,"",""
-"BeModelMedicationDispense.patient","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient]]}
+"BeModelMedicationDispense.patient","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient]]}
 ","The person for which the medication is dispensed.","The person for which the medication is dispensed.","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.patient",1,1,"",""
 "BeModelMedicationDispense.dispenser","","","",0,1,"","","","Reference {[]} {[]}
 ","The dispenser, if known and relevant",".","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.dispenser",0,1,"",""
-"BeModelMedicationDispense.dispenser.dispenser","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner]]}
+"BeModelMedicationDispense.dispenser.dispenser","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner]]}
 ","Reference to person that performed the recording or reporting","Who was responsible for asserting the observed value as ""true"". (Reference)","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.dispenser.dispenser",1,1,"",""
-"BeModelMedicationDispense.dispenser.organization","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization]]}
+"BeModelMedicationDispense.dispenser.organization","","","",1,1,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization]]}
 ","Reference to person that performed the recording or reporting","Who was responsible for asserting the observed value as ""true"". (Reference)","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.dispenser.organization",1,1,"",""
 "BeModelMedicationDispense.dispenseDate","","","",1,1,"","","","dateTime {[CanonicalType[http://hl7.org/fhir/StructureDefinition/dateTime]]} {[]}
 ","The date when the dispense ocurred","The date (or date-time) when the dispense ocurred","","","","","","","","","",,,,,"",,,,"BeModelMedicationDispense.dispenseDate",1,1,"",""
