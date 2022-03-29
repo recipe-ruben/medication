@@ -3,7 +3,7 @@
 
 err = 1, warn = 26, info = 12
 IG Publisher Version: 1.1.113
-Generated Tue Mar 29 12:12:26 UTC 2022. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+Generated Tue Mar 29 12:23:39 UTC 2022. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
  Build Errors : 13 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3

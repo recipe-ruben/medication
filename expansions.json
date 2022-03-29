@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "f7504df7-24c5-49f1-82e6-5eff0a1e1252",
+  "id" : "3d8225de-1f0f-45d6-b310-6c021d2b110c",
   "meta" : {
-    "lastUpdated" : "2022-03-29T12:11:46.605+00:00"
+    "lastUpdated" : "2022-03-29T12:22:58.239+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "DispenserTypes",
       "title" : "Dispenser Types",
       "status" : "active",
-      "date" : "2022-03-29T12:11:46+00:00",
+      "date" : "2022-03-29T12:22:58+00:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -36,8 +36,8 @@
         "text" : "Belgium"
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5f00de4f-92b0-4d98-a06f-eb15eac34ded",
-        "timestamp" : "2022-03-29T12:12:16+00:00",
+        "identifier" : "urn:uuid:e9e2d63b-c59e-4f7e-a5f5-03d485a311bd",
+        "timestamp" : "2022-03-29T12:23:29+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
