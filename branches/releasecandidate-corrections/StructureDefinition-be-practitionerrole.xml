@@ -33,7 +33,7 @@ If needed codes can be used from a different system, SNOMED-CT is preferred.">co
   <version value="0.2.0"/>
   <name value="BePractitionerRole"/>
   <status value="active"/>
-  <date value="2022-03-29T12:06:51+00:00"/>
+  <date value="2022-03-29T12:11:46+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
