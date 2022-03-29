@@ -12,7 +12,7 @@
   <title value="HL7 Belgium Medication Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-03-29T15:24:43+00:00"/>
+  <date value="2022-03-29T15:29:46+00:00"/>
   <publisher value="HL7 Belgium/eHealth Platform"/>
   <contact>
     <telecom>
@@ -232,55 +232,6 @@
         <valueString value="true"/>
       </extension>
     </extension>
-    <grouping id="medicationdispense">
-      <name value="Medication Dispense"/>
-      <description value="Artifacts related to Medication Dispense:   The registration of a Dispensation event, whether in a hospital or community setting. This applies principally to prescribed medications, but may also be used to capture other medications that are dispensed - OTCs, contrast or anesthesia products used in imaging procedures, etc."/>
-    </grouping>
-    <grouping id="vocabulary">
-      <name value="Vocabulary"/>
-      <description value="Terminology and Vocabulary"/>
-    </grouping>
-    <grouping id="dependencies">
-      <name value="Dependencies"/>
-      <description value="External dependencies"/>
-    </grouping>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-model-medication-dispense"/>
-      </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Logical Model Medication Dispense"/>
-      <description value="Medication Dispense entry - information captured when dispensing medication e.g. in pharmacies and hospitals"/>
-      <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-medicationdispense"/>
-      </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Profile - Medication Dispense"/>
-      <description value="Medication Dispense entry - information captured when dispensing medication e.g. in pharmacies and hospitals"/>
-      <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/medication-dispense-example-1"/>
-      </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Medication Dispense Example 1"/>
-      <description value="Medication Dispense Example 1 - a simple example of a dispensation in a pharmacy"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-      <groupingId value="medicationdispense"/>
-    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
@@ -288,37 +239,8 @@
       <reference>
         <reference value="MedicationDispense/medication-dispense-example-2"/>
       </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Medication Dispense Example 2"/>
-      <description value="Medication Dispense Example 2 - a simple example of a dispensation in a pharmacy - with a geolocation"/>
+      <name value="Example MedicationDispense - medication-dispense-example-2"/>
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-      <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
-      </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Medication Dispense Example 3"/>
-      <description value="Medication Dispense Example 3 - a simple example of a dispensation in a pharmacy - with a geolocation"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-      <groupingId value="medicationdispense"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/example-minimal-dispense"/>
-      </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Medication Dispense - minimal example"/>
-      <description value="An example of a medication dispense with the minimal amount of necessary information"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-      <groupingId value="medicationdispense"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -327,11 +249,8 @@
       <reference>
         <reference value="MedicationDispense/example-dispense-hospital"/>
       </reference>
-      <fhirVersion value="4.0.1"/>
-      <name value="Hospital Medication Dispense"/>
-      <description value="A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription"/>
+      <name value="Example MedicationDispense - example-dispense-hospital"/>
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-      <groupingId value="medicationdispense"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -341,6 +260,36 @@
         <reference value="NamingSystem/be-ns-cnk-codes"/>
       </reference>
       <description value="Naming System - CNK Product Codes"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-dispense-communitypharmacy-1med"/>
+      </reference>
+      <name value="Example MedicationDispense - example-dispense-communitypharmacy-1med"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-medicationdispense"/>
+      </reference>
+      <name value="BeMedicationDispense"/>
+      <description value="Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/example-minimal-dispense"/>
+      </reference>
+      <name value="Example MedicationDispense - example-minimal-dispense"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -359,6 +308,15 @@
         <reference value="NamingSystem/be-ns-prescription-ids"/>
       </reference>
       <description value="Naming System - Prescription IDs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medication-dispense"/>
+      </reference>
+      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

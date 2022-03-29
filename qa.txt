@@ -1,10 +1,10 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 6, warn = 27, info = 11
+err = 7, warn = 29, info = 9
 IG Publisher Version: 1.1.113
-Generated Tue Mar 29 15:27:35 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.medication#0.2.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
- Build Errors : 3 / 0 / 0
+Generated Tue Mar 29 15:32:27 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.medication#0.2.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+ Build Errors : 4 / 4 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-minimal-dispense : 0 / 0 / 2
@@ -15,13 +15,17 @@ Generated Tue Mar 29 15:27:35 UTC 2022. FHIR version 4.0.1 for hl7.fhir.be.medic
  /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense : 0 / 12 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-vs-dispenser-types : 0 / 2 / 1
- /github/workspace/input/examples/MedicationDispense/medication-dispense-example-1 : 0 / 2 / 3
  /github/workspace/input/hl7.fhir.be.medication : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/medication-dispense-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-dispense-hospital.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-cnk-codes.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-dispense-communitypharmacy-1med.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-minimal-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-product-package-type.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource NamingSystem/be-ns-prescription-ids.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/be-model-medication-dispense.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -69,9 +73,4 @@ WARNING: StructureDefinition/be-model-medication-dispense: StructureDefinition.s
 == fsh-generated/resources/ValueSet-be-vs-dispenser-types.json ==
 WARNING: ValueSet/be-vs-dispenser-types: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 WARNING: ValueSet.where(id = 'be-vs-dispenser-types'): Error from server: Unable to provide support for code system https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty
-== input/examples/MedicationDispense/medication-dispense-example-1.json ==
-WARNING: MedicationDispense/medication-dispense-example-1: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
-WARNING: MedicationDispense/medication-dispense-example-1: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: MedicationDispense/medication-dispense-example-1: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == input/hl7.fhir.be.medication.xml ==
