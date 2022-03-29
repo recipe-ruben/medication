@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="dd167fcc-85a7-4bbb-8616-de91899f8684"/>
+  <id value="d0d587ef-f502-470d-8115-62ca31ebeda2"/>
   <meta>
-    <lastUpdated value="2021-10-27T14:12:07.838+00:00"/>
+    <lastUpdated value="2022-03-29T12:06:51.766+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -31,65 +31,55 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptpharmacy"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptpharmacy"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-deptpharmacy">deptpharmacy</a>
                 </td>
                 <td>Pharmacy service or department within an organisation</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacist"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacist"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacist">perspharmacist</a>
                 </td>
                 <td>pharmacist</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-orgpharmacy"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-orgpharmacy"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-orgpharmacy">orgpharmacy</a>
                 </td>
                 <td>Independent pharmacy</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacyassistant"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacyassistant"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacyassistant">perspharmacyassistant</a>
                 </td>
                 <td>pharmacy assistant</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacistclinicalbiologist">perspharmacistclinicalbiologist</a>
                 </td>
                 <td>pharmacist-clinical biologist</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-persdentist"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-persdentist"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-persdentist">persdentist</a>
                 </td>
                 <td>dentist</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptdentistry"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-hcparty-deptdentistry"> </a>  
                   <a href="CodeSystem-cd-hcparty.html#cd-hcparty-deptdentistry">deptdentistry</a>
                 </td>
                 <td>dentistry</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -99,7 +89,7 @@
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="active"/>
-        <date value="2021-10-27T14:12:07+00:00"/>
+        <date value="2022-03-29T12:06:51+00:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -116,8 +106,8 @@
           <text value="Belgium"/>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:378f3a56-2002-4408-9a05-e431622d448a"/>
-          <timestamp value="2021-10-27T14:12:34+00:00"/>
+          <identifier value="urn:uuid:43e783c4-09e7-475d-90d9-c1c3ce572618"/>
+          <timestamp value="2022-03-29T12:07:26+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

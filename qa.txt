@@ -1,9 +1,9 @@
 ﻿BEMedicationIG : Validation Results
 =========================================
 
-err = 1, warn = 26, info = 11
-IG Publisher Version: 1.1.83
-Generated Wed Oct 27 14:12:48 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
+err = 1, warn = 26, info = 12
+IG Publisher Version: 1.1.113
+Generated Tue Mar 29 12:07:38 UTC 2022. FHIR version 4.0.1 for hl7.be.fhir.medicationig#0.2.0 (canonical = https://www.hl7belgium.org/fhir)
  Build Errors : 13 / 0 / 0
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 0 / 3
@@ -23,22 +23,22 @@ Generated Wed Oct 27 14:12:48 UTC 2021. FHIR version 4.0.1 for hl7.be.fhir.medic
  /github/workspace/input/resources/StructureDefinition-be-practitionerrole : 0 / 1 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-organization : 0 / 0 / 1
  /github/workspace/input/vocabulary/be-ns-nihdi-professional : 0 / 0 / 1
- /github/workspace/input/vocabulary/cd-hcparty : 0 / 0 / 1
+ /github/workspace/input/vocabulary/cd-hcparty : 0 / 0 / 2
 </table>
 == n/a ==
 ERROR: ?pkp-1?: The reference https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address could not be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 383, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 467, column 717: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 677, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 761, column 717: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 398, column 784: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 499, column 802: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 775, column 784: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 876, column 802: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 372, column 1310: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 435, column 727: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 613, column 1310: The link 'unknown.html' for "?pkp-2?" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 676, column 727: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 429, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 717: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 723, column 665: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 807, column 717: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 444, column 784: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 545, column 802: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 821, column 784: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 922, column 802: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 418, column 1310: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 481, column 727: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 659, column 1310: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-be-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 722, column 727: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -95,3 +95,4 @@ WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/
 == input/vocabulary/be-ns-nihdi-organization.json ==
 == input/vocabulary/be-ns-nihdi-professional.json ==
 == input/vocabulary/cd-hcparty.json ==
+INFORMATION: CodeSystem/cd-hcparty: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
