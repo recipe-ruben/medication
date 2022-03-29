@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "DispenserTypes"];
   fhir:ValueSet.title [ fhir:value "Dispenser Types"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-03-29T14:38:19+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-03-29T15:00:59+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Belgium/eHealth Platform"];
   fhir:ValueSet.contact [
      fhir:index 0;
