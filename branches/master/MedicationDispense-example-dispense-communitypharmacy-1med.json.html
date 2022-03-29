@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.BE.FHIR.MEDICATIONIG\Example MedicationDispense - example-dispense-communitypharmacy-1med - JSON Representation - FHIR v4.0.1</title>
+    <title>HL7.BE.FHIR.MEDICATIONIG\Medication Dispense Example 3 - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,8 +49,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.12"}
-    h3,h4,h5,h6{--heading-prefix:"7.12"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.5"}
+    h3,h4,h5,h6{--heading-prefix:"6.5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -75,7 +75,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">HL7 Belgium Medication Implementation Guide</span><br/>0.2.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 Belgium Medication Implementation Guide</span><br/>0.2.0 - ReleaseCandidate</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -121,7 +121,7 @@
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="usecases.html">Use Cases</a>
+				<a href="usecases-dispense.html">Use Cases</a>
 			</li>
 			<li>
 				<a href="logical-models.html">Logical Models</a>
@@ -183,7 +183,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example MedicationDispense - example-dispense-communitypharmacy-1med</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medication Dispense Example 3</b></li>
           
         </ul>
       </div>  <!-- /container -->
@@ -196,7 +196,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">HL7 Belgium Medication Implementation Guide - Local Development build (v0.2.0). See the <a href="https://www.hl7belgium.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -233,7 +233,20 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Example MedicationDispense - example-dispense-communitypharmacy-1med - JSON Representation</h2>
+<h2 id="root">: Medication Dispense Example 3 - JSON Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 <p><a href="MedicationDispense-example-dispense-communitypharmacy-1med.json" no-download="true">Raw json</a> | <a href="MedicationDispense-example-dispense-communitypharmacy-1med.json" download>Download</a></p>
 
@@ -248,13 +261,13 @@
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.id">id</a>" : "example-dispense-communitypharmacy-1med",
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationdispense"
+      "https://www.hl7belgium.org/fhir/StructureDefinition/be-medicationdispense"
     ]
   },
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.language">language</a>" : "fr-BE",
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: dguid: a8ca980c-72aa-11e7-8cf7-a6006ad3dba0&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;span title=\&quot;Codes: {https://cnk.apb.be/codings/cnk_product_codes 1439562}\&quot;&gt;Topazolam tab 50x 1,0mg&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;context&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;span&gt;Jan Janssen&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;span&gt;Apotheek onder de toren&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;authorizingPrescription&lt;/b&gt;: &lt;span&gt;Prescription&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1 package&lt;/p&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: 2020-03-10&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource \&quot;example-dispense-communitypharmacy-1med\&quot;  (Language \&quot;fr-BE\&quot;) &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-be-medicationdispense.html\&quot;&gt;BeMedicationDispense&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: dguid: a8ca980c-72aa-11e7-8cf7-a6006ad3dba0&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: Topazolam tab 50x 1,0mg &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (cnk_product_codes#1439562)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;context&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;span&gt;: Jan Janssen&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;span&gt;: Apotheek onder de toren&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;authorizingPrescription&lt;/b&gt;: &lt;span&gt;: Prescription&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1(unit package from https://www.gfd-dpp.be/fhir/reference/packaging)&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: https://www.gfd-dpp.be/fhir/reference/packaging code package = 'package')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: 2020-03-10&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.identifier">identifier</a>" : [
     {
@@ -400,13 +413,13 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 27, 2021 14:10+0000">2021-10-27</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7belgium.org">HL7 Belgium</a>.  Package hl7.be.fhir.medicationig#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 29, 2022 12:22+0000">2022-03-29</span>
           <br/>
           <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://github.com/hl7-be/hl7-be-fhir-medication/projects/1">Issues</a> |
-
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/hl7-be/hl7-be-fhir-medication/projects/1">Issues</a>
+                
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->
@@ -434,7 +447,8 @@ anchors.add()</script>
 
   
     
-      <script type="text/javascript">
+    <script type="text/javascript">
+     /* <![CDATA[ */
         $(':header[id]').each(function() { // apply this to each heading
           var id = $(this).attr('id');
           var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSfFeLMvb7wmUDGa181obPb04Igny75iqSy2jMSp6Wg40LKWjw/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
@@ -442,60 +456,60 @@ anchors.add()</script>
           
             
               feedbacklabel = 'Feedback';  // The feedback label is a string
-            ;
+            
 
             
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
+              var parameterFieldId = '';
+              var parameterVariableName = '';
+              var parameterValue = '';
+              parameterFieldId = 'entry.'+parseInt(1353807103).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
+              parameterVariableName = 'pageTitle';
+
+              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
+                default:
+                    console.log("Parameter value not supported");
+                    break;
+                  case "pageTitle":
+                    parameterValue = encodeURIComponent($(document).attr('title'));
+                    break;
+                  case "sectionId":
+                    parameterValue = id;
+                    break;
+                  case "sectionName":
+                    parameterValue = document.getElementById(id).textContent;
+                    break;
+              }
 /* <![CDATA[ */
-            parameterFieldId = 'entry.'+parseInt(1353807103).toString() // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-            parameterVariableName = 'pageTitle' 
+              feedbackurl = feedbackurl + '&';
+              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
 /* ]]> */
-
-            switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-              default:
-                  console.log("Parameter value not supported");
-                  break;
-                case "pageTitle":
-                  parameterValue = encodeURIComponent($(document).attr('title'));
-                  break;
-                case "sectionId":
-                  parameterValue = id;
-                  break;
-                case "sectionName":
-                  parameterValue = document.getElementById(id).textContent;
-                  break;
-            }
-            feedbackurl = feedbackurl + '&';
-            feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
             
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
+              var parameterFieldId = '';
+              var parameterVariableName = '';
+              var parameterValue = '';
+              parameterFieldId = 'entry.'+parseInt(247644557).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
+              parameterVariableName = 'sectionName';
+
+              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
+                default:
+                    console.log("Parameter value not supported");
+                    break;
+                  case "pageTitle":
+                    parameterValue = encodeURIComponent($(document).attr('title'));
+                    break;
+                  case "sectionId":
+                    parameterValue = id;
+                    break;
+                  case "sectionName":
+                    parameterValue = document.getElementById(id).textContent;
+                    break;
+              }
 /* <![CDATA[ */
-            parameterFieldId = 'entry.'+parseInt(247644557).toString() // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-            parameterVariableName = 'sectionName' 
+              feedbackurl = feedbackurl + '&';
+              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
 /* ]]> */
-
-            switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-              default:
-                  console.log("Parameter value not supported");
-                  break;
-                case "pageTitle":
-                  parameterValue = encodeURIComponent($(document).attr('title'));
-                  break;
-                case "sectionId":
-                  parameterValue = id;
-                  break;
-                case "sectionName":
-                  parameterValue = document.getElementById(id).textContent;
-                  break;
-            }
-            feedbackurl = feedbackurl + '&';
-            feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
             
-          
+            
           if (id) { //To make sure the element has an id
             $(this).append(function () {
               return $('<a/>', {
@@ -509,7 +523,8 @@ anchors.add()</script>
               });
             });
           }
-        })
+        }) 
+/* ]]> */
       </script>  
     
   
