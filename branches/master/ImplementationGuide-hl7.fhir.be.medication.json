@@ -60,6 +60,12 @@
       "uri": "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
       "packageId": "hl7.fhir.be.core",
       "version": "2.0.0"
+    },
+    {
+      "id": "hl7_terminology",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology",
+      "version": "current"
     }
   ],
   "definition": {
@@ -355,6 +361,19 @@
           {
             "url": "code",
             "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
           },
           {
             "url": "value",
