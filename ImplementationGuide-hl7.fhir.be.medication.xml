@@ -51,7 +51,7 @@
   <dependsOn id="hl7_terminology">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology"/>
-    <version value="2.0.0"/>
+    <version value="current"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

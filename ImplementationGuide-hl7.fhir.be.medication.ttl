@@ -74,7 +74,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "2.0.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
