@@ -1,9 +1,9 @@
 {
-  "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication",
+  "url": "https://www.ehealth.fgov.be/standards/fhir/medication",
   "name": "Medication",
   "package-id": "hl7.fhir.be.medication",
   "ig-ver": "1.0.0",
-  "date": "Fri, 06 May, 2022 12:01:36 +0000",
+  "date": "Fri, 06 May, 2022 14:52:18 +0000",
   "errs": 0,
   "warnings": 6,
   "hints": 11,

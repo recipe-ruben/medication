@@ -2,35 +2,35 @@
   {
     "id": "hl7.fhir.be.medication",
     "type": "ImplementationGuide",
-    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication",
     "version": "1.0.0",
     "name": "Medication"
   },
   {
     "id": "be-ns-cnk-codes",
     "type": "NamingSystem",
-    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-cnk-codes",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cnk-codes",
     "version": "1.0.0",
     "name": "BeNSCNK"
   },
   {
     "id": "be-ns-cti-extended-code",
     "type": "NamingSystem",
-    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-cti-extended-code",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cti-extended-code",
     "version": "1.0.0",
     "name": "BeNSCTIExtended"
   },
   {
     "id": "be-ns-prescription-ids",
     "type": "NamingSystem",
-    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-prescription-ids",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-prescription-ids",
     "version": "1.0.0",
     "name": "BeNSPrescriptions"
   },
   {
     "id": "be-ns-product-package-type",
     "type": "NamingSystem",
-    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-product-package-type",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-product-package-type",
     "version": "1.0.0",
     "name": "BeNSProductPackage"
   },
