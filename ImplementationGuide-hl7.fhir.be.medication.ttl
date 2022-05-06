@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication> a fhir:ImplementationGuide;
+<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "hl7.fhir.be.medication"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication"];
+  fhir:ImplementationGuide.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "Medication"];
   fhir:ImplementationGuide.title [ fhir:value "Medication"];
@@ -74,7 +74,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -254,7 +254,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -374,7 +374,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>;
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/StructureDefinition/be-medicationdispense>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/be-medicationdispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BeMedicationDispense" ];
@@ -388,7 +388,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types>;
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ValueSet/be-vs-dispenser-types>;
          fhir:Reference.reference [ fhir:value "ValueSet/be-vs-dispenser-types" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispenser Types" ];
@@ -399,28 +399,27 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+         fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medication-dispense>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/be-model-medication-dispense" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/Organization/apotheek-onder-de-toren>;
+         fhir:Reference.reference [ fhir:value "Organization/apotheek-onder-de-toren" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-model-medication-dispense" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "apotheek-onder-de-toren" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cnk-codes>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cnk-codes" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/StructureDefinition/be-model-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/be-model-medication-dispense" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-cnk-codes" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CNK Product Codes" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-model-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -430,11 +429,11 @@
          fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cti-extended-code>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cti-extended-code" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-cnk-codes>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cnk-codes" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-cti-extended-code" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CTI Extended Codes" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-cnk-codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CNK Product Codes" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 5;
@@ -444,11 +443,11 @@
          fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-prescription-ids>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-prescription-ids" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-cti-extended-code>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-cti-extended-code" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-prescription-ids" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-cti-extended-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CTI Extended Codes" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 6;
@@ -458,10 +457,10 @@
          fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-product-package-type>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-product-package-type" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-prescription-ids>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-prescription-ids" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-product-package-type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-prescription-ids" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -469,18 +468,15 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-communitypharmacy-1med>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-communitypharmacy-1med" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/NamingSystem/be-ns-product-package-type>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/be-ns-product-package-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense entry Example - Community Pharmacy dispense, from prescription" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
-       ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-ns-product-package-type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
        fhir:Element.extension [
@@ -489,11 +485,11 @@
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-hospital>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-hospital" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-dispense-communitypharmacy-1med>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-communitypharmacy-1med" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "A dispense from a hospital pharmacy" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense entry Example - Community Pharmacy dispense, from prescription" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
@@ -506,11 +502,11 @@
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-minimal-dispense>;
-         fhir:Reference.reference [ fhir:value "MedicationDispense/example-minimal-dispense" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-dispense-hospital>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-hospital" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense Example - Minimal amount of information" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "A dispense from a hospital pharmacy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
@@ -523,7 +519,41 @@
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/medication-dispense-example-2>;
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-dispense-with-atc>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-with-atc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense Example - Minimal amount of information" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example with ATC code" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-minimal-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-minimal-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense Example - Minimal amount of information" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
+       ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/medication-dispense-example-2>;
          fhir:Reference.reference [ fhir:value "MedicationDispense/medication-dispense-example-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org." ];
@@ -679,7 +709,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication.ttl> a owl:Ontology;
+<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
