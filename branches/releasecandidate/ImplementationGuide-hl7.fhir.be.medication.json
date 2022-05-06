@@ -3,9 +3,9 @@
   "id": "hl7.fhir.be.medication",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
   },
-  "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/ImplementationGuide/hl7.fhir.be.medication",
+  "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication",
   "version": "1.0.0",
   "name": "Medication",
   "title": "Medication",
@@ -260,7 +260,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://www.ehealth.fgov.be/standards/fhir/medication/history.html"
+            "valueString": "history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

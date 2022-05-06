@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/StructureDefinition/be-medicationdispense> a fhir:StructureDefinition;
+<https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "be-medicationdispense"];
   fhir:DomainResource.text [
@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "BeMedicationDispense"];
   fhir:StructureDefinition.title [ fhir:value "BeMedicationDispense"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-06T12:01:36+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-06T14:52:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "eHealth Platform"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -6323,7 +6323,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/StructureDefinition/be-medicationdispense.ttl> a owl:Ontology;
+<https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

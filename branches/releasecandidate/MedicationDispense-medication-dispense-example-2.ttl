@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/medication-dispense-example-2> a fhir:MedicationDispense;
+<https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/medication-dispense-example-2> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "medication-dispense-example-2"];
   fhir:Resource.meta [
@@ -141,7 +141,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/medication-dispense-example-2.ttl> a owl:Ontology;
+<https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/medication-dispense-example-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

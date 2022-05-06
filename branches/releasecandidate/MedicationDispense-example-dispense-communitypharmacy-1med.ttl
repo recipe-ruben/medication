@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-dispense-communitypharmacy-1med> a fhir:MedicationDispense;
+<https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-communitypharmacy-1med> a fhir:MedicationDispense;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-dispense-communitypharmacy-1med"];
   fhir:Resource.meta [
@@ -132,7 +132,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/MedicationDispense/example-dispense-communitypharmacy-1med.ttl> a owl:Ontology;
+<https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-communitypharmacy-1med.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
