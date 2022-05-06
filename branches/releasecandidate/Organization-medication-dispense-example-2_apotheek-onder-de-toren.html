@@ -20,6 +20,8 @@
   	<link rel="stylesheet" href="assets/css/prism.css"/>
       <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/hl7-be.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/ehealth.css"/>
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
   <!-- Questionnaire: -->
@@ -45,30 +47,23 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"16.11.1"}
-    h3,h4,h5,h6{--heading-prefix:"16.11.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"16.13.1"}
+    h3,h4,h5,h6{--heading-prefix:"16.13.1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
 
         <div id="ig-nav">
-          <a no-external="true" id="hl7-logo" href="https://hl7-be.github.io">
-            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
+          <a no-external="true" id="standards-logo" href="index.html">
+            <img src="assets/images/standards.svg" alt="Welcome on standards website" height="50"/>
           </a>
         </div>
-        <div id="fhir-nav">
-          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+  <!-- <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="ig-search">
-          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
-        </div>
-  <!-- Left logo - typically the publisher's logo - project or affiliate -->
-        <div id="project-nav">
-          <a no-external="true" id="project-logo" href="http://hl7belgium.org">
-            <img src="assets/images/meds.png" alt="Project home" height="71"/>
-          </a>
-        </div>
-
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div> -->
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Medication</span><br/>1.0.0 - STU1</p>
@@ -175,7 +170,7 @@
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><a href="MedicationDispense-medication-dispense-example-2.html"><b>Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org.</b></a></li><li><b>Organization</b></li>
           
-          <span style="float:right;"><a name="l303">​</a>
+          <span style="float:right;">
 
             <a href="MedicationDispense-medication-dispense-example-2.ttl.html">&lt;prev</a> | 
 
@@ -194,7 +189,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Medication - Local Development build (v1.0.0). See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Medication - Local Development build (v1.0.0). See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide-hl7.fhir.be.medication/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
   
 
@@ -213,21 +208,21 @@
 
 
   
-    <li><a name="l351">​</a>
+    <li><a name="l334">​</a>
       <a href="Organization-medication-dispense-example-2_apotheek-onder-de-toren.xml.html">XML</a>
     </li>
   
 
 
   
-    <li><a name="l357">​</a>
+    <li><a name="l340">​</a>
       <a href="Organization-medication-dispense-example-2_apotheek-onder-de-toren.json.html">JSON</a>
     </li>
   
 
 
   
-    <li><a name="l363">​</a>
+    <li><a name="l346">​</a>
       <a href="Organization-medication-dispense-example-2_apotheek-onder-de-toren.ttl.html">TTL</a>
     </li>
   
@@ -289,22 +284,53 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&nbsp;
+
+                <a href="MedicationDispense-medication-dispense-example-2.ttl.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&nbsp;
+
+                <span style="visibility:hidden">next&gt;</span>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be/standards/fhir">eHealth Platform</a>.  Package hl7.fhir.be.medication#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 6, 2022 09:22+0000">2022-05-06</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ehealth.fgov.be/standards/fhir">eHealth Platform</a>.  Package hl7.fhir.be.medication#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 6, 2022 12:01+0000">2022-05-06</span>
           <br/>
-          <span style="color: #FFFF77">
+          <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                   | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/hl7-be/hl7-be-fhir-medication/projects/1" target="_blank">Issues</a>
-                
-          </span>
-        </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+
+
+                 <a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
+                     <img src="assets/images/logo-be.png" alt="belgium.be">
+                 
+                 <a style="text-decoration:none" id="ehealth-logo" href="https://www.ehealth.fgov.be">
+                     <img src="assets/images/logo-ehealth.png" alt="Welcome to ehealth website" height="50"/>
+                 </a>
+          
+        
+          <!-- /inner-wrapper -->
+        <!-- /container -->
+      <!-- /segment-footer -->
   
   <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
     <div class="container">    <!-- container -->
@@ -318,6 +344,8 @@
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
@@ -415,5 +443,7 @@ anchors.add()</script>
 
     <!-- Analytics Below
   ================================================== -->
-  </body>
-</html>
+  
+
+
+</img></a></p></div></div></div></body></html>
