@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ab738e04-7a46-4887-b240-23409a9c1d53",
+  "id" : "6186402e-3108-44c2-b310-7f9c934d2894",
   "meta" : {
-    "lastUpdated" : "2022-06-17T12:47:22.234+00:00"
+    "lastUpdated" : "2022-06-17T12:53:33.598+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,7 +23,7 @@
       "name" : "DispenserTypes",
       "title" : "Dispenser Types",
       "status" : "active",
-      "date" : "2022-06-17T12:47:22+00:00",
+      "date" : "2022-06-17T12:53:33+00:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "name" : "eHealth Platform",
@@ -53,8 +53,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4722b19a-dde4-468f-829c-030bc8ef5382",
-        "timestamp" : "2022-06-17T12:47:46+00:00",
+        "identifier" : "urn:uuid:c73da6e6-9531-49c8-9637-f3c40476c9db",
+        "timestamp" : "2022-06-17T12:53:58+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
