@@ -3,7 +3,7 @@
   "name": "Medication",
   "package-id": "hl7.fhir.be.medication",
   "ig-ver": "1.0.0",
-  "date": "Fri, 06 May, 2022 14:52:18 +0000",
+  "date": "Fri, 17 Jun, 2022 12:47:22 +0000",
   "errs": 0,
   "warnings": 6,
   "hints": 11,

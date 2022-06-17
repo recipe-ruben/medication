@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f8a25c71-decc-4f28-b820-11a2cee55eda"/>
+  <id value="ab738e04-7a46-4887-b240-23409a9c1d53"/>
   <meta>
-    <lastUpdated value="2022-05-06T14:52:18.588+00:00"/>
+    <lastUpdated value="2022-06-17T12:47:22.234+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -84,12 +84,15 @@
             </table>
           </div>
         </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
         <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"/>
         <version value="1.0.0"/>
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="active"/>
-        <date value="2022-05-06T14:52:18+00:00"/>
+        <date value="2022-06-17T12:47:22+00:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <name value="eHealth Platform"/>
@@ -119,8 +122,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9457c4e7-c038-4a61-aed9-3dbd73410755"/>
-          <timestamp value="2022-05-06T14:52:40+00:00"/>
+          <identifier value="urn:uuid:4722b19a-dde4-468f-829c-030bc8ef5382"/>
+          <timestamp value="2022-06-17T12:47:46+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
