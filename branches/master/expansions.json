@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "097c0ad9-9184-4be7-b379-c913cbbf022e",
+  "id" : "6186402e-3108-44c2-b310-7f9c934d2894",
   "meta" : {
-    "lastUpdated" : "2022-05-06T09:14:12.756+00:00"
+    "lastUpdated" : "2022-06-17T12:53:33.598+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,12 +14,16 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html\">HCParty v2.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html\"><code>https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-deptpharmacy\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-deptpharmacy\">deptpharmacy</a></td><td>Pharmacy service or department within an organisation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-perspharmacist\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacist\">perspharmacist</a></td><td>pharmacist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-orgpharmacy\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-orgpharmacy\">orgpharmacy</a></td><td>Independent pharmacy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-perspharmacyassistant\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacyassistant\">perspharmacyassistant</a></td><td>pharmacy assistant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-perspharmacistclinicalbiologist\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-perspharmacistclinicalbiologist\">perspharmacistclinicalbiologist</a></td><td>pharmacist-clinical biologist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-persdentist\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-persdentist\">persdentist</a></td><td>dentist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-core-CodeSystem-cd-hcparty-deptdentistry\"> </a>  <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html#cd-hcparty-deptdentistry\">deptdentistry</a></td><td>dentistry</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1
+      }],
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
       "version" : "1.0.0",
       "name" : "DispenserTypes",
       "title" : "Dispenser Types",
       "status" : "active",
-      "date" : "2022-05-06T09:14:12+00:00",
+      "date" : "2022-06-17T12:53:33+00:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "name" : "eHealth Platform",
@@ -49,8 +53,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9b29f53b-f2bc-431e-a50d-b77b3c691bc0",
-        "timestamp" : "2022-05-06T09:14:32+00:00",
+        "identifier" : "urn:uuid:c73da6e6-9531-49c8-9637-f3c40476c9db",
+        "timestamp" : "2022-06-17T12:53:58+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

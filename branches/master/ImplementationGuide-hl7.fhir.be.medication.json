@@ -65,7 +65,7 @@
       "id": "hl7_terminology",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology",
-      "version": "current"
+      "version": "3.1.0"
     }
   ],
   "definition": {
@@ -416,6 +416,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/apotheek-onder-de-toren"
+        },
+        "name": "apotheek-onder-de-toren",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:logical"
           }
         ],
@@ -508,6 +521,20 @@
         },
         "name": "A dispense from a hospital pharmacy",
         "description": "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/example-dispense-with-atc"
+        },
+        "name": "Dispense Example - Minimal amount of information",
+        "description": "Medication Dispense example with ATC code",
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
       },
       {

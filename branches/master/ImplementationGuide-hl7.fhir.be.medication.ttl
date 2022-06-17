@@ -74,7 +74,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -399,6 +399,19 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/Organization/apotheek-onder-de-toren>;
+         fhir:Reference.reference [ fhir:value "Organization/apotheek-onder-de-toren" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "apotheek-onder-de-toren" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -409,7 +422,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -423,7 +436,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CNK Product Codes" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -437,7 +450,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - CTI Extended Codes" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -451,7 +464,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -465,7 +478,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Naming System - Prescription IDs" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -482,7 +495,7 @@
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
        ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -499,7 +512,24 @@
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
        ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-with-atc>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-dispense-with-atc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dispense Example - Minimal amount of information" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medication Dispense example with ATC code" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense";
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
+       ]
+     ], [
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -516,7 +546,7 @@
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
        ]
      ], [
-       fhir:index 10;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
