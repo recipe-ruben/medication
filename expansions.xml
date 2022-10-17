@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="611a62ca-2d1f-4647-a39a-5a9e616bf409"/>
+  <id value="c6c5e844-c152-447f-8bec-cc3f7d0db3c6"/>
   <meta>
-    <lastUpdated value="2022-10-17T09:05:20.163+00:00"/>
+    <lastUpdated value="2022-10-17T09:05:37.454+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -97,7 +97,7 @@
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="active"/>
-        <date value="2022-10-17T09:05:20+00:00"/>
+        <date value="2022-10-17T09:05:37+00:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <name value="eHealth Platform"/>
@@ -127,8 +127,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:417bd66a-3455-4020-a0f1-b359d6eaf6f8"/>
-          <timestamp value="2022-10-17T09:05:40+00:00"/>
+          <identifier value="urn:uuid:ae692313-50cb-4063-bc00-6c8dcbc46d47"/>
+          <timestamp value="2022-10-17T09:06:01+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
