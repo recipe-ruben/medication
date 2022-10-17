@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f276e31f-a854-44ed-af61-341dc526ba7b-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f276e31f-a854-44ed-af61-341dc526ba7b-2",
+  "id" : "6c9fc3d3-38d5-4f3b-b35e-4a536ec80fb6-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6c9fc3d3-38d5-4f3b-b35e-4a536ec80fb6-2",
   "name" : "UnionBeMedicationDispenseAndBeMedicationDispense",
   "title" : "Union of BeMedicationDispense And BeMedicationDispense",
   "status" : "active",
-  "date" : "2022-10-17T07:49:49+00:00",
+  "date" : "2022-10-17T09:05:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

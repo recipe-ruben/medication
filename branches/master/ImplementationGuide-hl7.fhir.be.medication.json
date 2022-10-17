@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Medication",
   "title": "Medication",
-  "status": "active",
+  "status": "draft",
   "date": "2020-02-26",
   "publisher": "eHealth Platform",
   "contact": [

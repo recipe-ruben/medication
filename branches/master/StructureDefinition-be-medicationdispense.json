@@ -20,11 +20,11 @@
     }
   ],
   "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "BeMedicationDispense",
   "title": "BeMedicationDispense",
   "status": "active",
-  "date": "2022-10-17T07:49:41+00:00",
+  "date": "2022-10-17T09:05:20+00:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
