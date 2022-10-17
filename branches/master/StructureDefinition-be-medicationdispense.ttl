@@ -30,7 +30,7 @@
   fhir:StructureDefinition.name [ fhir:value "BeMedicationDispense"];
   fhir:StructureDefinition.title [ fhir:value "BeMedicationDispense"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-06-17T12:53:33+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-17T07:49:41+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "eHealth Platform"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -223,7 +223,7 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ];
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
        ];
@@ -1834,7 +1834,12 @@
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.targetProfile [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Medication";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Medication>
+         ]
        ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;

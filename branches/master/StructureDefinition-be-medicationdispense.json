@@ -24,7 +24,7 @@
   "name": "BeMedicationDispense",
   "title": "BeMedicationDispense",
   "status": "active",
-  "date": "2022-06-17T12:53:33+00:00",
+  "date": "2022-10-17T07:49:41+00:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
@@ -205,7 +205,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
@@ -1769,7 +1769,10 @@
             "code": "CodeableConcept"
           },
           {
-            "code": "Reference"
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Medication"
+            ]
           }
         ],
         "constraint": [
