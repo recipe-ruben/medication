@@ -18,11 +18,11 @@
      fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
   ];
   fhir:ValueSet.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"];
-  fhir:ValueSet.version [ fhir:value "1.0.0"];
+  fhir:ValueSet.version [ fhir:value "1.0.1"];
   fhir:ValueSet.name [ fhir:value "DispenserTypes"];
   fhir:ValueSet.title [ fhir:value "Dispenser Types"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-10-17T07:49:41+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-10-17T09:05:20+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "eHealth Platform"];
   fhir:ValueSet.contact [
      fhir:index 0;

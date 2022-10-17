@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "fhirVersion": [
     "4.0.1"
   ],
-  "date": "20221017074905",
+  "date": "20221017090445",
   "name": "hl7.fhir.be.medication"
 }

@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication"];
-  fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
+  fhir:ImplementationGuide.version [ fhir:value "1.0.1"];
   fhir:ImplementationGuide.name [ fhir:value "Medication"];
   fhir:ImplementationGuide.title [ fhir:value "Medication"];
-  fhir:ImplementationGuide.status [ fhir:value "active"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.date [ fhir:value "2020-02-26"^^xsd:date];
   fhir:ImplementationGuide.publisher [ fhir:value "eHealth Platform"];
   fhir:ImplementationGuide.contact [

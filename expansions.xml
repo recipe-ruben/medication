@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6aa038d9-82f5-4272-98e7-20fb91b70958"/>
+  <id value="611a62ca-2d1f-4647-a39a-5a9e616bf409"/>
   <meta>
-    <lastUpdated value="2022-10-17T07:49:41.812+00:00"/>
+    <lastUpdated value="2022-10-17T09:05:20.163+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -93,11 +93,11 @@
           <valueInteger value="1"/>
         </extension>
         <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"/>
-        <version value="1.0.0"/>
+        <version value="1.0.1"/>
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="active"/>
-        <date value="2022-10-17T07:49:41+00:00"/>
+        <date value="2022-10-17T09:05:20+00:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <name value="eHealth Platform"/>
@@ -127,8 +127,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:38e78308-dfb2-49b9-8b7f-7493206a850f"/>
-          <timestamp value="2022-10-17T07:50:02+00:00"/>
+          <identifier value="urn:uuid:417bd66a-3455-4020-a0f1-b359d6eaf6f8"/>
+          <timestamp value="2022-10-17T09:05:40+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

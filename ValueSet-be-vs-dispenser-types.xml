@@ -9,11 +9,11 @@
     <valueInteger value="1"/>
   </extension>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="DispenserTypes"/>
   <title value="Dispenser Types"/>
   <status value="active"/>
-  <date value="2022-10-17T07:49:41+00:00"/>
+  <date value="2022-10-17T09:05:20+00:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <name value="eHealth Platform"/>
