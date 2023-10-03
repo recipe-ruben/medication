@@ -48,6 +48,18 @@
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7ext" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:version [ fhir:v "1.0.0" ]
+  ] [
      fhir:id [ fhir:v "hl7_fhir_be_core" ] ;
      fhir:uri [
        fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core"^^xsd:anyURI ;
@@ -248,6 +260,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -290,6 +311,9 @@
          fhir:value [ fhir:v "true" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -473,6 +497,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -519,27 +552,18 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "MedicationDispense" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense> ;
-         fhir:reference [ fhir:v "StructureDefinition/be-medicationdispense" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-hospital> ;
+         fhir:reference [ fhir:v "MedicationDispense/example-dispense-hospital" ]
        ] ;
-       fhir:name [ fhir:v "BeMedicationDispense" ] ;
-       fhir:description [ fhir:v "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types> ;
-         fhir:reference [ fhir:v "ValueSet/be-vs-dispenser-types" ]
-       ] ;
-       fhir:name [ fhir:v "Dispenser Types" ] ;
-       fhir:description [ fhir:v "Dispenser Types - from hcparty" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "A dispense from a hospital pharmacy" ] ;
+       fhir:description [ fhir:v "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription" ] ;
+       fhir:example [
+         fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"^^xsd:anyURI ;
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -614,6 +638,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-medicationdispense" ]
+       ] ;
+       fhir:name [ fhir:v "BeMedicationDispense" ] ;
+       fhir:description [ fhir:v "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "MedicationDispense" ]
        ] ) ;
        fhir:reference [
@@ -632,26 +668,11 @@
          fhir:value [ fhir:v "MedicationDispense" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-hospital> ;
-         fhir:reference [ fhir:v "MedicationDispense/example-dispense-hospital" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/medication-dispense-example-2> ;
+         fhir:reference [ fhir:v "MedicationDispense/medication-dispense-example-2" ]
        ] ;
-       fhir:name [ fhir:v "A dispense from a hospital pharmacy" ] ;
-       fhir:description [ fhir:v "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription" ] ;
-       fhir:example [
-         fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"^^xsd:anyURI ;
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "MedicationDispense" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-with-atc> ;
-         fhir:reference [ fhir:v "MedicationDispense/example-dispense-with-atc" ]
-       ] ;
-       fhir:name [ fhir:v "Dispense Example - Minimal amount of information" ] ;
-       fhir:description [ fhir:v "Medication Dispense example with ATC code" ] ;
+       fhir:name [ fhir:v "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org." ] ;
+       fhir:description [ fhir:v "Medication Dispense example" ] ;
        fhir:example [
          fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"^^xsd:anyURI ;
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
@@ -677,15 +698,27 @@
          fhir:value [ fhir:v "MedicationDispense" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/medication-dispense-example-2> ;
-         fhir:reference [ fhir:v "MedicationDispense/medication-dispense-example-2" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/MedicationDispense/example-dispense-with-atc> ;
+         fhir:reference [ fhir:v "MedicationDispense/example-dispense-with-atc" ]
        ] ;
-       fhir:name [ fhir:v "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org." ] ;
-       fhir:description [ fhir:v "Medication Dispense example" ] ;
+       fhir:name [ fhir:v "Dispense Example - Minimal amount of information" ] ;
+       fhir:description [ fhir:v "Medication Dispense example with ATC code" ] ;
        fhir:example [
          fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"^^xsd:anyURI ;
          fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types> ;
+         fhir:reference [ fhir:v "ValueSet/be-vs-dispenser-types" ]
+       ] ;
+       fhir:name [ fhir:v "Dispenser Types" ] ;
+       fhir:description [ fhir:v "Dispenser Types - from hcparty" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

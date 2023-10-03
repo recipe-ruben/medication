@@ -43,6 +43,16 @@
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "1.0.0"
+  },
+  {
     "id" : "hl7_fhir_be_core",
     "uri" : "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
     "packageId" : "hl7.fhir.be.core",
@@ -278,6 +288,17 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "active-tables"
       },
       {
@@ -329,6 +350,10 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools#current"
     },
     {
       "extension" : [{
@@ -553,6 +578,17 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueCode" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueCode" : "active-tables"
       },
       {
@@ -608,26 +644,14 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "MedicationDispense"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/be-medicationdispense"
+        "reference" : "MedicationDispense/example-dispense-hospital"
       },
-      "name" : "BeMedicationDispense",
-      "description" : "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/be-vs-dispenser-types"
-      },
-      "name" : "Dispenser Types",
-      "description" : "Dispenser Types - from hcparty",
-      "exampleBoolean" : false
+      "name" : "A dispense from a hospital pharmacy",
+      "description" : "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
+      "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
     },
     {
       "extension" : [{
@@ -703,6 +727,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/be-medicationdispense"
+      },
+      "name" : "BeMedicationDispense",
+      "description" : "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
@@ -718,22 +754,10 @@
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
-        "reference" : "MedicationDispense/example-dispense-hospital"
+        "reference" : "MedicationDispense/medication-dispense-example-2"
       },
-      "name" : "A dispense from a hospital pharmacy",
-      "description" : "A dispense from a hospital pharmacy, with a hospital nihdi and based on a prescription",
-      "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationDispense"
-      }],
-      "reference" : {
-        "reference" : "MedicationDispense/example-dispense-with-atc"
-      },
-      "name" : "Dispense Example - Minimal amount of information",
-      "description" : "Medication Dispense example with ATC code",
+      "name" : "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org.",
+      "description" : "Medication Dispense example",
       "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
     },
     {
@@ -754,11 +778,23 @@
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
-        "reference" : "MedicationDispense/medication-dispense-example-2"
+        "reference" : "MedicationDispense/example-dispense-with-atc"
       },
-      "name" : "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org.",
-      "description" : "Medication Dispense example",
+      "name" : "Dispense Example - Minimal amount of information",
+      "description" : "Medication Dispense example with ATC code",
       "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/be-vs-dispenser-types"
+      },
+      "name" : "Dispenser Types",
+      "description" : "Dispenser Types - from hcparty",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
