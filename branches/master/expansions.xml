@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="10679c15-139e-43b6-8db3-ce8a4bff441c"/>
+  <id value="ec12a549-f581-40ca-9c9d-0a6d168cacb4"/>
   <meta>
-    <lastUpdated value="2023-04-13T07:45:02.470+00:00"/>
+    <lastUpdated value="2023-10-03T16:24:53.658+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
     <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"/>
     <resource>
       <ValueSet>
-        <id value="be-vs-dispenser-types"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html">HCParty v2.0.0 (CodeSystem)</a>
+              <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html">codesystem HCParty v2.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -89,36 +88,12 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
         <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types"/>
         <version value="1.0.1"/>
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
-        <status value="active"/>
-        <date value="2023-04-13T07:45:02+00:00"/>
-        <publisher value="eHealth Platform"/>
-        <contact>
-          <name value="eHealth Platform"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://www.ehealth.fgov.be/standards/fhir"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="message-structure@ehealth.fgov.be"/>
-          </telecom>
-        </contact>
-        <contact>
-          <name value="Message Structure eHealth"/>
-          <telecom>
-            <system value="email"/>
-            <value value="message-structure@ehealth.fgov.be"/>
-            <use value="work"/>
-          </telecom>
-        </contact>
-        <description value="Dispenser Types - from hcparty"/>
+        <status value="draft"/>
+        <date value="2023-10-03T16:24:53+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -127,15 +102,15 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ce60d16d-c458-4100-b895-c3e1ee9a0c1c"/>
-          <timestamp value="2023-04-13T07:45:25+00:00"/>
+          <identifier value="urn:uuid:39a2d999-4777-49a3-8803-8c7657305c2c"/>
+          <timestamp value="2023-10-03T16:25:21+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
-            <name value="version"/>
+            <name value="used-codesystem"/>
             <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty|2.0.0"/>
           </parameter>
           <contains>
