@@ -689,8 +689,8 @@
          fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeModelMedicationDispense> ;
-         fhir:reference [ fhir:v "StructureDefinition/BeModelMedicationDispense" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-lm-medicationdispense> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-lm-medicationdispense" ]
        ] ;
        fhir:name [ fhir:v "BeModelMedicationDispense" ] ;
        fhir:description [ fhir:v "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ] ;
@@ -905,8 +905,8 @@
          fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BELMMedicationLine> ;
-         fhir:reference [ fhir:v "StructureDefinition/BELMMedicationLine" ]
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-lm-medicationline> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-lm-medicationline" ]
        ] ;
        fhir:name [ fhir:v "Medication Treatment Line - logical model" ] ;
        fhir:description [ fhir:v "A model for representing a Treatment Line." ] ;

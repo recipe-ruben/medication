@@ -347,7 +347,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
+      "StructureDefinition-be-lm-medicationline.html" : "Medication Treatment Line - logical model"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
@@ -361,7 +361,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
+      "StructureDefinition-be-lm-medicationline.html" : "Medication Treatment Line - logical model"
     }
   ]
 }
