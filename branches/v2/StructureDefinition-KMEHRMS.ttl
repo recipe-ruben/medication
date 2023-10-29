@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "KMEHRMS"] ; # 
   fhir:title [ fhir:v "KMEHR Medication Schema v5.8"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-10-29T13:58:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-10-29T17:28:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;

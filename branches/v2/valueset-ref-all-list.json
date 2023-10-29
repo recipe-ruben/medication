@@ -82,8 +82,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine",
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -97,8 +97,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine",
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -112,8 +112,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine",
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -141,8 +141,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine",
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",

@@ -943,4 +943,4 @@ Medication : Validation Results
 
 err = 3, warn = 929, info = 13
 IG Publisher Version: 1.5.0
-Generated Sun Oct 29 14:02:20 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+Generated Sun Oct 29 17:32:34 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
