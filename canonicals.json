@@ -74,7 +74,7 @@
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BELMMedicationLine",
     "version" : "1.0.1",
-    "name" : "BELMMedicationLine"
+    "name" : "MedicationLine"
   },
   {
     "id" : "BEMedicationLine",
