@@ -1,2 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types,1.0.1,draft,,DispenserTypes,Dispenser Types,"Dispenser Types - from hcparty",,"hl7.fhir.be.core"
+https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs,1.0.1,draft,,BEMLMExposureTypeVS,Medication exposure purpose,"Medication exposure purpose",,"Internal"
+https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs,1.0.1,draft,,BEMLMedicationTypeVS,null,"Medication preparation type value set",,"Internal"

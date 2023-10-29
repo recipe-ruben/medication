@@ -24,6 +24,34 @@
       "systems" : [
         "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"
       ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMExposureTypeVS",
+      "title" : "Medication exposure purpose",
+      "description" : "Medication exposure purpose",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMedicationTypeVS",
+      "title" : null,
+      "description" : "Medication preparation type value set",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
     }
   ]
 }

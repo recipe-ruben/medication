@@ -43,6 +43,20 @@
       "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
       "version" : "4.0.1",
       "status" : "draft",
@@ -68,7 +82,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -82,7 +97,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -96,7 +112,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -124,7 +141,38 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication usage category codes",
+      "title" : "Medication usage category codes",
+      "description" : "Medication Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.370"],
+      "uses" : {
+      },
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication Status Codes",
+      "title" : "Medication  status  codes",
+      "description" : "Medication Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.367"],
+      "sources" : ["2.16.840.1.113883.4.642.3.367"],
+      "uses" : {
+      },
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-category",
@@ -191,6 +239,20 @@
       "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTDrugTherapyStatusCodes",
+      "title" : "SNOMED CT Drug Therapy Status codes ",
+      "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.369"],
+      "sources" : ["2.16.840.1.113883.4.642.3.369"],
+      "uses" : {
+      },
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
       "version" : "5.0.0",
       "status" : "active",
@@ -202,8 +264,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense",
-      "StructureDefinition-be-model-medication-dispense.html" : "BeModelMedicationDispense"
+      "StructureDefinition-be-medicationdispense.html" : "BeMedicationDispense"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -273,6 +334,34 @@
       "systems" : [
         "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"
       ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMExposureTypeVS",
+      "title" : "Medication exposure purpose",
+      "description" : "Medication exposure purpose",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMedicationTypeVS",
+      "title" : null,
+      "description" : "Medication preparation type value set",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BELMMedicationLine.html" : "Medication Treatment Line - logical model"
     }
   ]
 }
