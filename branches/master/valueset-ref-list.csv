@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/medication-codes,4.0.1,draft,"2.16.840.1.113883.4.642.3.375",SNOMEDCTMedicationCodes,SNOMED CT Medication Codes,"This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.","StructureDefinition/be-medicationdispense","SCT"
+https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types,1.0.1,draft,,DispenserTypes,Dispenser Types,"Dispenser Types - from hcparty",,"hl7.fhir.be.core"

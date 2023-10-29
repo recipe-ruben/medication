@@ -1,0 +1,15 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "DispenserTypes",
+      "title" : "Dispenser Types",
+      "description" : "Dispenser Types - from hcparty",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"
+      ]
+    }
+  ]
+}

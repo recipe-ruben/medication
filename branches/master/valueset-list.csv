@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types,1.0.1,draft,,DispenserTypes,Dispenser Types,"Dispenser Types - from hcparty",,"hl7.fhir.be.core"

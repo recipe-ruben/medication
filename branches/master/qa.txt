@@ -2,8 +2,8 @@
 =========================================
 
 err = 2, warn = 12, info = 11
-IG Publisher Version: 1.4.11
-Generated Tue Oct 03 16:27:53 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+IG Publisher Version: 1.5.0
+Generated Sun Oct 29 17:16:10 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
  Build Errors : 95 / 6 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
@@ -124,9 +124,9 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication.json ==
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
-WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
-WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-example-dispense-hospital.json ==
 INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.identifier[0].type.coding[0]: Code System URI 'https://www.nexuzhealth.be/fhir/prescription/ambulatory' is unknown so the code cannot be validated
@@ -138,9 +138,9 @@ INFORMATION: MedicationDispense/example-dispense-with-atc: MedicationDispense.me
 INFORMATION: MedicationDispense/example-minimal-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-medication-dispense-example-2.json ==
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0]/*Organization/apotheek-onder-de-toren*/.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0
-WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
-WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
 == fsh-generated/resources/NamingSystem-be-ns-cnk-codes.json ==
 == fsh-generated/resources/NamingSystem-be-ns-cti-extended-code.json ==
@@ -152,6 +152,6 @@ INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: T
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[85].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-be-model-medication-dispense.json ==
 ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.type: The type BeModelMedicationDispense is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
-ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot: Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed
+ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
 == fsh-generated/resources/ValueSet-be-vs-dispenser-types.json ==
 WARNING: ValueSet/be-vs-dispenser-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
