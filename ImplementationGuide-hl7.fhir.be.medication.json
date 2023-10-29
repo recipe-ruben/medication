@@ -778,7 +778,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BeModelMedicationDispense"
+        "reference" : "StructureDefinition/be-lm-medicationdispense"
       },
       "name" : "BeModelMedicationDispense",
       "description" : "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense.",
@@ -982,7 +982,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BELMMedicationLine"
+        "reference" : "StructureDefinition/be-lm-medicationline"
       },
       "name" : "Medication Treatment Line - logical model",
       "description" : "A model for representing a Treatment Line.",

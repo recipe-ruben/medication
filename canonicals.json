@@ -70,13 +70,6 @@
     "name" : "BELMMedProduct"
   },
   {
-    "id" : "BELMMedicationLine",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BELMMedicationLine",
-    "version" : "1.0.1",
-    "name" : "MedicationLine"
-  },
-  {
     "id" : "BEMedicationLine",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BEMedicationLine",
@@ -182,6 +175,13 @@
     "name" : "Untyped"
   },
   {
+    "id" : "be-lm-medicationline",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-lm-medicationline",
+    "version" : "1.0.1",
+    "name" : "MedicationLine"
+  },
+  {
     "id" : "be-medicationdispense",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense",
@@ -189,7 +189,7 @@
     "name" : "BeMedicationDispense"
   },
   {
-    "id" : "BeModelMedicationDispense",
+    "id" : "be-lm-medicationdispense",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medication-dispense",
     "version" : "1.0.1",
