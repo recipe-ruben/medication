@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "DispenserTypes"] ; # 
   fhir:title [ fhir:v "Dispenser Types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-10-29T19:43:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-02T09:56:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;
