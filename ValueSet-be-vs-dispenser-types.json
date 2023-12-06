@@ -14,17 +14,17 @@
   "name" : "DispenserTypes",
   "title" : "Dispenser Types",
   "status" : "draft",
-  "date" : "2023-11-02T09:56:54+00:00",
-  "publisher" : "HL7 Belgium",
+  "date" : "2023-12-06T03:28:29+00:00",
+  "publisher" : "eHealth Platform",
   "contact" : [{
-    "name" : "HL7 Belgium",
+    "name" : "eHealth Platform",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7belgium.org"
+      "value" : "https://www.ehealth.fgov.be/standards/fhir"
     },
     {
       "system" : "email",
-      "value" : "hl7belgium@hl7belgium.org"
+      "value" : "message-structure@ehealth.fgov.be"
     }]
   },
   {

@@ -12,16 +12,16 @@
   <title value="Medication"/>
   <status value="draft"/>
   <date value="2020-02-26"/>
-  <publisher value="HL7 Belgium"/>
+  <publisher value="eHealth Platform"/>
   <contact>
-    <name value="HL7 Belgium"/>
+    <name value="eHealth Platform"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.hl7belgium.org"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="hl7belgium@hl7belgium.org"/>
+      <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
   <contact>
@@ -494,28 +494,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/AD"/>
-      </reference>
-      <name value="AD"/>
-      <description value="Address"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ANY"/>
-      </reference>
-      <name value="ANY"/>
-      <description value="An abstract type"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -523,6 +501,17 @@
       </reference>
       <name value="apotheek-onder-de-toren"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medication-dispense"/>
+      </reference>
+      <name value="be-model-medication-dispense"/>
+      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -581,72 +570,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BEMedicationLine"/>
-      </reference>
-      <name value="BEMedicationLine"/>
-      <description value="Medication Line profile - contains the overview information for a single medication item"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/medication-type-vs"/>
-      </reference>
-      <name value="BEMLMedicationTypeVS"/>
-      <description value="Medication preparation type value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-lm-medicationdispense"/>
-      </reference>
-      <name value="BeModelMedicationDispense"/>
-      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BL"/>
-      </reference>
-      <name value="BL"/>
-      <description value="Boolean - true or false"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/CD"/>
-      </reference>
-      <name value="CD"/>
-      <description value="ConceptDescriptor"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Class"/>
-      </reference>
-      <name value="Class"/>
-      <description value="Class of data elements"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
@@ -698,182 +621,6 @@
       </reference>
       <name value="Dispenser Types"/>
       <description value="Dispenser Types - from hcparty"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/DT"/>
-      </reference>
-      <name value="DT"/>
-      <description value="Date"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/EN"/>
-      </reference>
-      <name value="EN"/>
-      <description value="EntityName"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/II"/>
-      </reference>
-      <name value="II"/>
-      <description value="InstanceIdentifier"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/INT"/>
-      </reference>
-      <name value="INT"/>
-      <description value="IntegerNumber"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/KMEHRMS"/>
-      </reference>
-      <name value="KMEHR Medication Schema v5.8"/>
-      <description value="This model represents the Medication Schema KMEHR V5.8. It is shown for demonstrating the field correspondence/equivalence, and not to imply any intended scope or intended behaviour."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/medication-exposuretype-vs"/>
-      </reference>
-      <name value="Medication exposure purpose"/>
-      <description value="Medication exposure purpose"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/medication-exposuretype"/>
-      </reference>
-      <name value="Medication exposure purpose"/>
-      <description value="Medication exposure purpose"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/medication-type"/>
-      </reference>
-      <name value="Medication preparation Type"/>
-      <description value="Medication preparation type"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-lm-medicationline"/>
-      </reference>
-      <name value="Medication Treatment Line - logical model"/>
-      <description value="A model for representing a Treatment Line."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BELMMedProduct"/>
-      </reference>
-      <name value="Medicinal Product"/>
-      <description value="A model for representing a medicinal product."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/PQ"/>
-      </reference>
-      <name value="PQ"/>
-      <description value="PhysicalQuantity"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/REAL"/>
-      </reference>
-      <name value="REAL"/>
-      <description value="RealNumber"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/RTO"/>
-      </reference>
-      <name value="RTO"/>
-      <description value="Ratio"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ST"/>
-      </reference>
-      <name value="ST"/>
-      <description value="CharacterString"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/TS"/>
-      </reference>
-      <name value="TS"/>
-      <description value="TimeStamp"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Untyped"/>
-      </reference>
-      <name value="Untyped"/>
-      <description value="No data type defined"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
