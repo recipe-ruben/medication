@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "DispenserTypes"] ; # 
   fhir:title [ fhir:v "Dispenser Types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-10-29T17:13:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-06T03:28:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "eHealth Platform"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "eHealth Platform" ] ;

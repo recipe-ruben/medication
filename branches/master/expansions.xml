@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="3f66a352-acc7-43a6-8ca9-a4b40dc7bf5d"/>
+  <id value="0fa72ae7-29b0-4416-ab95-223cbdc64952"/>
   <meta>
-    <lastUpdated value="2023-10-29T17:13:12.001+00:00"/>
+    <lastUpdated value="2023-12-06T03:28:29.560+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,10 +13,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html">codesystem HCParty v2.0.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -93,7 +93,7 @@
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="draft"/>
-        <date value="2023-10-29T17:13:12+00:00"/>
+        <date value="2023-12-06T03:28:29+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -102,8 +102,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f9d6f948-d67c-4abb-84f2-16fa9fb695ce"/>
-          <timestamp value="2023-10-29T17:13:40+00:00"/>
+          <identifier value="urn:uuid:8186c9cd-0695-4535-9cc0-26c7a1adb10c"/>
+          <timestamp value="2023-12-06T03:28:51+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

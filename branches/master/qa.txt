@@ -1,9 +1,9 @@
 ﻿Medication : Validation Results
 =========================================
 
-err = 2, warn = 12, info = 11
-IG Publisher Version: 1.5.0
-Generated Sun Oct 29 17:16:10 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+err = 3, warn = 12, info = 11
+IG Publisher Version: 1.5.5
+Generated Wed Dec 06 03:31:14 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
  Build Errors : 95 / 6 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
@@ -17,7 +17,7 @@ Generated Sun Oct 29 17:16:10 UTC 2023. FHIR version 4.0.1 for hl7.fhir.be.medic
  /github/workspace/fsh-generated/resources/NamingSystem-be-ns-product-package-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-apotheek-onder-de-toren : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-be-medicationdispense : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-be-model-medication-dispense : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-vs-dispenser-types : 0 / 1 / 1
 </table>
 == n/a ==
@@ -125,33 +125,34 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication.json ==
 == fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med.json ==
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found so the code cannot be validated
 WARNING: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/example-dispense-communitypharmacy-1med: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' could not be found so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-example-dispense-hospital.json ==
-INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.identifier[0].type.coding[0]: Code System URI 'https://www.nexuzhealth.be/fhir/prescription/ambulatory' is unknown so the code cannot be validated
-INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.identifier[0].type.coding[0]: Code System URI 'https://www.nexuzhealth.be/fhir/prescription/ambulatory' could not be found so the code cannot be validated
+INFORMATION: MedicationDispense/example-dispense-hospital: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found so the code cannot be validated
 WARNING: MedicationDispense/example-dispense-hospital: MedicationDispense.quantity: UCUM Codes that contain human readable annotations like {package} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked
 == fsh-generated/resources/MedicationDispense-example-dispense-with-atc.json ==
-INFORMATION: MedicationDispense/example-dispense-with-atc: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/example-dispense-with-atc: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-example-minimal-dispense.json ==
-INFORMATION: MedicationDispense/example-minimal-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/example-minimal-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-medication-dispense-example-2.json ==
-INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0]/*Organization/apotheek-onder-de-toren*/.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0
+INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0]/*Organization/apotheek-onder-de-toren*/.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.identifier[0].type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found so the code cannot be validated
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.context.identifier.type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' is unknown so the code cannot be validated
+INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.quantity: Code System URI 'https://www.gfd-dpp.be/fhir/reference/packaging' could not be found so the code cannot be validated
 == fsh-generated/resources/NamingSystem-be-ns-cnk-codes.json ==
 == fsh-generated/resources/NamingSystem-be-ns-cti-extended-code.json ==
 == fsh-generated/resources/NamingSystem-be-ns-prescription-ids.json ==
 == fsh-generated/resources/NamingSystem-be-ns-product-package-type.json ==
 == fsh-generated/resources/Organization-apotheek-onder-de-toren.json ==
-INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0
+INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/StructureDefinition-be-medicationdispense.json ==
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[85].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-be-model-medication-dispense.json ==
 ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.type: The type BeModelMedicationDispense is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
 ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
+ERROR: StructureDefinition/be-model-medication-dispense: StructureDefinition.snapshot.element[5].constraint[1]: Error in constraint 'ref-1' with expression 'reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))': Error evaluating FHIRPath expression: The type 'http://hl7.org/fhir/StructureDefinition/BeModelMedicationDispense' is unknown or not supported at getChildTypesByName (@char 5)
 == fsh-generated/resources/ValueSet-be-vs-dispenser-types.json ==
 WARNING: ValueSet/be-vs-dispenser-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

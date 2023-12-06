@@ -14,7 +14,7 @@
   "name" : "BeMedicationDispense",
   "title" : "BeMedicationDispense",
   "status" : "active",
-  "date" : "2023-10-29T17:13:12+00:00",
+  "date" : "2023-12-06T03:28:29+00:00",
   "publisher" : "eHealth Platform",
   "contact" : [{
     "name" : "eHealth Platform",
@@ -269,10 +269,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -673,10 +669,6 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "IdentifierType"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
@@ -2065,10 +2057,6 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "IdentifierType"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",

@@ -44,7 +44,7 @@
   <name value="BeMedicationDispense"/>
   <title value="BeMedicationDispense"/>
   <status value="active"/>
-  <date value="2023-10-29T17:13:12+00:00"/>
+  <date value="2023-12-06T03:28:29+00:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <name value="eHealth Platform"/>
@@ -289,9 +289,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -679,9 +676,6 @@
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="IdentifierType"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
@@ -2023,9 +2017,6 @@
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="IdentifierType"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
