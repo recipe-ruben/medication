@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0fa72ae7-29b0-4416-ab95-223cbdc64952"/>
+  <id value="74cb8ebb-c098-483e-9e74-7ae280a7c7c6"/>
   <meta>
-    <lastUpdated value="2023-12-06T03:28:29.560+00:00"/>
+    <lastUpdated value="2024-01-02T17:12:06.075+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -93,7 +93,8 @@
         <name value="DispenserTypes"/>
         <title value="Dispenser Types"/>
         <status value="draft"/>
-        <date value="2023-12-06T03:28:29+00:00"/>
+        <experimental value="false"/>
+        <date value="2024-01-02T17:12:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -102,8 +103,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8186c9cd-0695-4535-9cc0-26c7a1adb10c"/>
-          <timestamp value="2023-12-06T03:28:51+00:00"/>
+          <identifier value="urn:uuid:1bdb5e36-bf4e-4588-8358-72b7ec113a89"/>
+          <timestamp value="2024-01-02T17:13:01+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -147,6 +148,307 @@
             <system value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
             <code value="deptdentistry"/>
             <display value="dentistry"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-360271000"> </a>  
+                  <a href="http://snomed.info/id/360271000">360271000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prophylaxis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-360270004"> </a>  
+                  <a href="http://snomed.info/id/360270004">360270004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Therapy - action</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs"/>
+        <version value="1.0.1"/>
+        <name value="MedicationExposureCategoryVS"/>
+        <title value="Medication exposure intent"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2024-01-02T17:12:06+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5ba558b1-1cff-4ba1-afb5-e1632e394327"/>
+          <timestamp value="2024-01-02T17:13:01+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="360271000"/>
+            <display value="Prophylaxis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="360270004"/>
+            <display value="Therapy - action"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-medication-exposuretype.html">codesystem Medication exposure purpose v1.0.1 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-prophylaxys"> </a>  
+                  <a href="CodeSystem-medication-exposuretype.html#medication-exposuretype-prophylaxys">prophylaxys</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td>
+                <td>Prophylactic purpose</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-therapy"> </a>  
+                  <a href="CodeSystem-medication-exposuretype.html#medication-exposuretype-therapy">therapy</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td>
+                <td>Therapeutic purpose</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-other"> </a>  
+                  <a href="CodeSystem-medication-exposuretype.html#medication-exposuretype-other">other</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td>
+                <td>Other e.g. diagnostic purposes</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs"/>
+        <version value="1.0.1"/>
+        <name value="BEMLMExposureTypeVS"/>
+        <title value="Medication exposure purpose"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2024-01-02T17:12:06+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:b84646fb-2c3e-4fd5-adae-79b0521ef51f"/>
+          <timestamp value="2024-01-02T17:13:01+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype|1.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"/>
+            <code value="prophylaxys"/>
+            <display value="Prophylactic purpose"/>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"/>
+            <code value="therapy"/>
+            <display value="Therapeutic purpose"/>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"/>
+            <code value="other"/>
+            <display value="Other e.g. diagnostic purposes"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-medication-type.html">codesystem Medication preparation Type v1.0.1 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-type-magistral"> </a>  
+                  <a href="CodeSystem-medication-type.html#medication-type-magistral">magistral</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</td>
+                <td>Magistral preparation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-type-officinal"> </a>  
+                  <a href="CodeSystem-medication-type.html#medication-type-officinal">officinal</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</td>
+                <td>Officinal preparation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-type-medicinal-product"> </a>  
+                  <a href="CodeSystem-medication-type.html#medication-type-medicinal-product">medicinal-product</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</td>
+                <td>Medicinal Product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-type-non-medicinal-product"> </a>  
+                  <a href="CodeSystem-medication-type.html#medication-type-non-medicinal-product">non-medicinal-product</a>
+                </td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</td>
+                <td>non-medicinal product e.g. supplement</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs"/>
+        <version value="1.0.1"/>
+        <name value="BEMLMedicationTypeVS"/>
+        <title value="Medication preparation Type value set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2024-01-02T17:12:06+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:7502bb4d-adf2-4ffb-86f6-b2d0fd387f1c"/>
+          <timestamp value="2024-01-02T17:13:01+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type|1.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"/>
+            <code value="magistral"/>
+            <display value="Magistral preparation"/>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"/>
+            <code value="officinal"/>
+            <display value="Officinal preparation"/>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"/>
+            <code value="medicinal-product"/>
+            <display value="Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"/>
+            <code value="non-medicinal-product"/>
+            <display value="non-medicinal product e.g. supplement"/>
           </contains>
         </expansion>
       </ValueSet>

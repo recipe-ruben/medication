@@ -13,17 +13,18 @@
   <name value="DispenserTypes"/>
   <title value="Dispenser Types"/>
   <status value="draft"/>
-  <date value="2023-12-06T03:28:29+00:00"/>
-  <publisher value="eHealth Platform"/>
+  <experimental value="false"/>
+  <date value="2024-01-02T17:12:06+00:00"/>
+  <publisher value="HL7 Belgium"/>
   <contact>
-    <name value="eHealth Platform"/>
+    <name value="HL7 Belgium"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+      <value value="https://www.hl7belgium.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="message-structure@ehealth.fgov.be"/>
+      <value value="hl7belgium@hl7belgium.org"/>
     </telecom>
   </contact>
   <contact>

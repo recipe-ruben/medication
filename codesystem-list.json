@@ -1,3 +1,20 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMExposureType",
+      "title" : "Medication exposure purpose",
+      "description" : "Medication exposure purpose"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BEMLMedicationType",
+      "title" : "Medication preparation Type",
+      "description" : "Medication preparation type"
+    }
+  ]
 }
