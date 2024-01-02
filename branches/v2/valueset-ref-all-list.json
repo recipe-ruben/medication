@@ -336,6 +336,18 @@
       ]
     },
     {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "MedicationExposureCategoryVS",
+      "title" : "Medication exposure intent",
+      "description" : "The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
+    },
+    {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
       "version" : "1.0.1",
       "status" : "draft",
@@ -347,21 +359,21 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-be-lm-medicationline.html" : "Medication Treatment Line - logical model"
+      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
       "version" : "1.0.1",
       "status" : "draft",
       "name" : "BEMLMedicationTypeVS",
-      "title" : null,
+      "title" : "Medication preparation Type value set",
       "description" : "Medication preparation type value set",
       "systems" : [
         "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type"
       ],
       "uses" : {
       },
-      "StructureDefinition-be-lm-medicationline.html" : "Medication Treatment Line - logical model"
+      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model"
     }
   ]
 }

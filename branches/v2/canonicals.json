@@ -105,11 +105,25 @@
     "name" : "DT"
   },
   {
+    "id" : "DispenseRequestNeededCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory",
+    "version" : "1.0.1",
+    "name" : "DispenseRequestNeededCategory"
+  },
+  {
     "id" : "EN",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN",
     "version" : "1.0.1",
     "name" : "EN"
+  },
+  {
+    "id" : "ExposureCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory",
+    "version" : "1.0.1",
+    "name" : "ExposureCategory"
   },
   {
     "id" : "II",
@@ -175,11 +189,11 @@
     "name" : "Untyped"
   },
   {
-    "id" : "be-lm-medicationline",
+    "id" : "VisibilityFlag",
     "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-lm-medicationline",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag",
     "version" : "1.0.1",
-    "name" : "MedicationLine"
+    "name" : "VisibilityFlag"
   },
   {
     "id" : "be-medicationdispense",
@@ -189,11 +203,18 @@
     "name" : "BeMedicationDispense"
   },
   {
-    "id" : "be-lm-medicationdispense",
+    "id" : "be-model-medicationdispense",
     "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medication-dispense",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationdispense",
     "version" : "1.0.1",
-    "name" : "BeModelMedicationDispense"
+    "name" : "BEModelMedicationDispense"
+  },
+  {
+    "id" : "be-model-medicationline",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationline",
+    "version" : "1.0.1",
+    "name" : "MedicationLine"
   },
   {
     "id" : "be-vs-dispenser-types",
@@ -201,6 +222,13 @@
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
     "version" : "1.0.1",
     "name" : "DispenserTypes"
+  },
+  {
+    "id" : "medication-exposure-category-vs",
+    "type" : "ValueSet",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs",
+    "version" : "1.0.1",
+    "name" : "MedicationExposureCategoryVS"
   },
   {
     "id" : "medication-exposuretype-vs",

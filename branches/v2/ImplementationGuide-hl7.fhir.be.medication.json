@@ -763,22 +763,10 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/medication-type-vs"
-      },
-      "name" : "BEMLMedicationTypeVS",
-      "description" : "Medication preparation type value set",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/be-lm-medicationdispense"
+        "reference" : "StructureDefinition/be-model-medicationdispense"
       },
       "name" : "BeModelMedicationDispense",
       "description" : "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense.",
@@ -838,7 +826,7 @@
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
-        "reference" : "MedicationDispense/medication-dispense-example-2"
+        "reference" : "MedicationDispense/medicationdispense-example-2"
       },
       "name" : "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org.",
       "description" : "Medication Dispense example",
@@ -883,6 +871,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/DispenseRequestNeededCategory"
+      },
+      "name" : "DispenseRequestNeededCategory",
+      "description" : "Dispense Request Needed - category.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
       }],
       "reference" : {
@@ -902,6 +902,18 @@
       },
       "name" : "EN",
       "description" : "EntityName",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ExposureCategory"
+      },
+      "name" : "ExposureCategory",
+      "description" : "Exposure - category.",
       "exampleBoolean" : false
     },
     {
@@ -946,6 +958,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/medication-exposure-category-vs"
+      },
+      "name" : "Medication exposure intent",
+      "description" : "The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/medication-exposuretype-vs"
       },
       "name" : "Medication exposure purpose",
@@ -979,10 +1003,22 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medication-type-vs"
+      },
+      "name" : "Medication preparation Type value set",
+      "description" : "Medication preparation type value set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/be-lm-medicationline"
+        "reference" : "StructureDefinition/be-model-medicationline"
       },
       "name" : "Medication Treatment Line - logical model",
       "description" : "A model for representing a Treatment Line.",
@@ -1070,6 +1106,18 @@
       },
       "name" : "Untyped",
       "description" : "No data type defined",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VisibilityFlag"
+      },
+      "name" : "VisibilityFlag",
+      "description" : "Visibility Flag.",
       "exampleBoolean" : false
     }],
     "page" : {

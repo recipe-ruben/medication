@@ -592,21 +592,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/medication-type-vs"/>
-      </reference>
-      <name value="BEMLMedicationTypeVS"/>
-      <description value="Medication preparation type value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/be-lm-medicationdispense"/>
+        <reference value="StructureDefinition/be-model-medicationdispense"/>
       </reference>
       <name value="BeModelMedicationDispense"/>
       <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
@@ -661,7 +650,7 @@
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
-        <reference value="MedicationDispense/medication-dispense-example-2"/>
+        <reference value="MedicationDispense/medicationdispense-example-2"/>
       </reference>
       <name value="Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org."/>
       <description value="Medication Dispense example"/>
@@ -702,6 +691,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DispenseRequestNeededCategory"/>
+      </reference>
+      <name value="DispenseRequestNeededCategory"/>
+      <description value="Dispense Request Needed - category."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
@@ -720,6 +720,17 @@
       </reference>
       <name value="EN"/>
       <description value="EntityName"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ExposureCategory"/>
+      </reference>
+      <name value="ExposureCategory"/>
+      <description value="Exposure - category."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -760,6 +771,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/medication-exposure-category-vs"/>
+      </reference>
+      <name value="Medication exposure intent"/>
+      <description value="The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/medication-exposuretype-vs"/>
       </reference>
       <name value="Medication exposure purpose"/>
@@ -790,10 +812,21 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-type-vs"/>
+      </reference>
+      <name value="Medication preparation Type value set"/>
+      <description value="Medication preparation type value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/be-lm-medicationline"/>
+        <reference value="StructureDefinition/be-model-medicationline"/>
       </reference>
       <name value="Medication Treatment Line - logical model"/>
       <description value="A model for representing a Treatment Line."/>
@@ -874,6 +907,17 @@
       </reference>
       <name value="Untyped"/>
       <description value="No data type defined"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VisibilityFlag"/>
+      </reference>
+      <name value="VisibilityFlag"/>
+      <description value="Visibility Flag."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

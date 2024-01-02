@@ -8,8 +8,10 @@
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs"/>
   <version value="1.0.1"/>
   <name value="BEMLMedicationTypeVS"/>
+  <title value="Medication preparation Type value set"/>
   <status value="draft"/>
-  <date value="2023-11-02T09:56:54+00:00"/>
+  <experimental value="false"/>
+  <date value="2024-01-02T17:12:06+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <name value="HL7 Belgium"/>

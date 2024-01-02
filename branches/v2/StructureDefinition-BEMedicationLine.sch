@@ -12,9 +12,14 @@
   <sch:pattern>
     <sch:title>f:MedicationStatement</sch:title>
     <sch:rule context="f:MedicationStatement">
+      <sch:assert test="count(f:extension[@url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory']) &lt;= 1">extension with URL = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory']) &lt;= 1">extension with URL = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag']) &lt;= 1">extension with URL = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-version']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-version': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-version']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-version': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-date']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-date': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:effective[x]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
       <sch:assert test="count(f:informationSource) &gt;= 1">informationSource: minimum cardinality of 'informationSource' is 1</sch:assert>
     </sch:rule>
