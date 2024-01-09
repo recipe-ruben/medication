@@ -12,6 +12,20 @@
       ]
     },
     {
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride",
+      "title": "DosageOverride",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason",
+      "title": "DosageOverrideReason",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory",
       "title": "ExposureCategory",
       "types": [
@@ -107,6 +121,12 @@
     ],
     "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory": [
       "MedicationStatement"
+    ],
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride": [
+      "MedicationStatement.dosage"
+    ],
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason": [
+      "MedicationStatement.dosage"
     ],
     "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory": [
       "MedicationStatement"

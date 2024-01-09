@@ -1,9 +1,9 @@
 ﻿Medication : Validation Results
 =========================================
 
-err = 0, warn = 1009, info = 13
+err = 0, warn = 1013, info = 13
 IG Publisher Version: 1.5.8
-Generated Tue Jan 02 17:15:41 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+Generated Tue Jan 09 10:06:31 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
  Build Errors : 0 / 6 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-medication-exposuretype : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-medication-type : 0 / 1 / 2
@@ -27,6 +27,8 @@ Generated Tue Jan 02 17:15:41 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medic
  /github/workspace/fsh-generated/resources/StructureDefinition-Class : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-DT : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-DispenseRequestNeededCategory : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DosageOverride : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DosageOverrideReason : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-EN : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-ExposureCategory : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 1 / 1
@@ -104,6 +106,12 @@ WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/
 == fsh-generated/resources/StructureDefinition-DispenseRequestNeededCategory.json ==
 WARNING: StructureDefinition/DispenseRequestNeededCategory: StructureDefinition.context[0]: Review the extension type for DispenseRequestNeededCategory: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-DosageOverride.json ==
+WARNING: StructureDefinition/DosageOverride: StructureDefinition.context[0]: Review the extension type for DosageOverride: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-DosageOverrideReason.json ==
+WARNING: StructureDefinition/DosageOverrideReason: StructureDefinition.context[0]: Review the extension type for DosageOverrideReason: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-EN.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-ExposureCategory.json ==
