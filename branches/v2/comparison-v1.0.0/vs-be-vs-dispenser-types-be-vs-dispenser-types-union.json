@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "7ce981d2-96c4-47eb-bd6a-677198daa01d-8",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/7ce981d2-96c4-47eb-bd6a-677198daa01d-8",
+  "id" : "5c71655b-05ae-4aa0-b93e-5c4f47319b69-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5c71655b-05ae-4aa0-b93e-5c4f47319b69-8",
   "name" : "UnionDispenserTypesAndDispenserTypes",
   "title" : "Union of Dispenser Types And Dispenser Types",
   "status" : "active",
-  "date" : "2024-01-09T10:03:28+00:00",
+  "date" : "2024-01-09T13:30:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
