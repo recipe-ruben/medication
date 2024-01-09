@@ -26,6 +26,10 @@
 /github/workspace/fsh-generated/resources/StructureDefinition-DT.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-DispenseRequestNeededCategory.json: line 0, col 0, Warning - Review the extension type for DispenseRequestNeededCategory: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-DispenseRequestNeededCategory.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-DosageOverride.json: line 0, col 0, Warning - Review the extension type for DosageOverride: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-DosageOverride.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-DosageOverrideReason.json: line 0, col 0, Warning - Review the extension type for DosageOverrideReason: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-DosageOverrideReason.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-EN.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this data type profile (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-ExposureCategory.json: line 0, col 0, Warning - Review the extension type for ExposureCategory: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-ExposureCategory.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
@@ -1018,6 +1022,6 @@
 Medication : Validation Results
 =========================================
 
-err = 0, warn = 1009, info = 13
+err = 0, warn = 1013, info = 13
 IG Publisher Version: 1.5.8
-Generated Tue Jan 02 17:15:41 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+Generated Tue Jan 09 10:06:31 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)

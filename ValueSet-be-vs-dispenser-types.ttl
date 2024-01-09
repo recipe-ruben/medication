@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "Dispenser Types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-01-02T17:12:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-09T10:02:55+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;
