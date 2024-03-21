@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9e9494b6-929b-4c38-8c94-3ec39667694e"/>
+  <id value="ca4c4908-1a99-4376-98e4-ed9d79912733"/>
   <meta>
-    <lastUpdated value="2024-01-09T13:30:16.219+00:00"/>
+    <lastUpdated value="2024-03-21T20:28:49.416+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,7 +16,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.0.0/CodeSystem-cd-hcparty.html">codesystem HCParty v2.0.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 7 concepts</p>
+            <p>This value set contains 7 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -94,7 +94,7 @@
         <title value="Dispenser Types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-09T13:30:16+00:00"/>
+        <date value="2024-03-21T20:28:49+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -103,9 +103,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae0b36a6-a47a-4724-8e6f-ebe7160112a5"/>
-          <timestamp value="2024-01-09T13:31:09+00:00"/>
+          <identifier value="urn:uuid:f5c87d88-acf6-4efe-9163-45911aa4b292"/>
+          <timestamp value="2024-03-21T20:29:37+00:00"/>
           <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -160,14 +169,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
-              <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-              </ul>
-            </div>
-            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set contains 2 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -186,7 +189,7 @@
                   <a href="http://snomed.info/id/360271000">360271000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Prophylaxis</td>
+                <td>Prophylaxis - intent</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -205,7 +208,7 @@
         <title value="Medication exposure intent"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-09T13:30:16+00:00"/>
+        <date value="2024-03-21T20:28:49+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -214,9 +217,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8e4c658f-d8b6-4d02-b8d3-b010fd94a441"/>
-          <timestamp value="2024-01-09T13:31:09+00:00"/>
+          <identifier value="urn:uuid:e37439f3-7055-4f43-bfda-a32a360daf45"/>
+          <timestamp value="2024-03-21T20:29:37+00:00"/>
           <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -226,21 +238,17 @@
             <valueUri value="null"/>
           </parameter>
           <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="360271000"/>
-            <display value="Prophylaxis"/>
+            <display value="Prophylaxis - intent"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -261,7 +269,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-medication-exposuretype.html">codesystem Medication exposure purpose v1.0.1 (CodeSystem)</a>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 3 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -307,7 +315,7 @@
         <title value="Medication exposure purpose"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-09T13:30:16+00:00"/>
+        <date value="2024-03-21T20:28:49+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -316,9 +324,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1a9c2d55-884f-4d5f-bfea-f5a8c12893a4"/>
-          <timestamp value="2024-01-09T13:31:09+00:00"/>
+          <identifier value="urn:uuid:5d804824-4820-42ff-b154-1faae6bdf572"/>
+          <timestamp value="2024-03-21T20:29:37+00:00"/>
           <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -356,7 +373,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-medication-type.html">codesystem Medication preparation Type v1.0.1 (CodeSystem)</a>
             </p>
-            <p>This value set contains 4 concepts</p>
+            <p>This value set contains 4 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -410,7 +427,7 @@
         <title value="Medication preparation Type value set"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-09T13:30:16+00:00"/>
+        <date value="2024-03-21T20:28:49+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -419,9 +436,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eb404fd1-b23e-4f6e-aff5-2fad6db6d556"/>
-          <timestamp value="2024-01-09T13:31:09+00:00"/>
+          <identifier value="urn:uuid:fefeabb3-0086-4e13-87cb-2e2f26cb905e"/>
+          <timestamp value="2024-03-21T20:29:37+00:00"/>
           <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
