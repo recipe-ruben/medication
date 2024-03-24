@@ -21,17 +21,6 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
-      "version" : "1.0.1",
-      "status" : "draft",
-      "name" : "BEMLMExposureTypeVS",
-      "title" : "Medication exposure purpose",
-      "description" : "Medication exposure purpose",
-      "systems" : [
-        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"
-      ]
-    },
-    {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
       "version" : "1.0.1",
       "status" : "draft",

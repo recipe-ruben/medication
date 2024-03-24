@@ -351,21 +351,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
+      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model",
       "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
-    },
-    {
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
-      "version" : "1.0.1",
-      "status" : "draft",
-      "name" : "BEMLMExposureTypeVS",
-      "title" : "Medication exposure purpose",
-      "description" : "Medication exposure purpose",
-      "systems" : [
-        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
