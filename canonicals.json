@@ -1,12 +1,5 @@
 [
   {
-    "id" : "medication-exposuretype",
-    "type" : "CodeSystem",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype",
-    "version" : "1.0.1",
-    "name" : "BEMLMExposureType"
-  },
-  {
     "id" : "medication-type",
     "type" : "CodeSystem",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
@@ -243,13 +236,6 @@
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs",
     "version" : "1.0.1",
     "name" : "MedicationExposureCategoryVS"
-  },
-  {
-    "id" : "medication-exposuretype-vs",
-    "type" : "ValueSet",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
-    "version" : "1.0.1",
-    "name" : "BEMLMExposureTypeVS"
   },
   {
     "id" : "medication-type-vs",

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ec885718-e84d-4eae-bd93-9e242fc79514",
+  "id" : "862d97ef-081b-48dd-9e1f-ab4e0b208faf",
   "meta" : {
-    "lastUpdated" : "2024-03-24T09:50:04.032+00:00"
+    "lastUpdated" : "2024-03-24T15:17:23.762+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Dispenser Types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-03-24T09:50:04+00:00",
+      "date" : "2024-03-24T15:17:23+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:60c52c6f-ce51-4231-a34b-315320511401",
-        "timestamp" : "2024-03-24T09:50:59+00:00",
+        "identifier" : "urn:uuid:41b6cb38-f1e3-42d0-aa86-9701392d487a",
+        "timestamp" : "2024-03-24T15:18:10+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -100,7 +100,7 @@
       "title" : "Medication exposure intent",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-03-24T09:50:04+00:00",
+      "date" : "2024-03-24T15:17:23+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -109,8 +109,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2b57d2f0-7577-4d06-a157-47022c3e69e5",
-        "timestamp" : "2024-03-24T09:50:59+00:00",
+        "identifier" : "urn:uuid:2a7c9d64-94a7-4d99-a351-8ed68acfb527",
+        "timestamp" : "2024-03-24T15:18:10+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -151,67 +151,6 @@
     }
   },
   {
-    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-medication-exposuretype.html\">codesystem Medication exposure purpose v1.0.1 (CodeSystem)</a></p><p>This value set contains 3 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-prophylaxys\"> </a>\u00a0\u00a0<a href=\"CodeSystem-medication-exposuretype.html#medication-exposuretype-prophylaxys\">prophylaxys</a></td><td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td><td>Prophylactic purpose</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-therapy\"> </a>\u00a0\u00a0<a href=\"CodeSystem-medication-exposuretype.html#medication-exposuretype-therapy\">therapy</a></td><td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td><td>Therapeutic purpose</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---www.ehealth.fgov.be-standards-fhir-medication-CodeSystem-medication-exposuretype-other\"> </a>\u00a0\u00a0<a href=\"CodeSystem-medication-exposuretype.html#medication-exposuretype-other\">other</a></td><td>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype</td><td>Other e.g. diagnostic purposes</td></tr></table></div>"
-      },
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs",
-      "version" : "1.0.1",
-      "name" : "BEMLMExposureTypeVS",
-      "title" : "Medication exposure purpose",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2024-03-24T09:50:04+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BE",
-          "display" : "Belgium"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:370e6f44-1f4c-4155-b471-791cafbb85a1",
-        "timestamp" : "2024-03-24T09:50:59+00:00",
-        "total" : 3,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype|1.0.1"
-        }],
-        "contains" : [{
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype",
-          "code" : "prophylaxys",
-          "display" : "Prophylactic purpose"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype",
-          "code" : "therapy",
-          "display" : "Therapeutic purpose"
-        },
-        {
-          "system" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype",
-          "code" : "other",
-          "display" : "Other e.g. diagnostic purposes"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -225,7 +164,7 @@
       "title" : "Medication preparation Type value set",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-03-24T09:50:04+00:00",
+      "date" : "2024-03-24T15:17:23+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -234,8 +173,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:061475a9-beaa-418d-a31d-fadb6a3a6cbe",
-        "timestamp" : "2024-03-24T09:51:00+00:00",
+        "identifier" : "urn:uuid:57097e99-f25b-49d7-bdd5-bcd44f8d3b26",
+        "timestamp" : "2024-03-24T15:18:10+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{

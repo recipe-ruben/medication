@@ -914,30 +914,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs> ;
-         fhir:reference [ fhir:v "ValueSet/medication-exposuretype-vs" ]
-       ] ;
-       fhir:name [ fhir:v "Medication exposure purpose" ] ;
-       fhir:description [ fhir:v "Medication exposure purpose" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-exposuretype> ;
-         fhir:reference [ fhir:v "CodeSystem/medication-exposuretype" ]
-       ] ;
-       fhir:name [ fhir:v "Medication exposure purpose" ] ;
-       fhir:description [ fhir:v "Medication exposure purpose" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [

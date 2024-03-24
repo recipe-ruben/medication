@@ -58,7 +58,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "be-model-medicationline.medication.type","be-model-medicationline.medication.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Type of medication - magistral, medicinal product, non-medicinal product","Type of medication - magistral, medicinal product, non-medicinal product","","","","","","","","","",,"required","","https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs","",,,,"be-model-medicationline.medication.type",1,1,"",""
 "be-model-medicationline.exposure","be-model-medicationline.exposure","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Therapeutic, Prophylactic","Therapeutic, Prophylactic","","","","","","","","","",,"required","","https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposuretype-vs","",,,,"be-model-medicationline.exposure",0,1,"",""
+","Therapeutic, Prophylactic","Therapeutic, Prophylactic","","","","","","","","","",,"required","","https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs","",,,,"be-model-medicationline.exposure",0,1,"",""
 "be-model-medicationline.reason","be-model-medicationline.reason","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Reason for the medication treatment","Reason for the medication treatment","","","","","","","","","",,,,,"",,,,"be-model-medicationline.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
