@@ -226,7 +226,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "history.html"
+        "valueString" : "https://www.ehealth.fgov.be/standards/fhir/medication/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -516,7 +516,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "history.html"
+        "valueString" : "https://www.ehealth.fgov.be/standards/fhir/medication/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -686,6 +686,7 @@
         "reference" : "Organization/apotheek-onder-de-toren"
       },
       "name" : "apotheek-onder-de-toren",
+      "description" : "Example organization for a pharmacy",
       "exampleBoolean" : true
     },
     {
@@ -1143,7 +1144,7 @@
           "valueUrl" : "medicationrecord.html"
         }],
         "nameUrl" : "medicationrecord.html",
-        "title" : "Melgian Medication Record overview",
+        "title" : "Belgian Medication Record overview",
         "generation" : "markdown"
       },
       {
@@ -1181,6 +1182,24 @@
         "nameUrl" : "usecases-dispense.html",
         "title" : "Dispense - Use cases",
         "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "howto.html"
+        }],
+        "nameUrl" : "howto.html",
+        "title" : "How to read this specification",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "html"
       }]
     },
     "parameter" : [{

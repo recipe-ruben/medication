@@ -209,7 +209,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "history.html" ]
+         fhir:value [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -446,7 +446,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "history.html" ]
+         fhir:value [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -598,6 +598,7 @@
          fhir:reference [ fhir:v "Organization/apotheek-onder-de-toren" ]
        ] ;
        fhir:name [ fhir:v "apotheek-onder-de-toren" ] ;
+       fhir:description [ fhir:v "Example organization for a pharmacy" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1066,7 +1067,7 @@
            fhir:value [ fhir:v "medicationrecord.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "medicationrecord.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Melgian Medication Record overview" ] ;
+         fhir:title [ fhir:v "Belgian Medication Record overview" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1100,6 +1101,22 @@
          fhir:name [ fhir:v "usecases-dispense.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Dispense - Use cases" ] ;
          fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "howto.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "howto.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "How to read this specification" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Downloads" ] ;
+         fhir:generation [ fhir:v "html" ]
        ] )
      ] ;
      fhir:parameter ( [
