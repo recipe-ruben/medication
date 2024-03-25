@@ -179,7 +179,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="https://www.ehealth.fgov.be/standards/fhir/medication/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -390,7 +390,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="https://www.ehealth.fgov.be/standards/fhir/medication/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -522,6 +522,7 @@
         <reference value="Organization/apotheek-onder-de-toren"/>
       </reference>
       <name value="apotheek-onder-de-toren"/>
+      <description value="Example organization for a pharmacy"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -940,7 +941,7 @@
           <valueUrl value="medicationrecord.html"/>
         </extension>
         <nameUrl value="medicationrecord.html"/>
-        <title value="Melgian Medication Record overview"/>
+        <title value="Belgian Medication Record overview"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -974,6 +975,22 @@
         <nameUrl value="usecases-dispense.html"/>
         <title value="Dispense - Use cases"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="howto.html"/>
+        </extension>
+        <nameUrl value="howto.html"/>
+        <title value="How to read this specification"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="html"/>
       </page>
     </page>
     <parameter>
