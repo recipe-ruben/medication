@@ -937,98 +937,26 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="downloads.html"/>
-        </extension>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="howto.html"/>
-        </extension>
-        <nameUrl value="howto.html"/>
-        <title value="Howto"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="logical-models.html"/>
-        </extension>
-        <nameUrl value="logical-models.html"/>
-        <title value="Logical Models"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="medicationrecord.html"/>
         </extension>
         <nameUrl value="medicationrecord.html"/>
-        <title value="Medicationrecord"/>
+        <title value="Melgian Medication Record overview"/>
         <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-definitions.html"/>
+          <valueUrl value="definitions.html"/>
         </extension>
-        <nameUrl value="medicationrecord-definitions.html"/>
-        <title value="Medicationrecord Definitions"/>
+        <nameUrl value="definitions.html"/>
+        <title value="Definitions"/>
         <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-1.html"/>
+          <valueUrl value="usecases-medicationrecord.html"/>
         </extension>
-        <nameUrl value="medicationrecord-pattern-1.html"/>
-        <title value="Medicationrecord Pattern 1"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-2.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-pattern-2.html"/>
-        <title value="Medicationrecord Pattern 2"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-3.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-pattern-3.html"/>
-        <title value="Medicationrecord Pattern 3"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-patterns.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-patterns.html"/>
-        <title value="Medicationrecord Patterns"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-requirements.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-requirements.html"/>
-        <title value="Medicationrecord Requirements"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-scenario-1.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-scenario-1.html"/>
-        <title value="Medicationrecord Scenario 1"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-scenario-2.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-scenario-2.html"/>
-        <title value="Medicationrecord Scenario 2"/>
+        <nameUrl value="usecases-medicationrecord.html"/>
+        <title value="Medication Record - Use cases"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -1036,7 +964,7 @@
           <valueUrl value="medicationrecord-scenarios.html"/>
         </extension>
         <nameUrl value="medicationrecord-scenarios.html"/>
-        <title value="Medicationrecord Scenarios"/>
+        <title value="Medication Record - Extended scenarios"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -1044,7 +972,7 @@
           <valueUrl value="usecases-dispense.html"/>
         </extension>
         <nameUrl value="usecases-dispense.html"/>
-        <title value="Usecases Dispense"/>
+        <title value="Dispense - Use cases"/>
         <generation value="markdown"/>
       </page>
     </page>

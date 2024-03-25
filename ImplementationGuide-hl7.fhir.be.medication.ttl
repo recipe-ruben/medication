@@ -1063,98 +1063,26 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Downloads" ] ;
-         fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "howto.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "howto.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Howto" ] ;
-         fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "logical-models.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "logical-models.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Logical Models" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "medicationrecord.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "medicationrecord.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord" ] ;
+         fhir:title [ fhir:v "Melgian Medication Record overview" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-definitions.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "definitions.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "medicationrecord-definitions.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Definitions" ] ;
+         fhir:name [ fhir:v "definitions.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Definitions" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-1.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "usecases-medicationrecord.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-1.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 1" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-2.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-2.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 2" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-3.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-3.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 3" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-patterns.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-patterns.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Patterns" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-requirements.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-requirements.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Requirements" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-scenario-1.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-scenario-1.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenario 1" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-scenario-2.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-scenario-2.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenario 2" ] ;
+         fhir:name [ fhir:v "usecases-medicationrecord.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Medication Record - Use cases" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1162,7 +1090,7 @@
            fhir:value [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenarios" ] ;
+         fhir:title [ fhir:v "Medication Record - Extended scenarios" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1170,7 +1098,7 @@
            fhir:value [ fhir:v "usecases-dispense.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "usecases-dispense.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Usecases Dispense" ] ;
+         fhir:title [ fhir:v "Dispense - Use cases" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

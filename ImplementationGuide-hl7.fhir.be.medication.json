@@ -1140,109 +1140,28 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "downloads.html"
-        }],
-        "nameUrl" : "downloads.html",
-        "title" : "Downloads",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "howto.html"
-        }],
-        "nameUrl" : "howto.html",
-        "title" : "Howto",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "logical-models.html"
-        }],
-        "nameUrl" : "logical-models.html",
-        "title" : "Logical Models",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "medicationrecord.html"
         }],
         "nameUrl" : "medicationrecord.html",
-        "title" : "Medicationrecord",
+        "title" : "Melgian Medication Record overview",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-definitions.html"
+          "valueUrl" : "definitions.html"
         }],
-        "nameUrl" : "medicationrecord-definitions.html",
-        "title" : "Medicationrecord Definitions",
+        "nameUrl" : "definitions.html",
+        "title" : "Definitions",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-1.html"
+          "valueUrl" : "usecases-medicationrecord.html"
         }],
-        "nameUrl" : "medicationrecord-pattern-1.html",
-        "title" : "Medicationrecord Pattern 1",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-2.html"
-        }],
-        "nameUrl" : "medicationrecord-pattern-2.html",
-        "title" : "Medicationrecord Pattern 2",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-3.html"
-        }],
-        "nameUrl" : "medicationrecord-pattern-3.html",
-        "title" : "Medicationrecord Pattern 3",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-patterns.html"
-        }],
-        "nameUrl" : "medicationrecord-patterns.html",
-        "title" : "Medicationrecord Patterns",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-requirements.html"
-        }],
-        "nameUrl" : "medicationrecord-requirements.html",
-        "title" : "Medicationrecord Requirements",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-scenario-1.html"
-        }],
-        "nameUrl" : "medicationrecord-scenario-1.html",
-        "title" : "Medicationrecord Scenario 1",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-scenario-2.html"
-        }],
-        "nameUrl" : "medicationrecord-scenario-2.html",
-        "title" : "Medicationrecord Scenario 2",
+        "nameUrl" : "usecases-medicationrecord.html",
+        "title" : "Medication Record - Use cases",
         "generation" : "markdown"
       },
       {
@@ -1251,7 +1170,7 @@
           "valueUrl" : "medicationrecord-scenarios.html"
         }],
         "nameUrl" : "medicationrecord-scenarios.html",
-        "title" : "Medicationrecord Scenarios",
+        "title" : "Medication Record - Extended scenarios",
         "generation" : "markdown"
       },
       {
@@ -1260,7 +1179,7 @@
           "valueUrl" : "usecases-dispense.html"
         }],
         "nameUrl" : "usecases-dispense.html",
-        "title" : "Usecases Dispense",
+        "title" : "Dispense - Use cases",
         "generation" : "markdown"
       }]
     },
