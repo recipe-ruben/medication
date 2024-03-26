@@ -35,7 +35,7 @@
   <version value="1.0.1"/>
   <name value="BEMedicationLine"/>
   <status value="draft"/>
-  <date value="2024-03-26T10:34:23+00:00"/>
+  <date value="2024-03-26T10:57:44+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <name value="HL7 Belgium"/>
@@ -554,6 +554,7 @@
       <sliceName value="adherence"/>
       <short value="Indicates whether the medication is or is not being consumed or administered"/>
       <definition value="Optional Extension Element - found in all resources."/>
+      <comment value="This is an R5 element, preadopted as a R4 extension - for the full definition see here: [http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence](http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence)"/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2624,6 +2625,7 @@
       <path value="MedicationStatement.extension"/>
       <sliceName value="adherence"/>
       <short value="Indicates whether the medication is or is not being consumed or administered"/>
+      <comment value="This is an R5 element, preadopted as a R4 extension - for the full definition see here: [http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence](http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence)"/>
       <min value="1"/>
       <max value="1"/>
       <type>
