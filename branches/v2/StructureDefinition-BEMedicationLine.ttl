@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "1.0.1"] ; # 
   fhir:name [ fhir:v "BEMedicationLine"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-26T10:34:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-26T10:57:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;
@@ -604,6 +604,7 @@
        fhir:sliceName [ fhir:v "adherence" ] ;
        fhir:short [ fhir:v "Indicates whether the medication is or is not being consumed or administered" ] ;
        fhir:definition [ fhir:v "Optional Extension Element - found in all resources." ] ;
+       fhir:comment [ fhir:v "This is an R5 element, preadopted as a R4 extension - for the full definition see here: [http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence](http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence)" ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2921,6 +2922,7 @@
        fhir:path [ fhir:v "MedicationStatement.extension" ] ;
        fhir:sliceName [ fhir:v "adherence" ] ;
        fhir:short [ fhir:v "Indicates whether the medication is or is not being consumed or administered" ] ;
+       fhir:comment [ fhir:v "This is an R5 element, preadopted as a R4 extension - for the full definition see here: [http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence](http://hl7.org/fhir/R5/medicationstatement-definitions.html#MedicationStatement.adherence)" ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:type ( [
