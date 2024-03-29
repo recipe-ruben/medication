@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4c6ecd2a-42a7-4b2a-965f-7d68ed84ca27-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4c6ecd2a-42a7-4b2a-965f-7d68ed84ca27-3",
+  "id" : "217041dc-4afe-40d5-933d-92bdb4db7934-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/217041dc-4afe-40d5-933d-92bdb4db7934-3",
   "name" : "IntersectionBeMedicationDispenseAndBeMedicationDispense",
   "title" : "Intersection of BeMedicationDispense And BeMedicationDispense",
   "status" : "active",
-  "date" : "2024-03-26T10:58:08+00:00",
+  "date" : "2024-03-29T21:30:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -630,7 +630,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"]
+        "targetProfile" : ["https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient",
+        "#sd-be-patient-be-patient"]
       }],
       "constraint" : [{
         "extension" : [{
@@ -1936,7 +1937,8 @@
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization",
-        "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"]
+        "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner",
+        "#sd-be-organization-be-organization"]
       }],
       "constraint" : [{
         "extension" : [{

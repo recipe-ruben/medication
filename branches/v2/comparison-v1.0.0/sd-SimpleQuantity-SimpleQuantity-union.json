@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4c6ecd2a-42a7-4b2a-965f-7d68ed84ca27-5",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4c6ecd2a-42a7-4b2a-965f-7d68ed84ca27-5",
+  "id" : "217041dc-4afe-40d5-933d-92bdb4db7934-14",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/217041dc-4afe-40d5-933d-92bdb4db7934-14",
   "name" : "UnionSimpleQuantityAndSimpleQuantity",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2024-03-26T10:58:08+00:00",
+  "date" : "2024-03-29T21:30:40+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Quantity",
