@@ -1,9 +1,9 @@
 Medication : Validation Results
 =========================================
 
-err = 0, warn = 29, info = 10
+err = 0, warn = 14, info = 10
 IG Publisher Version: 1.6.3
-Generated Sat Mar 30 13:53:04 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#2.0.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+Generated Sat Mar 30 14:45:16 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#2.0.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
  Build Errors : 0 / 3 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-medication-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication : 0 / 0 / 1
@@ -78,20 +78,14 @@ INFORMATION: MedicationDispense/medicationdispense-example-2: MedicationDispense
 == fsh-generated/resources/Organization-apotheek-onder-de-toren.json ==
 INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/StructureDefinition-AD.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/AD'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-ANY.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ANY'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-BELMMedProduct.json ==
 == fsh-generated/resources/StructureDefinition-BEMedicationLine.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BEMedicationLine'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-BL.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BL'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-CD.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/CD'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-Class.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/Class'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-DT.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DT'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-DispenseRequestNeededCategory.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-DosageOverride.json ==
@@ -99,26 +93,17 @@ WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/
 == fsh-generated/resources/StructureDefinition-DosageOverrideReason.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-EN.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-ExposureCategory.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-II.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-INT.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/INT'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-KMEHRMS.json ==
 == fsh-generated/resources/StructureDefinition-PQ.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/PQ'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-REAL.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/REAL'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-RTO.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/RTO'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-ST.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ST'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-TS.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/TS'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-Untyped.json ==
-WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/Untyped'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-VisibilityFlag.json ==
 WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-be-medicationdispense.json ==
