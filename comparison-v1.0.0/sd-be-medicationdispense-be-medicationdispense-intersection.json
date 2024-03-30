@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "217041dc-4afe-40d5-933d-92bdb4db7934-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/217041dc-4afe-40d5-933d-92bdb4db7934-3",
+  "id" : "936634db-d901-4ea8-af0d-f07a28c7f524-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/936634db-d901-4ea8-af0d-f07a28c7f524-3",
   "name" : "IntersectionBeMedicationDispenseAndBeMedicationDispense",
   "title" : "Intersection of BeMedicationDispense And BeMedicationDispense",
   "status" : "active",
-  "date" : "2024-03-29T21:30:40+00:00",
+  "date" : "2024-03-30T10:21:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

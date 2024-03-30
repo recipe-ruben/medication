@@ -10,7 +10,6 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-medication-exposure-category-vs.html" : "Medication exposure intent",
       "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes"
     },
     {
@@ -23,17 +22,6 @@
       "uses" : {
       },
       "ValueSet-be-vs-dispenser-types.html" : "Dispenser Types"
-    },
-    {
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
-      "version" : "1.0.1",
-      "status" : "draft",
-      "name" : "BEMLMedicationType",
-      "title" : "Medication preparation Type",
-      "description" : "Medication preparation type",
-      "uses" : {
-      },
-      "ValueSet-medication-type-vs.html" : "Medication preparation Type value set"
     }
   ]
 }

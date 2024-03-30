@@ -10,22 +10,21 @@
     "valueInteger" : 1
   }],
   "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
-  "version" : "1.0.1",
+  "version" : "2.0.0",
   "name" : "DispenserTypes",
   "title" : "Dispenser Types",
   "status" : "draft",
-  "experimental" : false,
-  "date" : "2024-03-29T21:30:10+00:00",
-  "publisher" : "HL7 Belgium",
+  "date" : "2024-03-30T10:20:56+00:00",
+  "publisher" : "eHealth Platform",
   "contact" : [{
-    "name" : "HL7 Belgium",
+    "name" : "eHealth Platform",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7belgium.org"
+      "value" : "https://www.ehealth.fgov.be/standards/fhir"
     },
     {
       "system" : "email",
-      "value" : "hl7belgium@hl7belgium.org"
+      "value" : "message-structure@ehealth.fgov.be"
     }]
   },
   {
