@@ -13,7 +13,8 @@
   <name value="DispenserTypes"/>
   <title value="Dispenser Types"/>
   <status value="draft"/>
-  <date value="2024-03-30T10:20:56+00:00"/>
+  <experimental value="false"/>
+  <date value="2024-03-30T10:53:39+00:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <name value="eHealth Platform"/>
