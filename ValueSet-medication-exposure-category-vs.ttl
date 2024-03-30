@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Medication exposure intent"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-03-30T14:41:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-30T19:04:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "eHealth Platform"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "eHealth Platform" ] ;
@@ -45,6 +45,7 @@
        fhir:display [ fhir:v "Belgium" ]
      ] )
   ] ) ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
