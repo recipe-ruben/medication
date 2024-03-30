@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "2.0.0"] ; # 
   fhir:name [ fhir:v "AD"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-30T10:53:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-30T10:56:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "eHealth Platform"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "eHealth Platform" ] ;
