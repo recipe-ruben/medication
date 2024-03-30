@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "KMEHRMS"] ; # 
   fhir:title [ fhir:v "KMEHR Medication Schema v5.8"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-30T13:34:04+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-30T13:49:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "eHealth Platform"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "eHealth Platform" ] ;
