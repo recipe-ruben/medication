@@ -1,10 +1,10 @@
 Medication : Validation Results
 =========================================
 
-err = 3, warn = 13, info = 10
+err = 3, warn = 12, info = 10
 IG Publisher Version: 1.6.3
-Generated Thu Mar 28 20:54:47 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
- Build Errors : 95 / 6 / 0
+Generated Sat Mar 30 10:23:54 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#2.0.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+ Build Errors : 95 / 5 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-communitypharmacy-1med : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-dispense-hospital : 0 / 2 / 2
@@ -21,7 +21,6 @@ Generated Thu Mar 28 20:54:47 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medic
  /github/workspace/fsh-generated/resources/ValueSet-be-vs-dispenser-types : 0 / 1 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/apotheek-onder-de-toren.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.change.history.html#/html/body/div/div/ul/span/a at Line 203, column 14: The link '#bottom' for "bottom" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, segment-post-footer, standards-logo, ig-status, top, root, stripe, segment-footer, ig-nav, segment-navbar, segment-content, segment-breadcrumb, -medicationdispenseexample-dispense-communitypharmacy-1med-change-history])
 ERROR: /github/workspace/output/MedicationDispense-example-dispense-communitypharmacy-1med.html#/html/body/div/div/ul/span/a at Line 201, column 14: The link '#bottom' for "bottom" cannot be resolved (valid targets: [project-logo, dosageinstructions, segment-header, project-nav, publish-box, segment-post-footer, hcexample-dispense-communitypharmacy-1med, example-medicationdispense-dispense-entry-example-community-pharmacy-dispense-from-prescription, standards-logo, ig-status, top, example-dispense-communitypharmacy-1med, root, stripe, segment-footer, ig-nav, segment-navbar, segment-content, segment-breadcrumb])
@@ -137,7 +136,7 @@ INFORMATION: MedicationDispense/example-dispense-with-atc: MedicationDispense.me
 == fsh-generated/resources/MedicationDispense-example-minimal-dispense.json ==
 INFORMATION: MedicationDispense/example-minimal-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found, so the code cannot be validated
 == fsh-generated/resources/MedicationDispense-medication-dispense-example-2.json ==
-INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0]/*Organization/apotheek-onder-de-toren*/.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.contained[0]/*Organization/apotheek-onder-de-toren*/.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.identifier[0].type.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes' could not be found, so the code cannot be validated
 WARNING: MedicationDispense/medication-dispense-example-2: MedicationDispense.context.identifier.type.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
@@ -147,7 +146,7 @@ INFORMATION: MedicationDispense/medication-dispense-example-2: MedicationDispens
 == fsh-generated/resources/NamingSystem-be-ns-prescription-ids.json ==
 == fsh-generated/resources/NamingSystem-be-ns-product-package-type.json ==
 == fsh-generated/resources/Organization-apotheek-onder-de-toren.json ==
-INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Organization/apotheek-onder-de-toren: Organization.identifier[0]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/StructureDefinition-be-medicationdispense.json ==
 INFORMATION: StructureDefinition/be-medicationdispense: StructureDefinition.snapshot.element[85].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-be-model-medication-dispense.json ==
