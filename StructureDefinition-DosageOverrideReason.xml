@@ -13,17 +13,17 @@
   <version value="2.0.0"/>
   <name value="DosageOverrideReason"/>
   <status value="draft"/>
-  <date value="2024-03-30T19:04:54+00:00"/>
-  <publisher value="eHealth Platform"/>
+  <date value="2024-04-03T13:08:50+00:00"/>
+  <publisher value="HL7 Belgium"/>
   <contact>
-    <name value="eHealth Platform"/>
+    <name value="HL7 Belgium"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+      <value value="https://www.hl7belgium.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="message-structure@ehealth.fgov.be"/>
+      <value value="hl7belgium@hl7belgium.org"/>
     </telecom>
   </contact>
   <contact>

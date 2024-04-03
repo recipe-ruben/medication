@@ -11,16 +11,16 @@
   "title" : "Medication",
   "status" : "draft",
   "date" : "2020-02-26",
-  "publisher" : "eHealth Platform",
+  "publisher" : "HL7 Belgium",
   "contact" : [{
-    "name" : "eHealth Platform",
+    "name" : "HL7 Belgium",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.ehealth.fgov.be/standards/fhir"
+      "value" : "https://www.hl7belgium.org"
     },
     {
       "system" : "email",
-      "value" : "message-structure@ehealth.fgov.be"
+      "value" : "hl7belgium@hl7belgium.org"
     }]
   },
   {
@@ -1022,7 +1022,7 @@
         "reference" : "StructureDefinition/be-model-medicationline"
       },
       "name" : "Medication Treatment Line - logical model",
-      "description" : "A logical data model of the medication treatment line.",
+      "description" : "A model for representing a Treatment Line.",
       "exampleBoolean" : false
     },
     {
@@ -1034,7 +1034,7 @@
         "reference" : "StructureDefinition/BELMMedProduct"
       },
       "name" : "Medicinal Product",
-      "description" : "A logical data model for representing a medicinal product.",
+      "description" : "A model for representing a medicinal product.",
       "exampleBoolean" : false
     },
     {

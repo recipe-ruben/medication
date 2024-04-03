@@ -20,7 +20,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "BELMMedProduct","BELMMedProduct","BELMMedProduct","","","",0,*,"","","","null {[]} {[]}
-","Medicinal Product","A logical data model for representing a medicinal product.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+","Medicinal Product","A model for representing a medicinal product.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "BELMMedProduct","BELMMedProduct.identifier","BELMMedProduct.identifier","","","",0,*,"","","","Identifier {[]} {[]}
 ","Unique identifier","A unique identifier for the medication line","","","","","","","","","",,,,,"",,,,"BELMMedProduct.identifier",0,*,"",""
 "BELMMedProduct","BELMMedProduct.name","BELMMedProduct.name","","","",0,1,"","","","string {[]} {[]}
@@ -2811,7 +2811,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "be-model-medicationdispense","be-model-medicationdispense.note","be-model-medicationdispense.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.","Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.","","","","","","","","","",,,,,"",,,,"be-model-medicationdispense.note",0,*,"",""
 "be-model-medicationline","be-model-medicationline","be-model-medicationline","","","",0,*,"","","","null {[]} {[]}
-","Medication Treatment Line - logical model","A logical data model of the medication treatment line.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+","Medication Treatment Line - logical model","A model for representing a Treatment Line.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "be-model-medicationline","be-model-medicationline.uniqueIdentifier","be-model-medicationline.uniqueIdentifier","","","",1,*,"","","","Identifier {[]} {[]}
 ","Unique identifier","A unique identifier for the medication line. This identifier alone may be the same for different versions of the medication line.","","","","","","","","","",,,,,"",,,,"be-model-medicationline.uniqueIdentifier",1,*,"",""
 "be-model-medicationline","be-model-medicationline.versionIdentifier","be-model-medicationline.versionIdentifier","","","",1,1,"","","","string {[]} {[]}
