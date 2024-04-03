@@ -3,10 +3,10 @@
   "id" : "hl7.fhir.be.medication",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>Medication</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>FHIR Medication specifications</p>\n</div></div>"
   },
   "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication",
-  "version" : "1.0.1",
+  "version" : "2.0.0",
   "name" : "Medication",
   "title" : "Medication",
   "status" : "draft",
@@ -31,7 +31,7 @@
       "use" : "work"
     }]
   }],
-  "description" : "Medication",
+  "description" : "FHIR Medication specifications",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -83,7 +83,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "STU1"
+        "valueString" : "STU"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -373,7 +373,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "STU1"
+        "valueString" : "STU"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

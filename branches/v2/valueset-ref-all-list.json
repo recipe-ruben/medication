@@ -332,7 +332,7 @@
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
-      "version" : "1.0.1",
+      "version" : "2.0.0",
       "status" : "draft",
       "name" : "DispenserTypes",
       "title" : "Dispenser Types",
@@ -343,7 +343,7 @@
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs",
-      "version" : "1.0.1",
+      "version" : "2.0.0",
       "status" : "draft",
       "name" : "MedicationExposureCategoryVS",
       "title" : "Medication exposure intent",
@@ -351,12 +351,12 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model",
-      "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
+      "StructureDefinition-ExposureCategory.html" : "ExposureCategory",
+      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
-      "version" : "1.0.1",
+      "version" : "2.0.0",
       "status" : "draft",
       "name" : "BEMLMedicationTypeVS",
       "title" : "Medication preparation Type value set",

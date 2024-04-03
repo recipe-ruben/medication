@@ -26,7 +26,7 @@
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
-      "version" : "1.0.1",
+      "version" : "2.0.0",
       "status" : "draft",
       "name" : "BEMLMedicationType",
       "title" : "Medication preparation Type",
