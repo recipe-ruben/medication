@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
-      "version" : "2.0.0",
+      "version" : "1.1.0",
       "status" : "draft",
       "name" : "DispenserTypes",
       "title" : "Dispenser Types",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs",
-      "version" : "2.0.0",
+      "version" : "1.1.0",
       "status" : "draft",
       "name" : "MedicationExposureCategoryVS",
       "title" : "Medication exposure intent",
@@ -21,8 +21,19 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-line-origin-type-vs",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "MedicationLineOrigintypeVS",
+      "title" : "Medication origin type ValueSet",
+      "description" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type"
+      ]
+    },
+    {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
-      "version" : "2.0.0",
+      "version" : "1.1.0",
       "status" : "draft",
       "name" : "BEMLMedicationTypeVS",
       "title" : "Medication preparation Type value set",

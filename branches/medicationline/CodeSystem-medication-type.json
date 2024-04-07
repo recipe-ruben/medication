@@ -6,22 +6,22 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">magistral<a name=\"medication-type-magistral\"> </a></td><td>Magistral preparation</td></tr><tr><td style=\"white-space:nowrap\">officinal<a name=\"medication-type-officinal\"> </a></td><td>Officinal preparation</td></tr><tr><td style=\"white-space:nowrap\">medicinal-product<a name=\"medication-type-medicinal-product\"> </a></td><td>Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">non-medicinal-product<a name=\"medication-type-non-medicinal-product\"> </a></td><td>non-medicinal product e.g. supplement</td></tr></table></div>"
   },
   "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
-  "version" : "2.0.0",
+  "version" : "1.1.0",
   "name" : "BEMLMedicationType",
   "title" : "Medication preparation Type",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2024-03-30T19:04:54+00:00",
-  "publisher" : "eHealth Platform",
+  "date" : "2024-04-07T09:48:24+00:00",
+  "publisher" : "HL7 Belgium",
   "contact" : [{
-    "name" : "eHealth Platform",
+    "name" : "HL7 Belgium",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.ehealth.fgov.be/standards/fhir"
+      "value" : "https://www.hl7belgium.org"
     },
     {
       "system" : "email",
-      "value" : "message-structure@ehealth.fgov.be"
+      "value" : "hl7belgium@hl7belgium.org"
     }]
   },
   {

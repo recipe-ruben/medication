@@ -40,21 +40,21 @@
     <valueInteger value="1"/>
   </extension>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-  <version value="2.0.0"/>
+  <version value="1.1.0"/>
   <name value="BeMedicationDispense"/>
   <title value="BeMedicationDispense"/>
   <status value="active"/>
-  <date value="2024-03-30T19:04:54+00:00"/>
-  <publisher value="eHealth Platform"/>
+  <date value="2024-04-07T09:48:24+00:00"/>
+  <publisher value="HL7 Belgium"/>
   <contact>
-    <name value="eHealth Platform"/>
+    <name value="HL7 Belgium"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+      <value value="https://www.hl7belgium.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="message-structure@ehealth.fgov.be"/>
+      <value value="hl7belgium@hl7belgium.org"/>
     </telecom>
   </contact>
   <contact>
