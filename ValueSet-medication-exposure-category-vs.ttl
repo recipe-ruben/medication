@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/360271000\">360271000</a></td><td>Prophylaxis</td></tr><tr><td><a href=\"http://snomed.info/id/360270004\">360270004</a></td><td>Therapy - action</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.0.0"] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "MedicationExposureCategoryVS"] ; # 
   fhir:title [ fhir:v "Medication exposure intent"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-04-07T08:57:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-07T09:48:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;
@@ -45,6 +45,7 @@
        fhir:display [ fhir:v "Belgium" ]
      ] )
   ] ) ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;

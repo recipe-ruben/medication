@@ -1,13 +1,9 @@
-<!-- layouts\layout-changehistory.html -->
-<!-- get modelType -->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> - Medication v2.0.0</title>
+    <title>Medication origin type - Medication v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,8 +48,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"9.31"}
+    h3,h4,h5,h6{--heading-prefix:"9.31"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -79,7 +75,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Medication</span>
             <br/>
-            <span style="display:inline-block;">2.0.0 - STU
+            <span style="display:inline-block;">1.1.0 - STU
 
 
 
@@ -199,11 +195,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medication origin type</b></li>
 
           <span style="float:right;">
 
+            <a href="ValueSet-medication-type-vs.ttl.html">&lt;prev</a> | 
+
             <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-medication-line-origin-type-testing.html">next&gt;</a>
 
           </span>
 
@@ -217,9 +217,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Medication, published by HL7 Belgium. This guide is not an authorized publication; it is the continuous build for version 2.0.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-be/medication">https://github.com/hl7-be/medication</a> and changes regularly. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Medication, published by HL7 Belgium. This guide is not an authorized publication; it is the continuous build for version 1.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-be/medication">https://github.com/hl7-be/medication</a> and changes regularly. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -231,29 +230,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="MedicationDispense-example-dispense-with-atc.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="MedicationDispense-example-dispense-with-atc.xml.html">XML</a>
+      <a href="CodeSystem-medication-line-origin-type.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="MedicationDispense-example-dispense-with-atc.json.html">JSON</a>
+      <a href="CodeSystem-medication-line-origin-type.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="MedicationDispense-example-dispense-with-atc.ttl.html">TTL</a>
+      <a href="CodeSystem-medication-line-origin-type.ttl.html">TTL</a>
     </li>
   
 
@@ -261,15 +260,85 @@
 
 </ul>
 
-
   <a name="root"> </a>
-  <h2 id="root">: MedicationDispense/example-dispense-with-atc - Change History</h2>
-  <p>History of changes for example-dispense-with-atc .</p>
+  <h2 id="root">CodeSystem: Medication origin type
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type|1.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2024-04-07
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">MedicationLineOrigintype</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Medication treatment origin type - what is the type of care that originated the medication treatment</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-medication-line-origin-type-vs.html">MedicationLineOrigintypeVS</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">ambulatory<a name="medication-line-origin-type-ambulatory"> </a></td>
+<td>Ambulatory</td></tr>
+<tr><td style="white-space:nowrap">hospital<a name="medication-line-origin-type-hospital"> </a></td>
+<td>Hospital</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
 
   
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -277,29 +346,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -318,7 +364,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <span style="visibility:hidden">&lt;prev</span>
+                <a href="ValueSet-medication-type-vs.ttl.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -326,7 +372,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <span style="visibility:hidden">next&gt;</span>
+                <a href="CodeSystem-medication-line-origin-type-testing.html">next&gt;</a>
 
               </td>
             </tr>
@@ -336,7 +382,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.medication#2.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Apr 7, 2024 08:57+0000">2024-04-07</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.medication#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Apr 7, 2024 09:48+0000">2024-04-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- HL7 Belgium -->
@@ -344,7 +390,7 @@
 
 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/hl7-be/medication/projects/1">Issues</a> |
+                 
                  <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Version History</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a>
 <!-- no fitting stylesheet found (status/publisher)-->

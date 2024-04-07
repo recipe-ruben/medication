@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-medication-type.html"><code>https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type</code></a></li></ul></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs"/>
-  <version value="2.0.0"/>
+  <version value="1.1.0"/>
   <name value="BEMLMedicationTypeVS"/>
   <title value="Medication preparation Type value set"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2024-04-07T08:57:13+00:00"/>
+  <date value="2024-04-07T09:48:24+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <name value="HL7 Belgium"/>

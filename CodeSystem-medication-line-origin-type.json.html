@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Dispense Example - Minimal amount of information - JSON Representation - Medication v2.0.0</title>
+    <title>Medication origin type - JSON Representation - Medication v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,8 +50,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"9.40"}
-    h3,h4,h5,h6{--heading-prefix:"9.40"}</style>
+    <style type="text/css">h2{--heading-prefix:"9.31"}
+    h3,h4,h5,h6{--heading-prefix:"9.31"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -77,7 +77,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Medication</span>
             <br/>
-            <span style="display:inline-block;">2.0.0 - STU
+            <span style="display:inline-block;">1.1.0 - STU
 
 
 
@@ -197,15 +197,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dispense Example - Minimal amount of information</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medication origin type</b></li>
 
           <span style="float:right;">
 
-            <a href="MedicationDispense-example-dispense-with-atc.xml.html">&lt;prev</a> | 
+            <a href="CodeSystem-medication-line-origin-type.xml.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="MedicationDispense-example-dispense-with-atc.ttl.html">next&gt;</a>
+          | <a href="CodeSystem-medication-line-origin-type.ttl.html">next&gt;</a>
 
           </span>
 
@@ -220,7 +220,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Medication, published by HL7 Belgium. This guide is not an authorized publication; it is the continuous build for version 2.0.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-be/medication">https://github.com/hl7-be/medication</a> and changes regularly. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Medication, published by HL7 Belgium. This guide is not an authorized publication; it is the continuous build for version 1.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-be/medication">https://github.com/hl7-be/medication</a> and changes regularly. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -233,14 +233,14 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="MedicationDispense-example-dispense-with-atc.html">Narrative Content</a>
+    <a href="CodeSystem-medication-line-origin-type.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="MedicationDispense-example-dispense-with-atc.xml.html">XML</a>
+      <a href="CodeSystem-medication-line-origin-type.xml.html">XML</a>
     </li>
   
 
@@ -254,7 +254,7 @@
 
   
     <li>
-      <a href="MedicationDispense-example-dispense-with-atc.ttl.html">TTL</a>
+      <a href="CodeSystem-medication-line-origin-type.ttl.html">TTL</a>
     </li>
   
 
@@ -266,10 +266,25 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Dispense Example - Minimal amount of information - JSON Representation</h2>
+<h2 id="root">: Medication origin type - JSON Representation</h2>
+
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2024-04-07
+          
+        
+      </td>
+
+    </tr>
+  </table>
 
 
-<p><a href="MedicationDispense-example-dispense-with-atc.json" no-download="true">Raw json</a> | <a href="MedicationDispense-example-dispense-with-atc.json" download>Download</a></p>
+<p><a href="CodeSystem-medication-line-origin-type.json" no-download="true">Raw json</a> | <a href="CodeSystem-medication-line-origin-type.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -278,45 +293,70 @@
 
   <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
 {
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense">resourceType</a>" : "MedicationDispense",
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.id">id</a>" : "example-dispense-with-atc",
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="StructureDefinition-be-medicationdispense.html" style="color: Maroon">&#x1F517;</a> "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
-    ]
-  },
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.text">text</a>" : {
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "medication-line-origin-type",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicationDispense&lt;/b&gt;&lt;a name=\&quot;example-dispense-with-atc\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-dispense-with-atc\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource MedicationDispense &amp;quot;example-dispense-with-atc&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-be-medicationdispense.html\&quot;&gt;BeMedicationDispense&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: Topazolam tab 50x 1,0mg &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (cnk-codes#1439562)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;code&gt;https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin&lt;/code&gt;/64110219106&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span&gt;: Jan Janssen&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;whenHandedOver&lt;/b&gt;: 2020-03-10&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ambulatory&lt;a name=\&quot;medication-line-origin-type-ambulatory\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ambulatory&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;hospital&lt;a name=\&quot;medication-line-origin-type-hospital\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospital&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.status">status</a>" : "completed",
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.medication[x]">medicationCodeableConcept</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-      {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cnk-codes",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "1439562",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Topazolam tab 50x 1,0mg"
-      }
-    ]
-  },
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.subject">subject</a>" : {
-    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "64110219106"
-    }
-  },
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.performer">performer</a>" : [
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "1.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "MedicationLineOrigintype",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Medication origin type",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-07T09:48:24+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "HL7 Belgium",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.performer.actor">actor</a>" : {
-        "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-practitioner",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "6547432"
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "HL7 Belgium",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://www.hl7belgium.org"
         },
-        "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "Jan Janssen"
-      }
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "hl7belgium@hl7belgium.org"
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Message Structure eHealth",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "message-structure@ehealth.fgov.be",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+        }
+      ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/medicationdispense.html#MedicationDispense.whenHandedOver">whenHandedOver</a>" : "2020-03-10"
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "BE",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Belgium"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 2,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ambulatory",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ambulatory"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "hospital",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Hospital"
+    }
+  ]
 }</code></pre>
 
 
@@ -351,7 +391,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="MedicationDispense-example-dispense-with-atc.xml.html">&lt;prev</a>
+                <a href="CodeSystem-medication-line-origin-type.xml.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -359,7 +399,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="MedicationDispense-example-dispense-with-atc.ttl.html">next&gt;</a>
+                <a href="CodeSystem-medication-line-origin-type.ttl.html">next&gt;</a>
 
               </td>
             </tr>
@@ -369,7 +409,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.medication#2.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Apr 7, 2024 08:57+0000">2024-04-07</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7belgium.org">HL7 Belgium</a>.  Package hl7.fhir.be.medication#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Apr 7, 2024 09:48+0000">2024-04-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- HL7 Belgium -->
@@ -377,7 +417,7 @@
 
 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/hl7-be/medication/projects/1">Issues</a> |
+                 
                  <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Version History</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a>
 <!-- no fitting stylesheet found (status/publisher)-->
