@@ -11,16 +11,16 @@
   "title" : "Medication",
   "status" : "draft",
   "date" : "2020-02-26",
-  "publisher" : "HL7 Belgium",
+  "publisher" : "eHealth Platform",
   "contact" : [{
-    "name" : "HL7 Belgium",
+    "name" : "eHealth Platform",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7belgium.org"
+      "value" : "https://www.ehealth.fgov.be/standards/fhir"
     },
     {
       "system" : "email",
-      "value" : "hl7belgium@hl7belgium.org"
+      "value" : "message-structure@ehealth.fgov.be"
     }]
   },
   {
@@ -43,16 +43,6 @@
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
-    "id" : "hl7tx",
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
-      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
-    }],
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
-  },
-  {
     "id" : "hl7ext",
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
@@ -67,6 +57,12 @@
     "uri" : "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
     "packageId" : "hl7.fhir.be.core",
     "version" : "2.0.1"
+  },
+  {
+    "id" : "hl7_terminology",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology",
+    "version" : "5.5.0"
   }],
   "definition" : {
     "extension" : [{
@@ -690,7 +686,6 @@
         "reference" : "Organization/apotheek-onder-de-toren"
       },
       "name" : "apotheek-onder-de-toren",
-      "description" : "Example organization for a pharmacy",
       "exampleBoolean" : true
     },
     {
@@ -751,18 +746,6 @@
       },
       "name" : "BeMedicationDispense",
       "description" : "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BEMedicationLine"
-      },
-      "name" : "BEMedicationLine",
-      "description" : "Medication Line profile - contains the overview information for a single medication item",
       "exampleBoolean" : false
     },
     {
@@ -831,7 +814,7 @@
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
-        "reference" : "MedicationDispense/medicationdispense-example-2"
+        "reference" : "MedicationDispense/medication-dispense-example-2"
       },
       "name" : "Dispense entry Example - Community Pharmacy dispense, from prescription, with contained org.",
       "description" : "Medication Dispense example",
@@ -852,6 +835,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationDispense"
+      }],
+      "reference" : {
+        "reference" : "MedicationDispense/example-dispense-with-atc"
+      },
+      "name" : "Dispense Example - Minimal amount of information",
+      "description" : "Medication Dispense example with ATC code",
+      "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -859,42 +854,6 @@
       },
       "name" : "Dispenser Types",
       "description" : "Dispenser Types - from hcparty",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/DispenseRequestNeededCategory"
-      },
-      "name" : "DispenseRequestNeededCategory",
-      "description" : "Dispense Request Needed - category.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/DosageOverride"
-      },
-      "name" : "DosageOverride",
-      "description" : "Dispense override.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/DosageOverrideReason"
-      },
-      "name" : "DosageOverrideReason",
-      "description" : "Dispense Request Needed - category.",
       "exampleBoolean" : false
     },
     {
@@ -919,18 +878,6 @@
       },
       "name" : "EN",
       "description" : "EntityName",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ExposureCategory"
-      },
-      "name" : "ExposureCategory",
-      "description" : "Exposure - category.",
       "exampleBoolean" : false
     },
     {
@@ -1044,17 +991,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationDispense"
-      }],
-      "reference" : {
-        "reference" : "MedicationDispense/medicationdispense-example-1"
-      },
-      "name" : "medicationdispense-example-1",
-      "exampleCanonical" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
@@ -1135,18 +1071,6 @@
       "name" : "Untyped",
       "description" : "No data type defined",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/VisibilityFlag"
-      },
-      "name" : "VisibilityFlag",
-      "description" : "Visibility Flag.",
-      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
@@ -1216,16 +1140,7 @@
           "valueUrl" : "howto.html"
         }],
         "nameUrl" : "howto.html",
-        "title" : "How to read this specification",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "downloads.html"
-        }],
-        "nameUrl" : "downloads.html",
-        "title" : "Downloads",
+        "title" : "Howto",
         "generation" : "html"
       }]
     },

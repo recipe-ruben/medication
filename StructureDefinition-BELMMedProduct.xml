@@ -21,17 +21,17 @@
   <name value="BELMMedProduct"/>
   <title value="Medicinal Product"/>
   <status value="draft"/>
-  <date value="2024-04-07T09:48:24+00:00"/>
-  <publisher value="HL7 Belgium"/>
+  <date value="2024-04-07T12:07:30+00:00"/>
+  <publisher value="eHealth Platform"/>
   <contact>
-    <name value="HL7 Belgium"/>
+    <name value="eHealth Platform"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.hl7belgium.org"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="hl7belgium@hl7belgium.org"/>
+      <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
   <contact>

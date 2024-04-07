@@ -16,16 +16,16 @@
   fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "ST"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-07T09:48:24+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
+  fhir:date [ fhir:v "2024-04-07T12:07:30+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "eHealth Platform"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "HL7 Belgium" ] ;
+     fhir:name [ fhir:v "eHealth Platform" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://www.hl7belgium.org" ]
+       fhir:value [ fhir:v "https://www.ehealth.fgov.be/standards/fhir" ]
      ] [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "hl7belgium@hl7belgium.org" ]
+       fhir:value [ fhir:v "message-structure@ehealth.fgov.be" ]
      ] )
   ] [
      fhir:name [ fhir:v "Message Structure eHealth" ] ;

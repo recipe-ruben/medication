@@ -9,17 +9,17 @@
   "version" : "1.1.0",
   "name" : "INT",
   "status" : "draft",
-  "date" : "2024-04-07T09:48:24+00:00",
-  "publisher" : "HL7 Belgium",
+  "date" : "2024-04-07T12:07:30+00:00",
+  "publisher" : "eHealth Platform",
   "contact" : [{
-    "name" : "HL7 Belgium",
+    "name" : "eHealth Platform",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7belgium.org"
+      "value" : "https://www.ehealth.fgov.be/standards/fhir"
     },
     {
       "system" : "email",
-      "value" : "hl7belgium@hl7belgium.org"
+      "value" : "message-structure@ehealth.fgov.be"
     }]
   },
   {
