@@ -70,6 +70,13 @@
     "name" : "BELMMedProduct"
   },
   {
+    "id" : "BEMedicationLine",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BEMedicationLine",
+    "version" : "1.1.0",
+    "name" : "BEMedicationLine"
+  },
+  {
     "id" : "BL",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BL",
@@ -98,11 +105,39 @@
     "name" : "DT"
   },
   {
+    "id" : "DispenseRequestNeededCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory",
+    "version" : "1.1.0",
+    "name" : "DispenseRequestNeededCategory"
+  },
+  {
+    "id" : "DosageOverride",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride",
+    "version" : "1.1.0",
+    "name" : "DosageOverride"
+  },
+  {
+    "id" : "DosageOverrideReason",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason",
+    "version" : "1.1.0",
+    "name" : "DosageOverrideReason"
+  },
+  {
     "id" : "EN",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN",
     "version" : "1.1.0",
     "name" : "EN"
+  },
+  {
+    "id" : "ExposureCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory",
+    "version" : "1.1.0",
+    "name" : "ExposureCategory"
   },
   {
     "id" : "II",
@@ -166,6 +201,13 @@
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/Untyped",
     "version" : "1.1.0",
     "name" : "Untyped"
+  },
+  {
+    "id" : "VisibilityFlag",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag",
+    "version" : "1.1.0",
+    "name" : "VisibilityFlag"
   },
   {
     "id" : "be-medicationdispense",
