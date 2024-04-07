@@ -12,16 +12,16 @@
   <title value="Medication"/>
   <status value="draft"/>
   <date value="2020-02-26"/>
-  <publisher value="eHealth Platform"/>
+  <publisher value="HL7 Belgium"/>
   <contact>
-    <name value="eHealth Platform"/>
+    <name value="HL7 Belgium"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+      <value value="https://www.hl7belgium.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="message-structure@ehealth.fgov.be"/>
+      <value value="hl7belgium@hl7belgium.org"/>
     </telecom>
   </contact>
   <contact>
@@ -1005,7 +1005,15 @@
           <valueUrl value="howto.html"/>
         </extension>
         <nameUrl value="howto.html"/>
-        <title value="Howto"/>
+        <title value="How to read this specification"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
         <generation value="html"/>
       </page>
     </page>

@@ -18,15 +18,15 @@
   fhir:title [ fhir:v "Medication"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2020-02-26"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "eHealth Platform"] ; # 
+  fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "eHealth Platform" ] ;
+     fhir:name [ fhir:v "HL7 Belgium" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://www.ehealth.fgov.be/standards/fhir" ]
+       fhir:value [ fhir:v "https://www.hl7belgium.org" ]
      ] [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "message-structure@ehealth.fgov.be" ]
+       fhir:value [ fhir:v "hl7belgium@hl7belgium.org" ]
      ] )
   ] [
      fhir:name [ fhir:v "Message Structure eHealth" ] ;
@@ -1134,7 +1134,15 @@
            fhir:value [ fhir:v "howto.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "howto.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Howto" ] ;
+         fhir:title [ fhir:v "How to read this specification" ] ;
+         fhir:generation [ fhir:v "html" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Downloads" ] ;
          fhir:generation [ fhir:v "html" ]
        ] )
      ] ;

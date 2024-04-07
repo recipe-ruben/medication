@@ -11,16 +11,16 @@
   "title" : "Medication",
   "status" : "draft",
   "date" : "2020-02-26",
-  "publisher" : "eHealth Platform",
+  "publisher" : "HL7 Belgium",
   "contact" : [{
-    "name" : "eHealth Platform",
+    "name" : "HL7 Belgium",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.ehealth.fgov.be/standards/fhir"
+      "value" : "https://www.hl7belgium.org"
     },
     {
       "system" : "email",
-      "value" : "message-structure@ehealth.fgov.be"
+      "value" : "hl7belgium@hl7belgium.org"
     }]
   },
   {
@@ -1216,7 +1216,16 @@
           "valueUrl" : "howto.html"
         }],
         "nameUrl" : "howto.html",
-        "title" : "Howto",
+        "title" : "How to read this specification",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
         "generation" : "html"
       }]
     },

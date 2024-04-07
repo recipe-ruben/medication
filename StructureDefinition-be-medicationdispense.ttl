@@ -21,16 +21,16 @@
   fhir:name [ fhir:v "BeMedicationDispense"] ; # 
   fhir:title [ fhir:v "BeMedicationDispense"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-04-07T12:19:24+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "eHealth Platform"] ; # 
+  fhir:date [ fhir:v "2024-04-07T13:15:37+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "eHealth Platform" ] ;
+     fhir:name [ fhir:v "HL7 Belgium" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://www.ehealth.fgov.be/standards/fhir" ]
+       fhir:value [ fhir:v "https://www.hl7belgium.org" ]
      ] [
        fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "message-structure@ehealth.fgov.be" ]
+       fhir:value [ fhir:v "hl7belgium@hl7belgium.org" ]
      ] )
   ] [
      fhir:name [ fhir:v "Message Structure eHealth" ] ;
