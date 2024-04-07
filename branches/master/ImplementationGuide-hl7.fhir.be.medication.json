@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>FHIR Medication specifications</p>\n</div></div>"
   },
   "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication",
-  "version" : "2.0.0",
+  "version" : "1.1.0",
   "name" : "Medication",
   "title" : "Medication",
   "status" : "draft",
@@ -656,6 +656,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/AD"
+      },
+      "name" : "AD",
+      "description" : "Address",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ANY"
+      },
+      "name" : "ANY",
+      "description" : "An abstract type",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -663,18 +687,6 @@
       },
       "name" : "apotheek-onder-de-toren",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/be-model-medication-dispense"
-      },
-      "name" : "be-model-medication-dispense",
-      "description" : "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -739,6 +751,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/be-model-medicationdispense"
+      },
+      "name" : "BeModelMedicationDispense",
+      "description" : "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BL"
+      },
+      "name" : "BL",
+      "description" : "Boolean - true or false",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/CD"
+      },
+      "name" : "CD",
+      "description" : "ConceptDescriptor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Class"
+      },
+      "name" : "Class",
+      "description" : "Class of data elements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "MedicationDispense"
       }],
       "reference" : {
@@ -795,6 +855,222 @@
       "name" : "Dispenser Types",
       "description" : "Dispenser Types - from hcparty",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/DT"
+      },
+      "name" : "DT",
+      "description" : "Date",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EN"
+      },
+      "name" : "EN",
+      "description" : "EntityName",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/II"
+      },
+      "name" : "II",
+      "description" : "InstanceIdentifier",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/INT"
+      },
+      "name" : "INT",
+      "description" : "IntegerNumber",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/KMEHRMS"
+      },
+      "name" : "KMEHR Medication Schema v5.8",
+      "description" : "This model represents the Medication Schema KMEHR V5.8. It is shown for demonstrating the field correspondence/equivalence, and not to imply any intended scope or intended behaviour.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medication-exposure-category-vs"
+      },
+      "name" : "Medication exposure intent",
+      "description" : "The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/medication-line-origin-type"
+      },
+      "name" : "Medication origin type",
+      "description" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medication-line-origin-type-vs"
+      },
+      "name" : "Medication origin type ValueSet",
+      "description" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/medication-type"
+      },
+      "name" : "Medication preparation Type",
+      "description" : "Medication preparation type",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medication-type-vs"
+      },
+      "name" : "Medication preparation Type value set",
+      "description" : "Medication preparation type value set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/be-model-medicationline"
+      },
+      "name" : "Medication Treatment Line - logical model",
+      "description" : "A logical data model of the medication treatment line.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BELMMedProduct"
+      },
+      "name" : "Medicinal Product",
+      "description" : "A logical data model for representing a medicinal product.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/PQ"
+      },
+      "name" : "PQ",
+      "description" : "PhysicalQuantity",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/REAL"
+      },
+      "name" : "REAL",
+      "description" : "RealNumber",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/RTO"
+      },
+      "name" : "RTO",
+      "description" : "Ratio",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ST"
+      },
+      "name" : "ST",
+      "description" : "CharacterString",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/TS"
+      },
+      "name" : "TS",
+      "description" : "TimeStamp",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Untyped"
+      },
+      "name" : "Untyped",
+      "description" : "No data type defined",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
@@ -816,11 +1092,47 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "downloads.html"
+          "valueUrl" : "medicationrecord.html"
         }],
-        "nameUrl" : "downloads.html",
-        "title" : "Downloads",
-        "generation" : "html"
+        "nameUrl" : "medicationrecord.html",
+        "title" : "Belgian Medication Record overview",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "definitions.html"
+        }],
+        "nameUrl" : "definitions.html",
+        "title" : "Definitions",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "usecases-medicationrecord.html"
+        }],
+        "nameUrl" : "usecases-medicationrecord.html",
+        "title" : "Medication Record - Use cases",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "medicationrecord-scenarios.html"
+        }],
+        "nameUrl" : "medicationrecord-scenarios.html",
+        "title" : "Medication Record - Extended scenarios",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "usecases-dispense.html"
+        }],
+        "nameUrl" : "usecases-dispense.html",
+        "title" : "Dispense - Use cases",
+        "generation" : "markdown"
       },
       {
         "extension" : [{
@@ -830,114 +1142,6 @@
         "nameUrl" : "howto.html",
         "title" : "Howto",
         "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "logical-models.html"
-        }],
-        "nameUrl" : "logical-models.html",
-        "title" : "Logical Models",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord.html"
-        }],
-        "nameUrl" : "medicationrecord.html",
-        "title" : "Medicationrecord",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-definitions.html"
-        }],
-        "nameUrl" : "medicationrecord-definitions.html",
-        "title" : "Medicationrecord Definitions",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-1.html"
-        }],
-        "nameUrl" : "medicationrecord-pattern-1.html",
-        "title" : "Medicationrecord Pattern 1",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-2.html"
-        }],
-        "nameUrl" : "medicationrecord-pattern-2.html",
-        "title" : "Medicationrecord Pattern 2",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-pattern-3.html"
-        }],
-        "nameUrl" : "medicationrecord-pattern-3.html",
-        "title" : "Medicationrecord Pattern 3",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-patterns.html"
-        }],
-        "nameUrl" : "medicationrecord-patterns.html",
-        "title" : "Medicationrecord Patterns",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-requirements.html"
-        }],
-        "nameUrl" : "medicationrecord-requirements.html",
-        "title" : "Medicationrecord Requirements",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-scenario-1.html"
-        }],
-        "nameUrl" : "medicationrecord-scenario-1.html",
-        "title" : "Medicationrecord Scenario 1",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-scenario-2.html"
-        }],
-        "nameUrl" : "medicationrecord-scenario-2.html",
-        "title" : "Medicationrecord Scenario 2",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "medicationrecord-scenarios.html"
-        }],
-        "nameUrl" : "medicationrecord-scenarios.html",
-        "title" : "Medicationrecord Scenarios",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "usecases-dispense.html"
-        }],
-        "nameUrl" : "usecases-dispense.html",
-        "title" : "Usecases Dispense",
-        "generation" : "markdown"
       }]
     },
     "parameter" : [{

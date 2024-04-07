@@ -7,7 +7,7 @@
 </div></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication"/>
-  <version value="2.0.0"/>
+  <version value="1.1.0"/>
   <name value="Medication"/>
   <title value="Medication"/>
   <status value="draft"/>
@@ -494,6 +494,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AD"/>
+      </reference>
+      <name value="AD"/>
+      <description value="Address"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ANY"/>
+      </reference>
+      <name value="ANY"/>
+      <description value="An abstract type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -501,17 +523,6 @@
       </reference>
       <name value="apotheek-onder-de-toren"/>
       <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-model-medication-dispense"/>
-      </reference>
-      <name value="be-model-medication-dispense"/>
-      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
-      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -570,6 +581,50 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medicationdispense"/>
+      </reference>
+      <name value="BeModelMedicationDispense"/>
+      <description value="This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BL"/>
+      </reference>
+      <name value="BL"/>
+      <description value="Boolean - true or false"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CD"/>
+      </reference>
+      <name value="CD"/>
+      <description value="ConceptDescriptor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Class"/>
+      </reference>
+      <name value="Class"/>
+      <description value="Class of data elements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
@@ -623,6 +678,204 @@
       <description value="Dispenser Types - from hcparty"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DT"/>
+      </reference>
+      <name value="DT"/>
+      <description value="Date"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/EN"/>
+      </reference>
+      <name value="EN"/>
+      <description value="EntityName"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/II"/>
+      </reference>
+      <name value="II"/>
+      <description value="InstanceIdentifier"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/INT"/>
+      </reference>
+      <name value="INT"/>
+      <description value="IntegerNumber"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/KMEHRMS"/>
+      </reference>
+      <name value="KMEHR Medication Schema v5.8"/>
+      <description value="This model represents the Medication Schema KMEHR V5.8. It is shown for demonstrating the field correspondence/equivalence, and not to imply any intended scope or intended behaviour."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-exposure-category-vs"/>
+      </reference>
+      <name value="Medication exposure intent"/>
+      <description value="The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/medication-line-origin-type"/>
+      </reference>
+      <name value="Medication origin type"/>
+      <description value="Medication treatment origin type - what is the type of care that originated the medication treatment"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-line-origin-type-vs"/>
+      </reference>
+      <name value="Medication origin type ValueSet"/>
+      <description value="Medication treatment origin type - what is the type of care that originated the medication treatment"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/medication-type"/>
+      </reference>
+      <name value="Medication preparation Type"/>
+      <description value="Medication preparation type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-type-vs"/>
+      </reference>
+      <name value="Medication preparation Type value set"/>
+      <description value="Medication preparation type value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medicationline"/>
+      </reference>
+      <name value="Medication Treatment Line - logical model"/>
+      <description value="A logical data model of the medication treatment line."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BELMMedProduct"/>
+      </reference>
+      <name value="Medicinal Product"/>
+      <description value="A logical data model for representing a medicinal product."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PQ"/>
+      </reference>
+      <name value="PQ"/>
+      <description value="PhysicalQuantity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/REAL"/>
+      </reference>
+      <name value="REAL"/>
+      <description value="RealNumber"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/RTO"/>
+      </reference>
+      <name value="RTO"/>
+      <description value="Ratio"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ST"/>
+      </reference>
+      <name value="ST"/>
+      <description value="CharacterString"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TS"/>
+      </reference>
+      <name value="TS"/>
+      <description value="TimeStamp"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Untyped"/>
+      </reference>
+      <name value="Untyped"/>
+      <description value="No data type defined"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
@@ -640,11 +893,43 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="downloads.html"/>
+          <valueUrl value="medicationrecord.html"/>
         </extension>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
-        <generation value="html"/>
+        <nameUrl value="medicationrecord.html"/>
+        <title value="Belgian Medication Record overview"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="definitions.html"/>
+        </extension>
+        <nameUrl value="definitions.html"/>
+        <title value="Definitions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="usecases-medicationrecord.html"/>
+        </extension>
+        <nameUrl value="usecases-medicationrecord.html"/>
+        <title value="Medication Record - Use cases"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="medicationrecord-scenarios.html"/>
+        </extension>
+        <nameUrl value="medicationrecord-scenarios.html"/>
+        <title value="Medication Record - Extended scenarios"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="usecases-dispense.html"/>
+        </extension>
+        <nameUrl value="usecases-dispense.html"/>
+        <title value="Dispense - Use cases"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -653,102 +938,6 @@
         <nameUrl value="howto.html"/>
         <title value="Howto"/>
         <generation value="html"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="logical-models.html"/>
-        </extension>
-        <nameUrl value="logical-models.html"/>
-        <title value="Logical Models"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord.html"/>
-        </extension>
-        <nameUrl value="medicationrecord.html"/>
-        <title value="Medicationrecord"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-definitions.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-definitions.html"/>
-        <title value="Medicationrecord Definitions"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-1.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-pattern-1.html"/>
-        <title value="Medicationrecord Pattern 1"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-2.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-pattern-2.html"/>
-        <title value="Medicationrecord Pattern 2"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-pattern-3.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-pattern-3.html"/>
-        <title value="Medicationrecord Pattern 3"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-patterns.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-patterns.html"/>
-        <title value="Medicationrecord Patterns"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-requirements.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-requirements.html"/>
-        <title value="Medicationrecord Requirements"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-scenario-1.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-scenario-1.html"/>
-        <title value="Medicationrecord Scenario 1"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-scenario-2.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-scenario-2.html"/>
-        <title value="Medicationrecord Scenario 2"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="medicationrecord-scenarios.html"/>
-        </extension>
-        <nameUrl value="medicationrecord-scenarios.html"/>
-        <title value="Medicationrecord Scenarios"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="usecases-dispense.html"/>
-        </extension>
-        <nameUrl value="usecases-dispense.html"/>
-        <title value="Usecases Dispense"/>
-        <generation value="markdown"/>
       </page>
     </page>
     <parameter>

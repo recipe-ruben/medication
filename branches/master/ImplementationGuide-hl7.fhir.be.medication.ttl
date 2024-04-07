@@ -13,7 +13,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Medication</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication</pre><div><p>FHIR Medication specifications</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/medication/ImplementationGuide/hl7.fhir.be.medication"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.0.0"] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "Medication"] ; # 
   fhir:title [ fhir:v "Medication"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
@@ -567,6 +567,30 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/AD> ;
+         fhir:reference [ fhir:v "StructureDefinition/AD" ]
+       ] ;
+       fhir:name [ fhir:v "AD" ] ;
+       fhir:description [ fhir:v "Address" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ANY> ;
+         fhir:reference [ fhir:v "StructureDefinition/ANY" ]
+       ] ;
+       fhir:name [ fhir:v "ANY" ] ;
+       fhir:description [ fhir:v "An abstract type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
@@ -575,18 +599,6 @@
        ] ;
        fhir:name [ fhir:v "apotheek-onder-de-toren" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:logical" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medication-dispense> ;
-         fhir:reference [ fhir:v "StructureDefinition/be-model-medication-dispense" ]
-       ] ;
-       fhir:name [ fhir:v "be-model-medication-dispense" ] ;
-       fhir:description [ fhir:v "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -646,6 +658,54 @@
        ] ;
        fhir:name [ fhir:v "BeMedicationDispense" ] ;
        fhir:description [ fhir:v "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationdispense> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-model-medicationdispense" ]
+       ] ;
+       fhir:name [ fhir:v "BeModelMedicationDispense" ] ;
+       fhir:description [ fhir:v "This is the logical model for the Dispense Record entry - the information that can be captured upon the act of dispensing - in a hospital pharmacy, or a community pharmacy. This is not for a future dispense, rather a record of an actual dispense." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BL> ;
+         fhir:reference [ fhir:v "StructureDefinition/BL" ]
+       ] ;
+       fhir:name [ fhir:v "BL" ] ;
+       fhir:description [ fhir:v "Boolean - true or false" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/CD> ;
+         fhir:reference [ fhir:v "StructureDefinition/CD" ]
+       ] ;
+       fhir:name [ fhir:v "CD" ] ;
+       fhir:description [ fhir:v "ConceptDescriptor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/Class> ;
+         fhir:reference [ fhir:v "StructureDefinition/Class" ]
+       ] ;
+       fhir:name [ fhir:v "Class" ] ;
+       fhir:description [ fhir:v "Class of data elements" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -719,6 +779,222 @@
        fhir:name [ fhir:v "Dispenser Types" ] ;
        fhir:description [ fhir:v "Dispenser Types - from hcparty" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DT> ;
+         fhir:reference [ fhir:v "StructureDefinition/DT" ]
+       ] ;
+       fhir:name [ fhir:v "DT" ] ;
+       fhir:description [ fhir:v "Date" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN> ;
+         fhir:reference [ fhir:v "StructureDefinition/EN" ]
+       ] ;
+       fhir:name [ fhir:v "EN" ] ;
+       fhir:description [ fhir:v "EntityName" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/II> ;
+         fhir:reference [ fhir:v "StructureDefinition/II" ]
+       ] ;
+       fhir:name [ fhir:v "II" ] ;
+       fhir:description [ fhir:v "InstanceIdentifier" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/INT> ;
+         fhir:reference [ fhir:v "StructureDefinition/INT" ]
+       ] ;
+       fhir:name [ fhir:v "INT" ] ;
+       fhir:description [ fhir:v "IntegerNumber" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/KMEHRMS> ;
+         fhir:reference [ fhir:v "StructureDefinition/KMEHRMS" ]
+       ] ;
+       fhir:name [ fhir:v "KMEHR Medication Schema v5.8" ] ;
+       fhir:description [ fhir:v "This model represents the Medication Schema KMEHR V5.8. It is shown for demonstrating the field correspondence/equivalence, and not to imply any intended scope or intended behaviour." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-exposure-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/medication-exposure-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Medication exposure intent" ] ;
+       fhir:description [ fhir:v "The exposure purpose of a medication - whether the medication is given for therapeutic or prophylactic purposes." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type> ;
+         fhir:reference [ fhir:v "CodeSystem/medication-line-origin-type" ]
+       ] ;
+       fhir:name [ fhir:v "Medication origin type" ] ;
+       fhir:description [ fhir:v "Medication treatment origin type - what is the type of care that originated the medication treatment" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-line-origin-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/medication-line-origin-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Medication origin type ValueSet" ] ;
+       fhir:description [ fhir:v "Medication treatment origin type - what is the type of care that originated the medication treatment" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type> ;
+         fhir:reference [ fhir:v "CodeSystem/medication-type" ]
+       ] ;
+       fhir:name [ fhir:v "Medication preparation Type" ] ;
+       fhir:description [ fhir:v "Medication preparation type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/medication-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Medication preparation Type value set" ] ;
+       fhir:description [ fhir:v "Medication preparation type value set" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationline> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-model-medicationline" ]
+       ] ;
+       fhir:name [ fhir:v "Medication Treatment Line - logical model" ] ;
+       fhir:description [ fhir:v "A logical data model of the medication treatment line." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BELMMedProduct> ;
+         fhir:reference [ fhir:v "StructureDefinition/BELMMedProduct" ]
+       ] ;
+       fhir:name [ fhir:v "Medicinal Product" ] ;
+       fhir:description [ fhir:v "A logical data model for representing a medicinal product." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/PQ> ;
+         fhir:reference [ fhir:v "StructureDefinition/PQ" ]
+       ] ;
+       fhir:name [ fhir:v "PQ" ] ;
+       fhir:description [ fhir:v "PhysicalQuantity" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/REAL> ;
+         fhir:reference [ fhir:v "StructureDefinition/REAL" ]
+       ] ;
+       fhir:name [ fhir:v "REAL" ] ;
+       fhir:description [ fhir:v "RealNumber" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/RTO> ;
+         fhir:reference [ fhir:v "StructureDefinition/RTO" ]
+       ] ;
+       fhir:name [ fhir:v "RTO" ] ;
+       fhir:description [ fhir:v "Ratio" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ST> ;
+         fhir:reference [ fhir:v "StructureDefinition/ST" ]
+       ] ;
+       fhir:name [ fhir:v "ST" ] ;
+       fhir:description [ fhir:v "CharacterString" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/TS> ;
+         fhir:reference [ fhir:v "StructureDefinition/TS" ]
+       ] ;
+       fhir:name [ fhir:v "TS" ] ;
+       fhir:description [ fhir:v "TimeStamp" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:complex-type" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/Untyped> ;
+         fhir:reference [ fhir:v "StructureDefinition/Untyped" ]
+       ] ;
+       fhir:name [ fhir:v "Untyped" ] ;
+       fhir:description [ fhir:v "No data type defined" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -739,11 +1015,43 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "medicationrecord.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Downloads" ] ;
-         fhir:generation [ fhir:v "html" ]
+         fhir:name [ fhir:v "medicationrecord.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Belgian Medication Record overview" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "definitions.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "definitions.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Definitions" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "usecases-medicationrecord.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "usecases-medicationrecord.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Medication Record - Use cases" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Medication Record - Extended scenarios" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "usecases-dispense.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "usecases-dispense.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Dispense - Use cases" ] ;
+         fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
@@ -752,102 +1060,6 @@
          fhir:name [ fhir:v "howto.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Howto" ] ;
          fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "logical-models.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "logical-models.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Logical Models" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-definitions.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-definitions.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Definitions" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-1.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-1.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 1" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-2.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-2.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 2" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-pattern-3.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-pattern-3.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Pattern 3" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-patterns.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-patterns.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Patterns" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-requirements.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-requirements.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Requirements" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-scenario-1.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-scenario-1.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenario 1" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-scenario-2.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-scenario-2.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenario 2" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "medicationrecord-scenarios.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Medicationrecord Scenarios" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "usecases-dispense.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "usecases-dispense.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Usecases Dispense" ] ;
-         fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
      fhir:parameter ( [

@@ -10,11 +10,12 @@
     "valueInteger" : 1
   }],
   "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/be-vs-dispenser-types",
-  "version" : "2.0.0",
+  "version" : "1.1.0",
   "name" : "DispenserTypes",
   "title" : "Dispenser Types",
   "status" : "draft",
-  "date" : "2024-03-30T10:20:56+00:00",
+  "experimental" : false,
+  "date" : "2024-04-07T12:07:30+00:00",
   "publisher" : "eHealth Platform",
   "contact" : [{
     "name" : "eHealth Platform",

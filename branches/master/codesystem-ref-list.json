@@ -10,7 +10,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes"
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "ValueSet-medication-exposure-category-vs.html" : "Medication exposure intent"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty",
@@ -22,6 +23,28 @@
       "uses" : {
       },
       "ValueSet-be-vs-dispenser-types.html" : "Dispenser Types"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "MedicationLineOrigintype",
+      "title" : "Medication origin type",
+      "description" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
+      "uses" : {
+      },
+      "ValueSet-medication-line-origin-type-vs.html" : "Medication origin type ValueSet"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
+      "version" : "1.1.0",
+      "status" : "draft",
+      "name" : "BEMLMedicationType",
+      "title" : "Medication preparation Type",
+      "description" : "Medication preparation type",
+      "uses" : {
+      },
+      "ValueSet-medication-type-vs.html" : "Medication preparation Type value set"
     }
   ]
 }

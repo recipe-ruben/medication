@@ -40,11 +40,11 @@
     <valueInteger value="1"/>
   </extension>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense"/>
-  <version value="2.0.0"/>
+  <version value="1.1.0"/>
   <name value="BeMedicationDispense"/>
   <title value="BeMedicationDispense"/>
   <status value="active"/>
-  <date value="2024-03-30T10:20:56+00:00"/>
+  <date value="2024-04-07T12:07:30+00:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <name value="eHealth Platform"/>

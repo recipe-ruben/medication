@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>be-ns-cti-extended-code - JSON Representation - Medication v2.0.0</title>
+    <title>be-ns-cti-extended-code - JSON Representation - Medication v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,8 +48,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"16.5"}
-    h3,h4,h5,h6{--heading-prefix:"16.5"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.28"}
+    h3,h4,h5,h6{--heading-prefix:"8.28"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -65,18 +65,11 @@
 </div>
 
 
-  <!-- Left logo - typically the publisher's logo - project or affiliate -->
-        <div id="project-nav">
-          <a no-external="true" id="project-logo" href="http://hl7belgium.org">
-            <img src="assets/images/meds.png" alt="Project home" height="71"/>
-          </a>
-        </div>
-
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Medication</span>
             <br/>
-            <span style="display:inline-block;">2.0.0 - STU
+            <span style="display:inline-block;">1.1.0 - STU
 
 
 
@@ -129,11 +122,15 @@
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="usecases-dispense.html">Use Cases</a>
+				<a href="medicationrecord.html">Medication Record overview</a>
 			</li>
 			<li>
-				<a href="logical-models.html">Logical Models</a>
+				<a href="usecases-medicationrecord.html">Use Cases - Medication Record</a>
 			</li>
+			<li>
+				<a href="usecases-dispense.html">Use Cases - Dispense</a>
+			</li>
+			
   <!-- <li>
 				<a target="_blank" href="#">Services &amp; Transactions</a>
 			</li> -->
@@ -171,7 +168,7 @@
 		<ul class="dropdown-menu">
   <!-- <li><a target="_blank" href="openapi.html">OpenAPI</a></li>
 			<li><a href="testservers.html">Test Servers</a></li> -->
-			<li><a href="downloads.html">Downloads</a></li>
+			<li><a name="l251">​</a><a href="downloads.html">Downloads</a></li>
 		</ul>
 	</li>
 </ul>      
@@ -188,7 +185,7 @@
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>be-ns-cti-extended-code</b></li>
 
-          <span style="float:right;"><a name="l302">​</a>
+          <span style="float:right;">
 
             <a href="NamingSystem-be-ns-cti-extended-code.xml.html">&lt;prev</a> | 
 
@@ -209,7 +206,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">Medication - Local Development build (v2.0.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!-- ReleaseHeader --><p id="publish-box">Medication, published by eHealth Platform. This guide is not an authorized publication; it is the continuous build for version 1.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-be/medication">https://github.com/hl7-be/medication</a> and changes regularly. See the <a href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -286,7 +283,7 @@
   "<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.id">id</a>" : "be-ns-cti-extended-code",
   "<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h3&gt;Summary&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;Defining URL&lt;/td&gt;&lt;td&gt;https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cti-extended-code&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;2.0.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;BeNSCTIExtended&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Definition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Naming System - CTI Extended Codes&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Publisher&lt;/td&gt;&lt;td&gt;eHealth Platform&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Identifiers&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Preferred&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;URI&lt;/td&gt;&lt;td&gt;https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cti-extended-code&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h3&gt;Summary&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;Defining URL&lt;/td&gt;&lt;td&gt;https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/be-ns-cti-extended-code&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;1.1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;BeNSCTIExtended&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Definition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Naming System - CTI Extended Codes&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Publisher&lt;/td&gt;&lt;td&gt;eHealth Platform&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Identifiers&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Preferred&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;URI&lt;/td&gt;&lt;td&gt;https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem/cti-extended-code&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>" : [
     {
@@ -295,7 +292,7 @@
     },
     {
       "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "2.0.0"
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "1.1.0"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.name">name</a>" : "BeNSCTIExtended",
@@ -371,19 +368,43 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&nbsp;
+
+                <a href="NamingSystem-be-ns-cti-extended-code.xml.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&nbsp;
+
+                <a href="NamingSystem-be-ns-cti-extended-code.ttl.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be/standards/fhir">eHealth Platform</a>.  Package hl7.fhir.be.medication#2.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Mar 30, 2024 10:20+0000">2024-03-30</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ehealth.fgov.be/standards/fhir">eHealth Platform</a>.  Package hl7.fhir.be.medication#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Apr 7, 2024 12:07+0000">2024-04-07</span>
           <br/>
-          <span style="color: #FFFF77">
+          <span style="color: var(--footer-highlight-text-color)">
               <!-- eHealth Platform -->
   <!-- draft -->
 
 Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/hl7-be/hl7-be-fhir-medication/projects/1" target="_blank">Issues</a> |
+                 
                  <a style="color: var(--footer-hyperlink-text-color)" href="https://www.ehealth.fgov.be/standards/fhir/medication/history.html" target="_blank">Version History</a> |
                  <a rel="license" style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/license.html"><img src="assets/images/cc-by.png" alt="CC-BY" style="border-style: none;" height="17"/></a>
   <!-- no fitting stylesheet found (status/publisher) -->
@@ -407,6 +428,8 @@ Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabl
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
@@ -414,88 +437,6 @@ anchors.add()</script>
   <!-- v0.1, 2021-01-09 -->
 
 
-  
-    
-    <script type="text/javascript">
-     /*   <!-- [CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSfFeLMvb7wmUDGa181obPb04Igny75iqSy2jMSp6Wg40LKWjw/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1353807103).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]] --> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(247644557).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/*   <!-- [CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]] --> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a></a>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]&gt; */
-      </script>  
-    
   
 
 
