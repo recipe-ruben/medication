@@ -11,17 +11,17 @@
   "title" : "Medication preparation Type value set",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2024-04-07T12:19:24+00:00",
-  "publisher" : "eHealth Platform",
+  "date" : "2024-04-07T13:15:37+00:00",
+  "publisher" : "HL7 Belgium",
   "contact" : [{
-    "name" : "eHealth Platform",
+    "name" : "HL7 Belgium",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.ehealth.fgov.be/standards/fhir"
+      "value" : "https://www.hl7belgium.org"
     },
     {
       "system" : "email",
-      "value" : "message-structure@ehealth.fgov.be"
+      "value" : "hl7belgium@hl7belgium.org"
     }]
   },
   {
