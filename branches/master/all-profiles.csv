@@ -2811,7 +2811,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "be-model-medicationdispense","be-model-medicationdispense.note","be-model-medicationdispense.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.","Additional information about the dispense - this can be relevant history, any remarks by the patient or professional, etc.","","","","","","","","","",,,,,"",,,,"be-model-medicationdispense.note",0,*,"",""
 "be-model-medicationline","be-model-medicationline","be-model-medicationline","","","",0,*,"","","","null {[]} {[]}
-","Medication Treatment Line - logical model","A logical data model of the medication treatment line.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+","Medication Line - logical model","A logical data model of the medication line.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "be-model-medicationline","be-model-medicationline.uniqueIdentifier","be-model-medicationline.uniqueIdentifier","","","",1,*,"","","","Identifier {[]} {[]}
 ","Unique identifier","A unique identifier for the medication line. This identifier alone may be the same for different versions of the medication line.","","","","","","","","","",,,,,"",,,,"be-model-medicationline.uniqueIdentifier",1,*,"",""
 "be-model-medicationline","be-model-medicationline.versionIdentifier","be-model-medicationline.versionIdentifier","","","",1,1,"","","","string {[]} {[]}
@@ -2819,7 +2819,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "be-model-medicationline","be-model-medicationline.lastUpdatedDate","be-model-medicationline.lastUpdatedDate","","","",1,1,"","","","dateTime {[]} {[]}
 ","Timestamp the medication line content was recorded or last updated.","Timestamp the medication line content was recorded or last updated."," We consider this is redundant with the above, given the intended use in Belgium (version is a date). How to ensure the compatibility?","","","","","","","","",,,,,"",,,,"be-model-medicationline.lastUpdatedDate",1,1,"",""
 "be-model-medicationline","be-model-medicationline.status","be-model-medicationline.status","","","",1,1,"","","","code {[]} {[]}
-","Status of the treatment line entry","Status of the treatment line entry","","","","","","","","","",,,,,"",,,,"be-model-medicationline.status",1,1,"",""
+","Status of the line entry","Status of the line entry","","","","","","","","","",,,,,"",,,,"be-model-medicationline.status",1,1,"",""
 "be-model-medicationline","be-model-medicationline.statusReason","be-model-medicationline.statusReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Reason for the status","Reason for the status"," We consider this is not necessary - should we add?","","","","","","","","",,,,,"",,,,"be-model-medicationline.statusReason",0,1,"",""
 "be-model-medicationline","be-model-medicationline.assertedDate","be-model-medicationline.assertedDate","","","",0,1,"","","","dateTime {[]} {[]}
@@ -2829,7 +2829,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "be-model-medicationline","be-model-medicationline.patient","be-model-medicationline.patient","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
 ","Patient","Patient","","","","","","","","","",,,,,"",,,,"be-model-medicationline.patient",1,1,"",""
 "be-model-medicationline","be-model-medicationline.category","be-model-medicationline.category","","","",0,1,"","","","BackboneElement {[]} {[]}
-","Category for the treatment line","Category for the treatment line","","","","","","","","","",,,,,"",,,,"be-model-medicationline.category",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Category for the line","Category for the line","","","","","","","","","",,,,,"",,,,"be-model-medicationline.category",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "be-model-medicationline","be-model-medicationline.category.id","be-model-medicationline.category.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""

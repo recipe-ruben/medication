@@ -794,6 +794,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-model-medicationline"/>
+      </reference>
+      <name value="Medication Line - logical model"/>
+      <description value="A logical data model of the medication line."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -834,17 +845,6 @@
       </reference>
       <name value="Medication preparation Type value set"/>
       <description value="Medication preparation type value set"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/be-model-medicationline"/>
-      </reference>
-      <name value="Medication Treatment Line - logical model"/>
-      <description value="A logical data model of the medication treatment line."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

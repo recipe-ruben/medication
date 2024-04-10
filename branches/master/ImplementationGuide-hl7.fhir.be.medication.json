@@ -984,6 +984,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/be-model-medicationline"
+      },
+      "name" : "Medication Line - logical model",
+      "description" : "A logical data model of the medication line.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1027,18 +1039,6 @@
       },
       "name" : "Medication preparation Type value set",
       "description" : "Medication preparation type value set",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/be-model-medicationline"
-      },
-      "name" : "Medication Treatment Line - logical model",
-      "description" : "A logical data model of the medication treatment line.",
       "exampleBoolean" : false
     },
     {

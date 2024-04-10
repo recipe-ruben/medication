@@ -351,7 +351,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model",
+      "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model",
       "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
     },
     {
@@ -377,7 +377,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-be-model-medicationline.html" : "Medication Treatment Line - logical model"
+      "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model"
     }
   ]
 }
