@@ -3,8 +3,8 @@ Medication : Validation Results
 
 err = 0, warn = 12, info = 11
 IG Publisher Version: 1.6.4
-Generated Sun Apr 07 13:23:18 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.1.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
- Build Errors : 2 / 4 / 0
+Generated Wed Apr 10 07:45:11 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medication#1.1.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/medication)
+ Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-medication-line-origin-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-medication-type : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.medication : 0 / 0 / 1
@@ -51,8 +51,6 @@ Generated Sun Apr 07 13:23:18 UTC 2024. FHIR version 4.0.1 for hl7.fhir.be.medic
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/medicationdispense-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/medicationrecord-scenarios.html#/html/body/div/div/div/div/div/p/a at Line 254, column 5: The link 'medicationrecord-scenario-1.html' for "Scenario 1" cannot be resolved
-ERROR: /github/workspace/output/medicationrecord-scenarios.html#/html/body/div/div/div/div/div/p/a at Line 257, column 5: The link 'medicationrecord-scenario-2.html' for "Pattern 2" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

@@ -904,6 +904,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationline> ;
+         fhir:reference [ fhir:v "StructureDefinition/be-model-medicationline" ]
+       ] ;
+       fhir:name [ fhir:v "Medication Line - logical model" ] ;
+       fhir:description [ fhir:v "A logical data model of the medication line." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -948,18 +960,6 @@
        ] ;
        fhir:name [ fhir:v "Medication preparation Type value set" ] ;
        fhir:description [ fhir:v "Medication preparation type value set" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:logical" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationline> ;
-         fhir:reference [ fhir:v "StructureDefinition/be-model-medicationline" ]
-       ] ;
-       fhir:name [ fhir:v "Medication Treatment Line - logical model" ] ;
-       fhir:description [ fhir:v "A logical data model of the medication treatment line." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

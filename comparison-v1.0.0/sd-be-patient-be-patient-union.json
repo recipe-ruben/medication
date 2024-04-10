@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d14c3d0e-b4fe-4f9b-a0aa-305c36f103bb-5",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d14c3d0e-b4fe-4f9b-a0aa-305c36f103bb-5",
+  "id" : "e55e496a-7f64-4a72-836a-f31a4e6baed5-5",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e55e496a-7f64-4a72-836a-f31a4e6baed5-5",
   "name" : "UnionBePatientAndBePatient",
   "title" : "Union of Patient core BE profile And BePatient",
   "status" : "active",
-  "date" : "2024-04-07T13:20:16+00:00",
+  "date" : "2024-04-10T07:42:07+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
