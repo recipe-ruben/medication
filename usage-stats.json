@@ -31,13 +31,6 @@
       "types": [
         "CodeableConcept"
       ]
-    },
-    {
-      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag",
-      "title": "VisibilityFlag",
-      "types": [
-        "boolean"
-      ]
     }
   ],
   "profiles": {
@@ -96,6 +89,9 @@
       "StructureDefinition",
       "ValueSet"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
       "MedicationDispense.dosageInstruction.text",
       "MedicationDispense.medicationCodeableConcept.coding.display"
@@ -129,9 +125,6 @@
       "MedicationStatement.dosage"
     ],
     "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory": [
-      "MedicationStatement"
-    ],
-    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/VisibilityFlag": [
       "MedicationStatement"
     ]
   }

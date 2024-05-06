@@ -50,7 +50,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "5.5.0"
   },
   {
     "id" : "hl7ext",
@@ -60,7 +60,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   },
   {
     "id" : "hl7_fhir_be_core",
@@ -900,18 +900,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/DosagingInformation"
-      },
-      "name" : "Dosaging - Data Model",
-      "description" : "Usage instructions. Instructions about requested administration of the product. Based on FHIR Dosage complex data type.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
       }],
       "reference" : {
@@ -984,18 +972,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/be-model-medication"
-      },
-      "name" : "Medication - logical model",
-      "description" : "A logical data model of the medication.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1063,18 +1039,6 @@
       },
       "name" : "Medication preparation Type value set",
       "description" : "Medication preparation type value set",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/be-model-medicationprescription"
-      },
-      "name" : "Medication prescription - Data Model",
-      "description" : "Logical model for medication prescription (or some other form of order)",
       "exampleBoolean" : false
     },
     {
@@ -1170,18 +1134,6 @@
       },
       "name" : "Untyped",
       "description" : "No data type defined",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/VisibilityFlag"
-      },
-      "name" : "VisibilityFlag",
-      "description" : "Visibility Flag.",
       "exampleBoolean" : false
     }],
     "page" : {
