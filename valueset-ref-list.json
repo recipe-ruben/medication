@@ -35,19 +35,22 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ExposureCategory.html" : "ExposureCategory",
-      "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model"
+      "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model",
+      "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-line-origin-type-vs",
       "version" : "1.1.0",
       "status" : "active",
-      "name" : "MedicationLineOrigintypeVS",
+      "name" : "MedicationLineOriginTypeVS",
       "title" : "Medication origin type ValueSet",
       "description" : "Medication treatment origin type - what is the type of care that originated the medication treatment",
       "systems" : [
         "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-line-origin-type"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-BEMedicationLine.html" : "BEMedicationLine"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",

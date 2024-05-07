@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "eb9e61d7-1421-48a9-a0f3-734e87cda9dd-11",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/eb9e61d7-1421-48a9-a0f3-734e87cda9dd-11",
+  "id" : "1a3f00e6-eaeb-4f37-938f-70cbed5c9d13-11",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1a3f00e6-eaeb-4f37-938f-70cbed5c9d13-11",
   "name" : "UnionBeOrganizationAndBeOrganization",
   "title" : "Union of Organisation core BE profile And BeOrganization",
   "status" : "active",
-  "date" : "2024-05-07T09:01:34+00:00",
+  "date" : "2024-05-07T09:21:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
