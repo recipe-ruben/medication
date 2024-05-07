@@ -364,6 +364,7 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-MedicationType.html" : "MedicationType",
       "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model"
     }
   ]
